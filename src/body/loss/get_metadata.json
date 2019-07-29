@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/loss/metadata",
+    "mediaType": "application/json"
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/loss/metadata/attributes/d0911efc-4f3d-11e6-8a84-bae500000081",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "d0911efc-4f3d-11e6-8a84-bae500000081",
+      "name": "Строковое поле",
+      "type": "string",
+      "required": false
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/loss/metadata/attributes/d0912ad5-4f3d-11e6-8a84-bae500000082",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "d0912ad5-4f3d-11e6-8a84-bae500000082",
+      "name": "Процент",
+      "type": "double",
+      "required": true
+    }
+  ],
+  "createShared": false
+}

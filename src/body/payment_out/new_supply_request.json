@@ -1,0 +1,12 @@
+{
+	"operations":[
+		{
+    "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/supply/0f57efd5-91f3-11e6-8a84-bae500000086",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/supply/metadata",
+        "type": "supply",
+        "mediaType": "application/json"
+      }
+		}
+  ]
+}

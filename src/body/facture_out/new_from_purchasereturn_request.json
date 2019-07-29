@@ -1,0 +1,13 @@
+{
+  "returns": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchasereturn/62ebf0be-67d8-11e7-6adb-ede500000033",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/purchasereturn/metadata",
+        "type": "purchasereturn",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#purchasereturn/edit?id=62ebf0be-67d8-11e7-6adb-ede500000033"
+      }
+    }
+  ]
+}

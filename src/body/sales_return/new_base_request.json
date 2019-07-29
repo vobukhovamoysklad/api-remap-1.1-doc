@@ -1,0 +1,10 @@
+{
+    "demand": {
+        "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/demand/3ebb140e-2e62-11e6-8a84-bae500000127",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/demand/metadata",
+        "type": "demand",
+        "mediaType": "application/json"
+      }
+    }
+}

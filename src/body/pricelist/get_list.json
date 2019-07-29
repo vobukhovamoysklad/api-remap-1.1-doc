@@ -1,0 +1,94 @@
+{
+  "context": {
+    "employee": {
+      "meta": {
+        "href": "http://online.moysklad.ru/api/remap/1.1/context/employee",
+        "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+        "type": "employee",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "meta": {
+    "href": "http://online.moysklad.ru/api/remap/1.1/entity/pricelist/",
+    "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/pricelist/metadata",
+    "type": "pricelist",
+    "mediaType": "application/json",
+    "size": 1,
+    "limit": 25,
+    "offset": 0
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "http://online.moysklad.ru/api/remap/1.1/entity/pricelist/312cc207-afe9-11e6-8af5-581e0000002c",
+        "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/pricelist/metadata",
+        "type": "pricelist",
+        "mediaType": "application/json"
+      },
+      "id": "312cc207-afe9-11e6-8af5-581e0000002c",
+      "accountId": "9560e3e3-9609-11e6-8af5-581e00000008",
+      "owner": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/employee/9575ba6d-9609-11e6-8af5-581e000000ad",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+          "type": "employee",
+          "mediaType": "application/json"
+        }
+      },
+      "shared": false,
+      "group": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/group/956169fa-9609-11e6-8af5-581e00000009",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+          "type": "group",
+          "mediaType": "application/json"
+        }
+      },
+      "version": 0,
+      "updated": "2016-11-21 15:51:16",
+      "name": "Прайс-лист от 21.11.2016 (5)",
+      "description": "test",
+      "externalCode": "m-9OZzfBiAjolWhnBjTff0",
+      "moment": "2016-11-21 15:51:16",
+      "applicable": true,
+      "organization": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/organization/95920812-9609-11e6-8af5-581e000000d4",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+          "type": "organization",
+          "mediaType": "application/json"
+        }
+      },
+      "documents": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/pricelist/312cc207-afe9-11e6-8af5-581e0000002c/documents",
+          "mediaType": "application/json",
+          "size": 0,
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      "positions": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/pricelist/312cc207-afe9-11e6-8af5-581e0000002c/positions",
+          "type": "pricelistrow",
+          "mediaType": "application/json",
+          "size": 2,
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      "priceType": "Цена продажи",
+      "columns": [
+        {
+          "name": "a"
+        },
+        {
+          "name": "b",
+          "percentageDiscount": 1000
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Наименование заказа покупателя"
+    },
+    "description": {
+      "type": "string",
+      "description": "Описание  заказа покупателя"
+    },
+    "code": {
+      "type": "string",
+      "description": "Код заказа покупателя"
+    },
+    "externalCode": {
+      "type": "string",
+      "description": "Внешний код заказа покупателя"
+    },
+    "archived": {
+      "type": "boolean",
+      "description": "Добавлен ли заказ покупателя в архив"
+    },
+    "moment": {
+      "type": "string",
+      "description": "Дата заказа"
+    },
+    "applicable": {
+      "type": "boolean",
+      "description": "Отметка о проведении"
+    },
+    "vatIncluded": {
+      "type": "boolean",
+      "description": "Включен ли НДС в цену"
+    },
+    "vatEnabled": {
+      "type": "boolean",
+      "description": "Учитывать ли НДС"
+    },
+    "organization": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "href": {
+              "type": "string",
+              "description": "Ссылка на сущность"
+            },
+            "metadataHref": {
+              "type": "string",
+              "description": "Ссылка на метаданные сущности"
+            },
+            "type": {
+              "type": "string",
+              "description": "Тип сущности"
+            },
+            "mediaType": {
+              "type": "string",
+              "description": "Тип данных"
+            }
+          }
+        }
+      },
+      "required": [
+        "href",
+        "mediaType"
+      ],
+      "additionalProperties": false,
+      "description": "Ссылка на вашу организацию"
+    },
+    "agent": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "href": {
+              "type": "string",
+              "description": "Ссылка на сущность"
+            },
+            "metadataHref": {
+              "type": "string",
+              "description": "Ссылка на метаданные сущности"
+            },
+            "type": {
+              "type": "string",
+              "description": "Тип сущности"
+            },
+            "mediaType": {
+              "type": "string",
+              "description": "Тип данных"
+            }
+          }
+        }
+      },
+      "required": [
+        "href",
+        "mediaType"
+      ],
+      "additionalProperties": false,
+      "description": "Ссылка на контрагента"
+    },
+    "store": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "href": {
+              "type": "string",
+              "description": "Ссылка на сущность"
+            },
+            "metadataHref": {
+              "type": "string",
+              "description": "Ссылка на метаданные сущности"
+            },
+            "type": {
+              "type": "string",
+              "description": "Тип сущности"
+            },
+            "mediaType": {
+              "type": "string",
+              "description": "Тип данных"
+            }
+          }
+        }
+      },
+      "required": [
+        "href",
+        "mediaType"
+      ],
+      "additionalProperties": false,
+      "description": "Ссылка на склад"
+    },
+    "contract": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "href": {
+              "type": "string",
+              "description": "Ссылка на сущность"
+            },
+            "metadataHref": {
+              "type": "string",
+              "description": "Ссылка на метаданные сущности"
+            },
+            "type": {
+              "type": "string",
+              "description": "Тип сущности"
+            },
+            "mediaType": {
+              "type": "string",
+              "description": "Тип данных"
+            }
+          }
+        }
+      },
+      "required": [
+        "href",
+        "mediaType"
+      ],
+      "additionalProperties": false,
+      "description": "Ссылка на договор"
+    },
+    "state": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "href": {
+              "type": "string",
+              "description": "Ссылка на сущность"
+            },
+            "type": {
+              "type": "string",
+              "description": "Тип сущности"
+            },
+            "mediaType": {
+              "type": "string",
+              "description": "Тип данных"
+            }
+          }
+        }
+      },
+      "description": "Статус отгрузки"
+    },
+    "organizationAccount": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "href": {
+              "type": "string",
+              "description": "Ссылка на сущность"
+            },
+            "type": {
+              "type": "string",
+              "description": "Тип сущности"
+            },
+            "mediaType": {
+              "type": "string",
+              "description": "Тип данных"
+            }
+          }
+        }
+      },
+      "required": [
+        "href",
+        "mediaType"
+      ],
+      "additionalProperties": false,
+      "description": "Ссылка на счёт вашей организации"
+    },
+    "agentAccount": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "href": {
+              "type": "string",
+              "description": "Ссылка на сущность"
+            },
+            "type": {
+              "type": "string",
+              "description": "Тип сущности"
+            },
+            "mediaType": {
+              "type": "string",
+              "description": "Тип данных"
+            }
+          }
+        }
+      },
+      "required": [
+        "href",
+        "mediaType"
+      ],
+      "additionalProperties": false,
+      "description": "Ссылка на счёт контрагента"
+    },
+    "attributes": {
+      "type": "array",
+      "items": [
+        {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "description" : "ID доп. поля"
+            },
+            "value": {
+              "type": "string",
+              "description" : "Значение доп. поля (должно соответствовать типу доп. поля)"
+            }
+          },
+          "required": [
+            "id",
+            "value"
+          ]
+        }
+      ],
+      "description": "Доп. поля"
+    },
+    "positions": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "quantity": {
+              "type": "number",
+              "description": "Количество товаров/услуг данного вида в заказе покупателя"
+            },
+            "price": {
+              "type": "number",
+              "description": "Стоимость позиции в рублях"
+            },
+            "discount": {
+              "type": "number",
+              "description": "Процент скидки"
+            },
+            "vat": {
+              "type": "number",
+              "description": "НДС"
+            },
+            "assortment": {
+              "type": "object",
+              "properties": {
+                "meta": {
+                  "type": "object",
+                  "properties": {
+                    "href": {
+                      "type": "string",
+                      "description": "Ссылка на сущность"
+                    },
+                    "metadataHref": {
+                      "type": "string",
+                      "description": "Ссылка на метаданные сущности"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Тип сущности"
+                    },
+                    "mediaType": {
+                      "type": "string",
+                      "description": "Тип данных"
+                    }
+                  }
+                }
+              },
+              "required": [
+                "href",
+                "mediaType"
+              ],
+              "additionalProperties": false,
+              "description": "Ссылка на продукт/услугу, который(ую) представляет данная позиция"
+            },
+            "shipped":{
+              "type": "number",
+              "description": "Доставлено"
+            },
+            "reserve": {
+              "type": "number",
+              "description": "Количество зарезервированного товара/услуги"
+            }
+          },
+          "required": [
+            "product",
+            "quantity"
+          ]
+        }
+      ]
+    }
+  }
+}

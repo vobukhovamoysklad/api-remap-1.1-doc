@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/consignment/17a32a0a-5310-11e6-8a84-bae500000000",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/consignment/metadata",
+    "type": "consignment",
+    "mediaType": "application/json"
+  },
+  "id": "17a32a0a-5310-11e6-8a84-bae500000000",
+  "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+  "version": 4,
+  "updated": "2016-07-26 12:05:25",
+  "name": "фацфацфвф (обхец) / Странный товар",
+  "description": "Серии товаров с таким названием лучше отслеживать",
+  "code": "ke21k421c1o42n4signment12",
+  "externalCode": "fbajkwbfu1249SACSKW241LKSFA2sa1",
+  "label": "Странный товар",
+  "barcodes": [
+    "123123123123123",
+    "321321321321321"
+  ],
+  "assortment": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/7a81082f-3c64-11e6-8a84-bae50000000e",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+      "type": "variant",
+      "mediaType": "application/json"
+    }
+  }
+}

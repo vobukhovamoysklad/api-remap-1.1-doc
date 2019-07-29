@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchaseorder/metadata",
+    "mediaType": "application/json"
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchaseorder/metadata/attributes/6a885b1b-3f70-11e6-8a84-bae50000009d",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "6a885b1b-3f70-11e6-8a84-bae50000009d",
+      "name": "Причина",
+      "type": "string",
+      "required": false
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchaseorder/metadata/attributes/6a88619c-3f70-11e6-8a84-bae50000009e",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "6a88619c-3f70-11e6-8a84-bae50000009e",
+      "name": "Коэффициент",
+      "type": "double",
+      "required": false
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchaseorder/metadata/attributes/6a886744-3f70-11e6-8a84-bae50000009f",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "6a886744-3f70-11e6-8a84-bae50000009f",
+      "name": "Кек?",
+      "type": "boolean",
+      "required": false
+    }
+  ],
+  "states": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchaseorder/metadata/states/11f5becd-3f70-11e6-8a84-bae50000008b",
+        "type": "state",
+        "mediaType": "application/json"
+      },
+      "id": "11f5becd-3f70-11e6-8a84-bae50000008b",
+      "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+      "name": "Кек",
+      "color": 10066329,
+      "stateType": "Regular",
+      "entityType": "purchaseorder"
+    }
+  ],
+  "createShared": false
+}

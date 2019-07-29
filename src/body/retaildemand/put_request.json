@@ -1,0 +1,21 @@
+{
+  "retailShift": {
+    "meta": {
+                "href": "https://online.moysklad.ru/api/remap/1.1/entity/retailshift/0b2b2caf-055e-11e6-9464-e4de0000007c",
+                "type": "retailshift",
+                "mediaType": "application/json"
+            }
+  },
+  "name": "100500_200_300",
+  "moment": "2016-04-30 13:06:42",
+  "applicable": false,
+  "sum": 32402222220,
+  "payedSum": 23622200,
+  "fiscal": false,
+  "fiscalPrinterInfo": "The freaking worst FiscalPrinter ever!!",
+  "documentNumber": 3,
+  "checkNumber": 1221,
+  "checkSum": 1,
+  "sessionNumber": 251251,
+  "ofdCode": 13
+}

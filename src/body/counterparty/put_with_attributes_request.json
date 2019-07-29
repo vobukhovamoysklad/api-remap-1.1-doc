@@ -1,0 +1,63 @@
+{
+  "name": "ООО Овощ Экспресс",
+  "description" : "Сеть экспресс-доставки овощей",
+  "code" : "ovoshexpresscode",
+  "externalCode" : "externalVagetable",
+  "email" : "ovoshi@delivery.ru",
+  "phone" : "+7 495 162 12 23",
+  "fax" : "1052014",
+  "legalTitle": "Общество с ограниченой ответственностью \"Овощ Экспресс\"",
+  "inn" : "1251581244152",
+  "kpp" : "121557212",
+  "ogrn" : "1253552",
+  "okpo" : "201313",
+  "tags" : [
+    "Овощи", "Еда", "Доставка", "Экспресс", "Едовозы"
+  ],
+  "contactpersons": [
+    {
+      "name" : "Вася",
+      "description" : "Овощерез Вася",
+      "position" : "Овощерез"
+    },
+    {
+      "name" : "Петя",
+      "position" : "Овощевоз"
+    }
+  ],
+  "accounts" : [
+    {
+      "isDefault" : true,
+      "accountNumber" : "12512568161257981",
+      "bankName" : "ОАО Сбербанк",
+      "bankLocation" : "г Москва Ул Вавилова 19",
+      "correspondentAccount" : "375632785587",
+      "bic" : "1234532"
+    },
+    {
+      "accountNumber" : "12512568161257982",
+      "bankName" : "ВТБ",
+      "bic": "7654352"
+    }
+  ],
+  "attributes" : [
+    {
+      "id": "0d129ff5-2c8c-11e6-8a84-bae5000000f3" ,
+      "name" :  "Коэффициент скидки",
+      "type": "double",
+      "value" : 0.35
+    },
+    {
+      "id": "0d12a9a5-2c8c-11e6-8a84-bae5000000f4",
+      "name" : "Последний заключённый договор",
+      "type": "time",
+      "value": "2016-06-07 10:52:33"
+    },
+    {
+      "id": "0d12b1e7-2c8c-11e6-8a84-bae5000000f5",
+      "name" : "Партнёрскоё юрлицо",
+      "type": "boolean",
+      "value" : true
+    }
+  ]
+}

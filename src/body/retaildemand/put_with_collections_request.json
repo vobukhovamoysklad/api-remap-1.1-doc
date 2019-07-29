@@ -1,0 +1,63 @@
+{
+  "retailShift": {
+    "meta": {
+                "href": "https://online.moysklad.ru/api/remap/1.1/entity/retailshift/0b2b2caf-055e-11e6-9464-e4de0000007c",
+                "type": "retailshift",
+                "mediaType": "application/json"
+            }
+  },
+  "name": "100500",
+  "moment": "2016-04-27 13:06:42",
+  "applicable": true,
+  "sum": 32400,
+  "payedSum": 23622200,
+  "fiscal": true,
+  "fiscalPrinterInfo": "The freaking best FiscalPrinter ever!!",
+  "documentNumber": 329,
+  "checkNumber": 124421,
+  "checkSum": 200,
+  "sessionNumber": 251251,
+  "ofdCode": 13,
+  "positions" : [
+    {
+      "quantity": 10,
+      "price": 1330,
+      "discount": 0,
+      "vat": 1,
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/8b382799-f7d2-11e5-8a84-bae5000003a5",
+          "type": "product",
+          "mediaType": "application/json"
+        }
+      }
+    },
+    {
+      "quantity": 22,
+      "price": 201,
+      "discount": 0,
+      "vat": 21,
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/be903062-f504-11e5-8a84-bae50000019a",
+          "type": "product",
+          "mediaType": "application/json"
+        }
+      }
+    }
+  ],
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata/attributes/0cd74e1e-2e59-11e6-8a84-bae50000008a",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "bb08dccf-0bd2-11e6-9464-e4de000000ae",
+      "name": "ыаыфацфыа",
+      "type": "string",
+      "value": "Веселый атрибут"
+    }
+  ]
+
+}

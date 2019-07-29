@@ -1,0 +1,137 @@
+{
+  "context": {
+    "employee": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/context/employee",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+        "type": "employee",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/country/?limit=5",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/country/metadata",
+    "type": "country",
+    "mediaType": "application/json",
+    "size": 248,
+    "limit": 5,
+    "offset": 0
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/country/000d77a9-3000-4f81-a995-6b9cffdee1d2",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/country/metadata",
+        "type": "country",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#country/edit?id=000d77a9-3000-4f81-a995-6b9cffdee1d2"
+      },
+      "id": "000d77a9-3000-4f81-a995-6b9cffdee1d2",
+      "version": 0,
+      "updated": "2012-11-02 11:04:13",
+      "name": "Марокко",
+      "description": "Королевство Марокко",
+      "code": "504",
+      "externalCode": "504"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/country/00999522-23d6-40e6-870e-ec7f7bd8d354",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/country/metadata",
+        "type": "country",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#country/edit?id=00999522-23d6-40e6-870e-ec7f7bd8d354"
+      },
+      "id": "00999522-23d6-40e6-870e-ec7f7bd8d354",
+      "version": 0,
+      "updated": "2012-11-02 11:04:15",
+      "name": "Япония",
+      "code": "392",
+      "externalCode": "392"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/country/0238a888-c602-4e78-a199-d8f49c4d6c18",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/country/metadata",
+        "type": "country",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#country/edit?id=0238a888-c602-4e78-a199-d8f49c4d6c18"
+      },
+      "id": "0238a888-c602-4e78-a199-d8f49c4d6c18",
+      "version": 0,
+      "updated": "2012-11-02 11:04:15",
+      "name": "Хорватия",
+      "description": "Республика Хорватия",
+      "code": "191",
+      "externalCode": "191"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/country/02dc7934-0a88-49ea-a733-2da517a000c2",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/country/metadata",
+        "type": "country",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#country/edit?id=0238a888-c602-4e78-a199-d8f49c4d6c18"
+      },
+      "id": "02dc7934-0a88-49ea-a733-2da517a000c2",
+      "version": 0,
+      "updated": "2012-11-02 11:04:15",
+      "name": "Филиппины",
+      "description": "Республика Филиппины",
+      "code": "608",
+      "externalCode": "608"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/country/04cc9c56-96b1-4ccf-aa7f-78735710381c",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/country/metadata",
+        "type": "country",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#country/edit?id=04cc9c56-96b1-4ccf-aa7f-78735710381c"
+      },
+      "id": "04cc9c56-96b1-4ccf-aa7f-78735710381c",
+      "version": 0,
+      "updated": "2012-11-02 11:04:15",
+      "name": "Эквадор",
+      "description": "Республика Эквадор",
+      "code": "218",
+      "externalCode": "218"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/country/04cc9c56-96b1-4ccf-aa7f-78735710381c",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/country/metadata",
+        "type": "country",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#country/edit?id=04cc9c56-96b1-4ccf-aa7f-78735710381c"
+      },
+      "accountId": "95004e42-79f2-11e8-1a0d-4e0d00000001",
+      "owner": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/9bc5de98-79f2-11e8-1a0d-4e0d0000002b",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+          "type": "employee",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#employee/edit?id=9bc5de98-79f2-11e8-1a0d-4e0d0000002b"
+        }
+      },
+      "shared": true,
+      "group": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/9504054f-79f2-11e8-1a0d-4e0d00000002",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+          "type": "group",
+          "mediaType": "application/json"
+        }
+      },
+      "id": "04cc9c56-96b1-4ccf-aa7f-78735710381c",
+      "version": 0,
+      "updated": "2012-11-02 11:04:15",
+      "name": "Моя страна",
+      "description": "Моя пользовательская страна",
+      "code": "999",
+      "externalCode": "999"
+    }
+  ]
+}

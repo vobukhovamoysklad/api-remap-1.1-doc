@@ -1,0 +1,85 @@
+{
+  "context": {
+    "employee": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/context/employee",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+        "type": "employee",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+    "type": "currency",
+    "mediaType": "application/json",
+    "size": 2,
+    "limit": 25,
+    "offset": 0
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/6314188d-2c7f-11e6-8a84-bae500000055",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+        "type": "currency",
+        "mediaType": "application/json"
+      },
+      "system": false,
+      "name": "руб",
+      "fullName": "Рубль",
+      "rate": 1.0,
+      "multiplicity": 1,
+      "indirect": false,
+      "rateUpdateType": "manual",
+      "code": "643",
+      "isoCode": "RUB",
+      "majorUnit": {
+        "gender": "masculine",
+        "s1": "рубль",
+        "s2": "рубля",
+        "s5": "рублей"
+      },
+      "minorUnit": {
+        "gender": "feminine",
+        "s1": "копейка",
+        "s2": "копейки",
+        "s5": "копеек"
+      },
+      "archived": false,
+      "default": true
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/dc5f76ae-2c89-11e6-8a84-bae50000003f",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+        "type": "currency",
+        "mediaType": "application/json"
+      },
+      "system": true,
+      "name": "доллар",
+      "fullName": "Доллар США",
+      "rate": 63.0,
+      "multiplicity": 1,
+      "indirect": false,
+      "rateUpdateType": "manual",
+      "code": "840",
+      "isoCode": "USD",
+      "majorUnit": {
+        "gender": "masculine",
+        "s1": "доллар",
+        "s2": "доллара",
+        "s5": "долларов"
+      },
+      "minorUnit": {
+        "gender": "masculine",
+        "s1": "цент",
+        "s2": "цента",
+        "s5": "центов"
+      },
+      "archived": false,
+      "default": false
+    }
+  ]
+}

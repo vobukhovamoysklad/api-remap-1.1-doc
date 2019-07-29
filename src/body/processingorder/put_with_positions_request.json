@@ -1,0 +1,55 @@
+{
+  "positions": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/processingorder/34efe2ee-015e-11e6-9464-e4de0000006b/positions/34f6344f-015e-11e6-9464-e4de0000006c",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/processingorder/metadata",
+        "type": "processingorderposition",
+        "mediaType": "application/json"
+      },
+      "id": "34f6344f-015e-11e6-9464-e4de0000006c",
+      "quantity": 10,
+      "assortment": {
+          "meta": {
+              "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/8b382799-f7d2-11e5-8a84-bae5000003a5",
+              "type": "product",
+              "mediaType": "application/json"
+          }
+      }
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/processingorder/34efe2ee-015e-11e6-9464-e4de0000006b/positions/34f6344f-015e-11e6-9464-e4de0000007c",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/processingorder/metadata",
+        "type": "processingorderposition",
+        "mediaType": "application/json"
+      },
+      "id": "34f6344f-015e-11e6-9464-e4de0000007c",
+      "quantity": 20,
+      "assortment": {
+          "meta": {
+              "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/be903062-f504-11e5-8a84-bae50000019a",
+              "type": "product",
+              "mediaType": "application/json"
+          }
+      }
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/processingorder/34efe2ee-015e-11e6-9464-e4de0000006b/positions/34f6344f-015e-11e6-9464-e4de0000008c",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/processingorder/metadata",
+        "type": "processingorderposition",
+        "mediaType": "application/json"
+      },
+      "id": "34f6344f-015e-11e6-9464-e4de0000008c",
+      "quantity": 30,
+      "assortment": {
+          "meta": {
+              "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/c02e3a5c-007e-11e6-9464-e4de00000006",
+              "type": "product",
+              "mediaType": "application/json"
+          }
+      }
+    }
+  ]
+}

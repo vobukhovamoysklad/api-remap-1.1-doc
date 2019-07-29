@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/prepaymentreturn/metadata",
+    "mediaType": "application/json"
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/prepaymentreturn/metadata/attributes/e606ab19-38df-11e9-ac12-000c00000058",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "e606ab19-38df-11e9-ac12-000c00000058",
+      "name": "Label",
+      "type": "string",
+      "required": false
+    }
+  ],
+  "states": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/prepaymentreturn/metadata/states/dfd2e697-38df-11e9-ac12-000c00000054",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/prepaymentreturn/metadata",
+        "type": "state",
+        "mediaType": "application/json"
+      },
+      "id": "dfd2e697-38df-11e9-ac12-000c00000054",
+      "accountId": "783e70de-2e92-11e9-ac12-000b00000001",
+      "name": "Новый",
+      "color": 10066329,
+      "stateType": "Regular",
+      "entityType": "prepaymentreturn"
+    }
+  ],
+  "createShared": false
+}

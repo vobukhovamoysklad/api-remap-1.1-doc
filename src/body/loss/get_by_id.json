@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/loss/6ddca2d7-4f28-11e6-8a84-bae500000066",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/loss/metadata",
+    "type": "loss",
+    "mediaType": "application/json"
+  },
+  "id": "6ddca2d7-4f28-11e6-8a84-bae500000066",
+  "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+  "owner": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/faba7f37-2e58-11e6-8a84-bae500000028",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "shared": false,
+  "group": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/f97aa1fb-2e58-11e6-8a84-bae500000002",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+      "type": "group",
+      "mediaType": "application/json"
+    }
+  },
+  "version": 3,
+  "updated": "2016-07-21 15:22:54",
+  "name": "00001",
+  "externalCode": "o5GMiWUJhqhq1vmrUWwI-2",
+  "moment": "2016-07-21 12:49:00",
+  "applicable": true,
+  "rate": {
+    "currency": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/cdbc62de-3f68-11e6-8a84-bae500000050",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+        "type": "currency",
+        "mediaType": "application/json"
+      }
+    },
+    "value": 63
+  },
+  "sum": 3981730,
+  "organization": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/fae3561a-2e58-11e6-8a84-bae50000004e",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  },
+  "store": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/store/faf3ff5b-2e58-11e6-8a84-bae500000050",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+      "type": "store",
+      "mediaType": "application/json"
+    }
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/loss/metadata/attributes/d0912ad5-4f3d-11e6-8a84-bae500000082",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "d0912ad5-4f3d-11e6-8a84-bae500000082",
+      "name": "Процент",
+      "type": "double",
+      "value": 0.2
+    }
+  ],
+  "documents": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/loss/06406b97-9138-11e6-8a84-bae500000000/documents",
+      "mediaType": "application/json",
+      "size": 0,
+      "limit": 100,
+      "offset": 0
+    }
+  },
+  "positions": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/loss/6ddca2d7-4f28-11e6-8a84-bae500000066/positions",
+      "type": "lossposition",
+      "mediaType": "application/json",
+      "size": 2,
+      "limit": 100,
+      "offset": 0
+    }
+  }
+}

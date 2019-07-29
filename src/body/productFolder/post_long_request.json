@@ -1,0 +1,7 @@
+{
+  "name" : "Фрукты",
+  "code" : "13321Fruits",
+  "externalCode" : "extFruits",
+  "vat":  3,
+  "effectiveVat" : 3
+}

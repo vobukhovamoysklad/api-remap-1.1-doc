@@ -1,0 +1,14 @@
+{
+    "quantity": 14,
+    "price": 1301,
+    "vat": 10,
+    "assortment": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/36edadbe-912b-11e6-8a84-bae500000128",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+        "type": "variant",
+        "mediaType": "application/json"
+      }
+    },
+    "reward": 0
+  }

@@ -1,0 +1,67 @@
+{
+  "name": "ООО Радуга ЭКСПО",
+  "description" : "Сеть рынков стройматериалов Радуга ЭКСПО",
+  "code" : "raduga",
+  "externalCode" : "extRainbow",
+  "email" : "raduga@retail.ru",
+  "phone" : "+7 495 162 32 23",
+  "fax" : "1052054",
+  "legalTitle": "Общество с ограниченой ответственностью \"Радуга ЭКСПО\"",
+  "legalAddressFull": {
+    "postalCode": "125009",
+    "country": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/country/9df7c2c3-7782-4c5c-a8ed-1102af611608",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/country/metadata",
+        "type": "country",
+        "mediaType": "application/json"
+      }
+    },
+    "region": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/region/00000000-0000-0000-0000-000000000077",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/region/metadata",
+        "type": "region",
+        "mediaType": "application/json"
+      }
+    },
+    "city": "Москва",
+    "street": "ул Тверская",
+    "house": "1",
+    "apartment": "123",
+    "addInfo": "addinfo",
+    "comment": "some words about address"
+  },
+  "actualAddressFull": {
+    "postalCode": "125009",
+    "country": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/country/9df7c2c3-7782-4c5c-a8ed-1102af611608",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/country/metadata",
+        "type": "country",
+        "mediaType": "application/json"
+      }
+    },
+    "region": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/region/00000000-0000-0000-0000-000000000077",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/region/metadata",
+        "type": "region",
+        "mediaType": "application/json"
+      }
+    },
+    "city": "Москва",
+    "street": "ул Тверская",
+    "house": "1",
+    "apartment": "111",
+    "addInfo": "addinfo",
+    "comment": "some words about address"
+  },
+  "inn" : "1251581244152",
+  "kpp" : "121557212",
+  "ogrn" : "1253552",
+  "okpo" : "201313",
+  "tags" : [
+    "Строители", "Ремонт", "Радуга", "Бетон", "ЖЖОТ"
+  ]
+}

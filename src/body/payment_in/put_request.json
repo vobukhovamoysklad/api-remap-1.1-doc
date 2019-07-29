@@ -1,0 +1,11 @@
+{
+  "name": "333444",
+  "description": "Не совсем Новый Входящий платёж",
+  "code": "101010001",
+  "externalCode": "2213sfkksbajf214812slkanf",
+  "moment": "2012-06-27 17:52:24",
+  "applicable": true,
+  "sum": 40020,
+  "incomingNumber": "3",
+  "incomingDate": "2016-03-17 10:52:24"
+}

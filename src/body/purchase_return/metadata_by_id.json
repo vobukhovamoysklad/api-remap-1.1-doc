@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchasereturn/metadata/attributes/4fc7e7e7-41be-11e6-8a84-bae5000000cc",
+    "type": "attributemetadata",
+    "mediaType": "application/json"
+  },
+  "id": "4fc7e7e7-41be-11e6-8a84-bae5000000cc",
+  "name": "Причина, отличная от брака",
+  "type": "text",
+  "required": false
+}

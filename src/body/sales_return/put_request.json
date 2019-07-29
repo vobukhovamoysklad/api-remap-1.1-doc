@@ -1,0 +1,32 @@
+{
+  "updated": "2016-07-01 15:16:37",
+  "name": "00033",
+  "description": "Гневный возврат бракованного робота",
+  "code": "k12eer3e21rre451k",
+  "externalCode": "w214t2141f",
+  "moment": "2017-11-21 14:37:00",
+  "applicable": true,
+  "state": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/salesreturn/metadata/states/7073b255-3f81-11e6-8a84-bae5000000e3",
+        "type": "state",
+        "mediaType": "application/json"
+      }
+  },
+  "attributes": [
+    {
+      "id": "43dd9fd7-3f81-11e6-8a84-bae5000000db",
+      "value": "отломана нога"
+    }
+  ],
+  "positions": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/salesreturn/a8b8e1e3-3f85-11e6-8a84-bae50000008d/positions",
+      "type": "salesreturnposition",
+      "mediaType": "application/json",
+      "size": 1,
+      "limit": 100,
+      "offset": 0
+    }
+  }
+}

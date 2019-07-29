@@ -1,0 +1,28 @@
+{
+	"agent":{
+		"meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/b905bfb0-9128-11e6-8a84-bae50000002a",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+        "type": "employee",
+        "mediaType": "application/json"
+      }
+	},
+	"retailShift":{
+		"meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/retailshift/131aaeb6-9603-11e6-8a84-bae500000072",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/retailshift/metadata",
+        "type": "retailshift",
+        "mediaType": "application/json"
+      }
+	},
+	"organization": {
+		"meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/b9324d71-9128-11e6-8a84-bae500000051",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+        "type": "organization",
+        "mediaType": "application/json"
+      }
+	},
+	"sum": 100500,
+	"description": "Новая выплата через API"
+}

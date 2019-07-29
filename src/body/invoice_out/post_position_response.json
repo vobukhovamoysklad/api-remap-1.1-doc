@@ -1,0 +1,24 @@
+[
+    {
+        "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.1/entity/invoiceout/6afee657-0888-11e6-9464-e4de00000037/positions/8a43c5a3-088a-11e6-9464-e4de00000046",
+            "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/invoiceout/metadata",
+            "type": "invoiceposition",
+            "mediaType": "application/json"
+        },
+        "id": "8a43c5a3-088a-11e6-9464-e4de00000046",
+        "accountId": "84e60e93-f504-11e5-8a84-bae500000008",
+        "quantity": 12,
+        "price": 999,
+        "discount": 1,
+        "vat": 0,
+        "assortment": {
+            "meta": {
+                "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/671402e4-f7d2-11e5-8a84-bae50000007c",
+                "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+                "type": "variant",
+                "mediaType": "application/json"
+            }
+        }
+    }
+]

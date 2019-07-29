@@ -1,0 +1,288 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "context": {
+      "type": "object",
+      "properties": {
+        "employee": {
+          "meta": {
+            "type": "object",
+            "properties": {
+              "type": "object",
+              "properties": {
+                "href": {
+                  "type": "string",
+                  "description": "Ссылка на сущность"
+                },
+                "type": {
+                  "type": "string",
+                  "description": "Тип сущности"
+                },
+                "mediaType": {
+                  "type": "string",
+                  "description": "Тип данных"
+                }
+              }
+            }
+          },
+          "required": [
+            "href",
+            "mediaType"
+          ],
+          "description": "Сотрудник, от имени которого обрабатывается запрос"
+        }
+      },
+      "required": [
+        "employee"
+      ]
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "href": {
+          "type": "string",
+          "description": "Ссылка на сущность"
+        },
+        "type": {
+          "type": "string",
+          "description": "Тип сущности"
+        },
+        "mediaType": {
+          "type": "string",
+          "description": "Тип данных"
+        },
+        "size": {
+          "type": "number",
+          "description": "Количество сущностей"
+        },
+        "limit": {
+          "type": "number",
+          "description": "Лимит сущностей"
+        },
+        "offset": {
+          "type": "number",
+          "description": "Отступ в списке сущностей"
+        }
+      },
+      "required": [
+        "href",
+        "mediaType"
+      ]
+    },
+    "rows": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "meta": {
+              "type": "object",
+              "properties": {
+                "href": {
+                  "type": "string",
+                  "description": "Ссылка на сущность"
+                },
+                "metadataHref": {
+                  "type": "string",
+                  "description": "Ссылка на метаданные сущности"
+                },
+                "type": {
+                  "type": "string",
+                  "description": "Тип сущности"
+                },
+                "mediaType": {
+                  "type": "string",
+                  "description": "Тип данных"
+                }
+              },
+              "required": [
+                "href",
+                "mediaType"
+              ],
+              "additionalProperties": false,
+              "description": "Ссылка на сущность"
+            },
+            "stock": {
+              "type": "number",
+              "description": "Остаток"
+            },
+            "inTransit": {
+              "type": "number",
+              "description": "Ожидание"
+            },
+            "reserve": {
+              "type": "number",
+              "description": "Количество товаров в резерве"
+            },
+            "quantity": {
+              "type": "number",
+              "description": "Доступно"
+            },
+            "name": {
+              "type": "string",
+              "description": "Наименование товара"
+            },
+            "code": {
+              "type": "string",
+              "description": "Код товара"
+            },
+            "article": {
+              "type": "string",
+              "description": "Артикул товара"
+            },
+            "price": {
+              "type": "number",
+              "description": "Цена товара"
+            },
+            "salePrice": {
+              "type": "number",
+              "description": "Цена продажи"
+            },
+            "uom": {
+              "type" : "object",
+              "properties": {
+                "meta": {
+                  "type": "object",
+                  "properties": {
+                    "href": {
+                      "type": "string",
+                      "description": "Ссылка на сущность"
+                    },
+                    "metadataHref": {
+                      "type": "string",
+                      "description": "Ссылка на метаданные сущности"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Тип сущности"
+                    },
+                    "mediaType": {
+                      "type": "string",
+                      "description": "Тип данных"
+                    }
+                  }
+                }
+              },
+              "description" : "Ссылка на Единицу измерения"
+            },
+            "folder": {
+              "type": "object",
+              "properties": {
+                "meta": {
+                  "type": "object",
+                  "properties": {
+                    "href": {
+                      "type": "string",
+                      "description": "Ссылка на сущность"
+                    },
+                    "metadataHref": {
+                      "type": "string",
+                      "description": "Ссылка на метаданные сущности"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Тип сущности"
+                    },
+                    "mediaType": {
+                      "type": "string",
+                      "description": "Тип данных"
+                    }
+                  }
+                }
+              },
+              "required": [
+                "href",
+                "mediaType"
+              ],
+              "additionalProperties": false,
+              "description": "Ссылка на сущность группы товаров"
+            },
+            "image": {
+              "type": "object",
+              "properties": {
+                "meta": {
+                  "type": "object",
+                  "properties": {
+                    "href": {
+                      "type": "string",
+                      "description": "Ссылка на изображение"
+                    },
+                    "mediaType": {
+                      "type": "string",
+                      "description": "Тип данных"
+                    }
+                  },
+                  "required": [
+                    "href",
+                    "mediaType"
+                  ],
+                  "additionalProperties": false,
+                  "description": "Метаданные об изображении"
+                },
+                "title": {
+                  "type": "string",
+                  "description": "Название изображения"
+                },
+                "filename": {
+                  "type": "string",
+                  "description": "Имя файла"
+                },
+                "size": {
+                  "type": "number",
+                  "description": "Размер файла в байтах"
+                },
+                "miniature": {
+                  "type": "object",
+                  "properties": {
+                    "href": {
+                      "type": "string",
+                      "description": "Ссылка на изображение"
+                    },
+                    "mediaType": {
+                      "type": "string",
+                      "description": "Тип данных"
+                    }
+                  },
+                  "required": [
+                    "href",
+                    "mediaType"
+                  ],
+                  "additionalProperties": false,
+                  "description": "Ссылка на миниатюру изображения"
+                },
+                "tiny": {
+                  "type": "object",
+                  "properties": {
+                    "href": {
+                      "type": "string",
+                      "description": "Ссылка на изображение"
+                    },
+                    "mediaType": {
+                      "type": "string",
+                      "description": "Тип данных"
+                    }
+                  },
+                  "required": [
+                    "href",
+                    "mediaType"
+                  ],
+                  "additionalProperties": false,
+                  "description": "Ссылка на уменьшенное изображение"
+                }
+              },
+              "additionalProperties": false
+            },
+          },
+          "additionalProperties": false
+        }
+      ],
+      "description": "Массив Остатков"
+    }
+  },
+  "required": [
+    "context",
+    "meta",
+    "rows"
+  ]
+}

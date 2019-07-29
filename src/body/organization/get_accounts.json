@@ -1,0 +1,41 @@
+{
+  "context": {
+    "employee": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/context/employee",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/4b9d5bec-0575-11e6-9464-e4de00000008/accounts",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+    "type": "account",
+    "mediaType": "application/json",
+    "size": 1,
+    "limit": 25,
+    "offset": 0
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/4b9d5bec-0575-11e6-9464-e4de00000008/accounts/4b9d69b7-0575-11e6-9464-e4de00000009",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+        "type": "account",
+        "mediaType": "application/json"
+      },
+      "id": "4b9d69b7-0575-11e6-9464-e4de00000009",
+      "accountId": "84e60e93-f504-11e5-8a84-bae500000008",
+      "version": 0,
+      "updated": "2016-04-18 17:53:21",
+      "isDefault": true,
+      "agent": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/4b9d5bec-0575-11e6-9464-e4de00000008",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+          "type": "organization",
+          "mediaType": "application/json"
+        }
+      }
+    }
+  ]
+}

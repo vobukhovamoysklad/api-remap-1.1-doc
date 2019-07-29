@@ -1,0 +1,59 @@
+[
+  {
+    "name": "d00001",
+    "applicable": true,
+    "agent": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.2/entity/counterparty/9fea1d90-d488-4271-97bc-a9ad1b9fbcc0",
+        "type": "counterparty",
+        "mediaType": "application/json"
+      }
+    },
+    "bonusProgram": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.2/entity/bonusprogram/956f6ff7-718f-4849-be47-7509fdd18db9",
+        "type": "bonusprogram",
+        "mediaType": "application/json"
+      }
+    },
+    "transactionType": "EARNING",
+    "bonusValue": 15
+  },
+  {
+    "agent": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.2/entity/counterparty/9fea1d90-d488-4271-97bc-a9ad1b9fbcc0",
+        "type": "counterparty",
+        "mediaType": "application/json"
+      }
+    },
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.2/entity/bonustransaction/956f6ff7-718f-4849-be47-7509fdd18db9",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.2/entity/bonustransaction/metadata",
+      "type": "bonustransaction",
+      "mediaType": "application/json"
+    },
+    "name": "updated_name",
+    "bonusValue": 1235
+  },
+  {
+    "name": "d00003",
+    "applicable": true,
+    "agent": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.2/entity/counterparty/9fea1d90-d488-4271-97bc-a9ad1b9fbcc0",
+        "type": "counterparty",
+        "mediaType": "application/json"
+      }
+    },
+    "bonusProgram": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.2/entity/bonusprogram/956f6ff7-718f-4849-be47-7509fdd18db9",
+        "type": "bonusprogram",
+        "mediaType": "application/json"
+      }
+    },
+    "transactionType": "SPENDING",
+    "bonusValue": 100500
+  }
+]

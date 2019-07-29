@@ -1,0 +1,69 @@
+{
+  "context": {
+    "employee": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/context/employee",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+        "type": "employee",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/retaildemand/0b71daec-055e-11e6-9464-e4de0000007e/positions",
+    "type": "demandposition",
+    "mediaType": "application/json",
+    "size": 2,
+    "limit": 25,
+    "offset": 0
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/retaildemand/0b71daec-055e-11e6-9464-e4de0000007e/positions/0b7ab774-055e-11e6-9464-e4de0000007f",
+        "type": "demandposition",
+        "mediaType": "application/json"
+      },
+      "id": "0b7ab774-055e-11e6-9464-e4de0000007f",
+      "accountId": "84e60e93-f504-11e5-8a84-bae500000008",
+      "quantity": 17,
+      "price": 300,
+      "discount": 0,
+      "vat": 18,
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/service/60fc3826-00d7-11e6-9464-e4de00000097",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/service/metadata",
+          "type": "service",
+          "mediaType": "application/json"
+        }
+      },
+      "cost": 100
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/retaildemand/0b71daec-055e-11e6-9464-e4de0000007e/positions/0b7acad5-055e-11e6-9464-e4de00000080",
+        "type": "demandposition",
+        "mediaType": "application/json"
+      },
+      "id": "0b7acad5-055e-11e6-9464-e4de00000080",
+      "accountId": "84e60e93-f504-11e5-8a84-bae500000008",
+      "quantity": 1,
+      "price": 0,
+      "discount": 0,
+      "vat": 0,
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/e91042b4-fa34-11e5-9464-e4de00000095",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+          "type": "variant",
+          "mediaType": "application/json"
+        },
+        "things": [
+          "1013431",
+          "31d22211sa"
+        ]
+      }
+    }
+  ]
+}

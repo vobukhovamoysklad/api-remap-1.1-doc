@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/invoiceout/metadata",
+    "mediaType": "application/json"
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/invoiceout/metadata/attributes/51d191f4-0887-11e6-9464-e4de00000079",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "51d191f4-0887-11e6-9464-e4de00000079",
+      "name": "Атрибут счёта",
+      "type": "string",
+      "required": false
+    }
+  ],
+  "createShared": false
+}

@@ -1,0 +1,23 @@
+[
+    {
+        "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.1/contactperson/5e3d2d42-fd9a-11e5-9464-e4de00000073",
+            "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+            "mediaType": "application/json"
+        },
+        "name": "Степан",
+        "description": "Бог прокрастинации",
+        "externalCode": "safsa6125461asfsa",
+        "email": "stepa@bog.ru",
+        "phone": "8495909090",
+        "position": "Подниматель пингвинов",
+        "agent": {
+            "meta": {
+                "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/33e8897f-fd97-11e5-9464-e4de00000006",
+                "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+                "type": "counterparty",
+                "mediaType": "application/json"
+            }
+        }
+    }
+]

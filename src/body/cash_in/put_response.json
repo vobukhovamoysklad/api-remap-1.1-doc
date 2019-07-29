@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashin/3fd08b2d-41b0-11e6-8a84-bae500000000",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/cashin/metadata",
+    "type": "cashin",
+    "mediaType": "application/json"
+  },
+  "id": "3fd08b2d-41b0-11e6-8a84-bae500000000",
+  "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+  "owner": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/f3c5d206-dafc-4eb3-8678-f97e76964e1d",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "shared": true,
+  "group": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/f97aa1fb-2e58-11e6-8a84-bae500000002",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+      "type": "group",
+      "mediaType": "application/json"
+    }
+  },
+  "version": 3,
+  "updated": "2016-07-04 09:54:38",
+  "name": "000722",
+  "description": "Приходный ордер созданный и изменённый через API",
+  "code": "333712366",
+  "externalCode": "103kek312",
+  "moment": "2016-06-10 09:52:24",
+  "applicable": false,
+  "rate": {
+    "currency": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/baac25f0-50ac-11e5-300d-c79b00000055",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+        "type": "currency",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "sum": 3700,
+  "organization": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/fae3561a-2e58-11e6-8a84-bae50000004e",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  },
+  "agent": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/147c1f1b-32ca-11e6-8a84-bae500000004",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+      "type": "counterparty",
+      "mediaType": "application/json"
+    }
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashin/metadata/attributes/c57c1f22-3fae-11e6-8a84-bae500000142",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "c57c1f22-3fae-11e6-8a84-bae500000142",
+      "name": "Карма",
+      "type": "long",
+      "value": 12
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashin/metadata/attributes/c57c2526-3fae-11e6-8a84-bae500000143",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "c57c2526-3fae-11e6-8a84-bae500000143",
+      "name": "С основанием",
+      "type": "boolean",
+      "value": true
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashin/metadata/attributes/c57c2a5c-3fae-11e6-8a84-bae500000144",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "c57c2a5c-3fae-11e6-8a84-bae500000144",
+      "name": "Коэффициент",
+      "type": "double",
+      "value": 3.13
+    }
+  ],
+  "documents": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashin/06406b97-9138-11e6-8a84-bae500000000/documents",
+      "mediaType": "application/json",
+      "size": 0,
+      "limit": 100,
+      "offset": 0
+    }
+  },
+  "paymentPurpose": "Оплата заказа №0046"
+}

@@ -1,0 +1,10 @@
+{
+	"retailShift": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/retailshift/131aaeb6-9603-11e6-8a84-bae500000072",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/retailshift/metadata",
+      "type": "retailshift",
+      "mediaType": "application/json"
+    }
+  }
+}

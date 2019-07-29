@@ -1,0 +1,38 @@
+{
+  "name": "887",
+  "moment": "2004-01-14 19:03:00",
+  "organization": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/850c8195-f504-11e5-8a84-bae50000015e",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  },
+  "agent": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/9794d400-f689-11e5-8a84-bae500000078",
+      "type": "counterparty",
+      "mediaType": "application/json"
+    }
+  },
+  "store": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/store/86c857d6-0302-11e6-9464-e4de00000072",
+      "type": "store",
+      "mediaType": "application/json"
+    }
+  },
+  "code" : "666",
+  "applicable": false,
+  "vatEnabled": true,
+  "vatIncluded": true,
+  "customerOrder":{
+    "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/customerorder/c49e83b3-01af-11e6-9464-e4de00000026",
+    "type": "customerorder",
+    "mediaType": "application/json"
+    }
+  },
+  "stateContractId": "s11233dsasd233"
+
+}

@@ -1,0 +1,16 @@
+{
+  "quantity": 49,
+  "price": 451,
+  "discount": 0,
+  "vat": 10,
+  "assortment": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/7a7daa6b-3c64-11e6-8a84-bae50000000a",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+      "type": "variant",
+      "mediaType": "application/json"
+    }
+  },
+  "shipped": 20,
+  "inTransit": 19
+}

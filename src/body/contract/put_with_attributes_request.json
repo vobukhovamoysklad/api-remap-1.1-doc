@@ -1,0 +1,22 @@
+{
+  "name" : "123_456",
+  "ownAgent": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/850c8195-f504-11e5-8a84-bae50000015e",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  },
+  "contractType": "Sales",
+  "code": "не код 333",
+  "externalCode": "exC22ode333",
+  "moment": "2019-03-15 21:03:19",
+  "description": "Новый договор",
+  "attributes": [
+    {
+      "id": "25b6f76c-12d5-11e6-9464-e4de00000068",
+      "value": false
+    }
+  ]
+}

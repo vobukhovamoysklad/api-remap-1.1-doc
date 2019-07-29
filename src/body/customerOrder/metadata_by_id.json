@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/customerorder/metadata/attributes/57ab884e-558b-11e6-8a84-bae500000078",
+    "type": "attributemetadata",
+    "mediaType": "application/json"
+  },
+  "id": "57ab884e-558b-11e6-8a84-bae500000078",
+  "name": "Товар по акции",
+  "type": "productfolder",
+  "required": false
+}

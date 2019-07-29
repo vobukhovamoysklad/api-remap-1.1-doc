@@ -1,0 +1,43 @@
+{
+  "name": "123142vzvrt",
+  "organization": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/107430bc-36e7-11e7-8a7f-40d000000090",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  },
+  "store": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/store/1076a96a-36e7-11e7-8a7f-40d000000092",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+      "type": "store",
+      "mediaType": "application/json"
+    }
+  },
+  "retailStore": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/retailstore/10a79ac5-36e7-11e7-8a7f-40d00000009f",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/retailstore/metadata",
+      "type": "retailstore",
+      "mediaType": "application/json"
+    }
+  },
+  "demand": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/retaildemand/700f8635-36f7-11e7-8a7f-40d00000011e",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/retaildemand/metadata",
+      "type": "retaildemand",
+      "mediaType": "application/json"
+    }
+  },
+  "retailShift": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/retailshift/6fe7b0da-36f7-11e7-8a7f-40d00000011c",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/retailshift/metadata",
+      "type": "retailshift",
+      "mediaType": "application/json"
+    }
+  }
+}

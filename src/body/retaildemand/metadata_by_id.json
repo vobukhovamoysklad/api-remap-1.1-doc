@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/retaildemand/metadata/attributes/f04d010f-558c-11e6-8a84-bae50000009d",
+    "type": "attributemetadata",
+    "mediaType": "application/json"
+  },
+  "id": "f04d010f-558c-11e6-8a84-bae50000009d",
+  "name": "Инфо о клиенте",
+  "type": "text",
+  "required": true
+}

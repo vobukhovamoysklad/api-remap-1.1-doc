@@ -1,0 +1,371 @@
+{
+  "context": {
+    "employee": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/context/employee",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/pos/retailgood",
+    "type": "variant",
+    "mediaType": "application/json",
+    "size": 221,
+    "limit": 1000,
+    "offsetid": "00000000-0000-0000-0000-000000000000"
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/00f072a3-0080-11e6-9464-e4de0000000d",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json"
+      },
+      "id": "00f072a3-0080-11e6-9464-e4de0000000d",
+      "name": "Attribute1",
+      "code": "code_one1",
+      "barcodes": [],
+      "salePrices": [
+        {
+          "value": 0
+        }
+      ],
+      "article": "Article",
+      "uom": "шт",
+      "vat": 0
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/1829624c-06e8-11e6-9464-e4de00000002",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json"
+      },
+      "id": "1829624c-06e8-11e6-9464-e4de00000002",
+      "name": "Товарs",
+      "code": "one12",
+      "barcodes": [],
+      "salePrices": [
+        {
+          "value": 346347237000
+        }
+      ],
+      "article": "Ar23",
+      "uom": "см",
+      "vat": 18
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/2db46c80-0897-11e6-9464-e4de0000007d",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json"
+      },
+      "id": "2db46c80-0897-11e6-9464-e4de0000007d",
+      "name": "Алкохол",
+      "code": "00016",
+      "barcodes": [
+        "2000000002361"
+      ],
+      "salePrices": [
+        {
+          "value": 0
+        }
+      ],
+      "uom": "шт"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/563d4d4b-018c-11e6-9464-e4de00000006",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+        "type": "variant",
+        "mediaType": "application/json"
+      },
+      "id": "563d4d4b-018c-11e6-9464-e4de00000006",
+      "name": "(2, 1020, 102)",
+      "code": "09066",
+      "barcodes": [],
+      "salePrices": [
+        {
+          "value": 90
+        }
+      ],
+      "characteristics": {
+        "Вес": "102",
+        "Размер": "1020",
+        "feature": "2"
+      },
+      "product": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/66ccbc9f-f7d2-11e5-8a84-bae500000076",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+          "type": "product",
+          "mediaType": "application/json"
+        },
+        "id": "66ccbc9f-f7d2-11e5-8a84-bae500000076",
+        "name": "ТоварМногоМодификаций",
+        "code": "00004",
+        "barcodes": [],
+        "salePrices": [
+          {
+            "value": 0
+          }
+        ],
+        "uom": "шт"
+      }
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/671402e4-f7d2-11e5-8a84-bae50000007c",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+        "type": "variant",
+        "mediaType": "application/json"
+      },
+      "id": "671402e4-f7d2-11e5-8a84-bae50000007c",
+      "name": "(1, 100, 10)",
+      "code": "00005",
+      "barcodes": [
+        "2000000000084"
+      ],
+      "salePrices": [
+        {
+          "value": 0
+        }
+      ],
+      "characteristics": {
+        "Вес": "10",
+        "Размер": "100",
+        "feature": "1"
+      },
+      "product": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/66ccbc9f-f7d2-11e5-8a84-bae500000076",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+          "type": "product",
+          "mediaType": "application/json"
+        },
+        "id": "66ccbc9f-f7d2-11e5-8a84-bae500000076",
+        "name": "ТоварМногоМодификаций",
+        "code": "00004",
+        "barcodes": [],
+        "salePrices": [
+          {
+            "value": 0
+          }
+        ],
+        "uom": "шт"
+      }
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/67183390-f7d2-11e5-8a84-bae500000082",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+        "type": "variant",
+        "mediaType": "application/json"
+      },
+      "id": "67183390-f7d2-11e5-8a84-bae500000082",
+      "name": "(1, 100, 20)",
+      "code": "00006",
+      "barcodes": [
+        "2000000000091"
+      ],
+      "salePrices": [
+        {
+          "value": 0
+        }
+      ],
+      "characteristics": {
+        "Вес": "20",
+        "Размер": "100",
+        "feature": "1"
+      },
+      "product": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/66ccbc9f-f7d2-11e5-8a84-bae500000076",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+          "type": "product",
+          "mediaType": "application/json"
+        },
+        "id": "66ccbc9f-f7d2-11e5-8a84-bae500000076",
+        "name": "ТоварМногоМодификаций",
+        "code": "00004",
+        "barcodes": [],
+        "salePrices": [
+          {
+            "value": 0
+          }
+        ],
+        "uom": "шт"
+      }
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/671b5330-f7d2-11e5-8a84-bae500000088",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+        "type": "variant",
+        "mediaType": "application/json"
+      },
+      "id": "671b5330-f7d2-11e5-8a84-bae500000088",
+      "name": "(1, 100, 30)",
+      "code": "00007",
+      "barcodes": [
+        "2000000000107"
+      ],
+      "salePrices": [
+        {
+          "value": 0
+        }
+      ],
+      "characteristics": {
+        "Вес": "30",
+        "Размер": "100",
+        "feature": "1"
+      },
+      "product": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/66ccbc9f-f7d2-11e5-8a84-bae500000076",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+          "type": "product",
+          "mediaType": "application/json"
+        },
+        "id": "66ccbc9f-f7d2-11e5-8a84-bae500000076",
+        "name": "ТоварМногоМодификаций",
+        "code": "00004",
+        "barcodes": [],
+        "salePrices": [
+          {
+            "value": 0
+          }
+        ],
+        "uom": "шт"
+      }
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/671f5937-f7d2-11e5-8a84-bae50000008e",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+        "type": "variant",
+        "mediaType": "application/json"
+      },
+      "id": "671f5937-f7d2-11e5-8a84-bae50000008e",
+      "name": "(1, 100, 40)",
+      "code": "00008",
+      "barcodes": [
+        "2000000000114"
+      ],
+      "salePrices": [
+        {
+          "value": 0
+        }
+      ],
+      "characteristics": {
+        "Вес": "40",
+        "Размер": "100",
+        "feature": "1"
+      },
+      "product": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/66ccbc9f-f7d2-11e5-8a84-bae500000076",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+          "type": "product",
+          "mediaType": "application/json"
+        },
+        "id": "66ccbc9f-f7d2-11e5-8a84-bae500000076",
+        "name": "ТоварМногоМодификаций",
+        "code": "00004",
+        "barcodes": [],
+        "salePrices": [
+          {
+            "value": 0
+          }
+        ],
+        "uom": "шт"
+      }
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/6722cc25-f7d2-11e5-8a84-bae500000094",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+        "type": "variant",
+        "mediaType": "application/json"
+      },
+      "id": "6722cc25-f7d2-11e5-8a84-bae500000094",
+      "name": "(1, 100, 50)",
+      "code": "00009",
+      "barcodes": [
+        "2000000000121"
+      ],
+      "salePrices": [
+        {
+          "value": 0
+        }
+      ],
+      "characteristics": {
+        "Вес": "50",
+        "Размер": "100",
+        "feature": "1"
+      },
+      "product": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/66ccbc9f-f7d2-11e5-8a84-bae500000076",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+          "type": "product",
+          "mediaType": "application/json"
+        },
+        "id": "66ccbc9f-f7d2-11e5-8a84-bae500000076",
+        "name": "ТоварМногоМодификаций",
+        "code": "00004",
+        "barcodes": [],
+        "salePrices": [
+          {
+            "value": 0
+          }
+        ],
+        "uom": "шт"
+      }
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/672677c1-f7d2-11e5-8a84-bae50000009a",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+        "type": "variant",
+        "mediaType": "application/json"
+      },
+      "id": "672677c1-f7d2-11e5-8a84-bae50000009a",
+      "name": "(1, 200, 10)",
+      "code": "00010",
+      "barcodes": [
+        "2000000000138"
+      ],
+      "salePrices": [
+        {
+          "value": 0
+        }
+      ],
+      "characteristics": {
+        "Вес": "10",
+        "Размер": "200",
+        "feature": "1"
+      },
+      "product": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/66ccbc9f-f7d2-11e5-8a84-bae500000076",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+          "type": "product",
+          "mediaType": "application/json"
+        },
+        "id": "66ccbc9f-f7d2-11e5-8a84-bae500000076",
+        "name": "ТоварМногоМодификаций",
+        "code": "00004",
+        "barcodes": [],
+        "salePrices": [
+          {
+            "value": 0
+          }
+        ],
+        "uom": "шт"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "quantity": 1,
+  "price": 16500,
+  "discount": 0,
+  "vat": 0,
+  "assortment": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/0ae4836f-3303-11e6-8a84-bae500000d39",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+      "type": "product",
+      "mediaType": "application/json"
+    }
+  },
+  "cost": 11
+}

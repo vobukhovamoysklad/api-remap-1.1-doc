@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/factureout/metadata/attributes/8b0b6c1d-aa6f-11e6-8a84-bc520000008a",
+    "type": "attributemetadata",
+    "mediaType": "application/json"
+  },
+  "id": "8b0b6c1d-aa6f-11e6-8a84-bc520000008a",
+  "name": "доп поле",
+  "type": "string",
+  "required": false
+}

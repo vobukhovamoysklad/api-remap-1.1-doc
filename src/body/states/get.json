@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty",
+    "mediaType": "application/json"
+  },
+  "states": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata/states/4f70c518-60a1-11e7-6adb-ede500000003",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+        "type": "state",
+        "mediaType": "application/json"
+      },
+      "id": "4f70c518-60a1-11e7-6adb-ede500000003",
+      "accountId": "0af94520-54f7-11e7-6adb-ede500000001",
+      "name": "Новый",
+      "color": 15106326,
+      "stateType": "Regular",
+      "entityType": "counterparty"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata/states/3b6eb61a-60c5-11e7-6adb-ede500000001",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+        "type": "state",
+        "mediaType": "application/json"
+      },
+      "id": "3b6eb61a-60c5-11e7-6adb-ede500000001",
+      "accountId": "0af94520-54f7-11e7-6adb-ede500000001",
+      "name": "Подписан договор",
+      "color": 10667543,
+      "stateType": "Successful",
+      "entityType": "counterparty"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata/states/3b6fd06a-60c5-11e7-6adb-ede500000002",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+        "type": "state",
+        "mediaType": "application/json"
+      },
+      "id": "3b6fd06a-60c5-11e7-6adb-ede500000002",
+      "accountId": "0af94520-54f7-11e7-6adb-ede500000001",
+      "name": "Отклонен",
+      "color": 10774205,
+      "stateType": "Unsuccessful",
+      "entityType": "counterparty"
+    }
+  ],
+  "createShared": false
+}

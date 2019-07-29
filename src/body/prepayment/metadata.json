@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/prepayment/metadata",
+    "mediaType": "application/json"
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/prepayment/metadata/attributes/7c60b035-38df-11e9-ac12-000c0000004a",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "7c60b035-38df-11e9-ac12-000c0000004a",
+      "name": "Label",
+      "type": "string",
+      "required": false
+    }
+  ],
+  "states": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/prepayment/metadata/states/727d2656-38df-11e9-ac12-000c00000046",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/prepayment/metadata",
+        "type": "state",
+        "mediaType": "application/json"
+      },
+      "id": "727d2656-38df-11e9-ac12-000c00000046",
+      "accountId": "783e70de-2e92-11e9-ac12-000b00000001",
+      "name": "Новая",
+      "color": 10066329,
+      "stateType": "Regular",
+      "entityType": "prepayment"
+    }
+  ],
+  "createShared": false
+}

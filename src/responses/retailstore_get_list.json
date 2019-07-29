@@ -1,0 +1,322 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "context": {
+      "type": "object",
+      "properties": {
+        "employee": {
+          "meta": {
+            "type": "object",
+            "properties": {
+              "type": "object",
+              "properties": {
+                "href": {
+                  "type": "string",
+                  "description": "Ссылка на сущность"
+                },
+                "type": {
+                  "type": "string",
+                  "description": "Тип сущности"
+                },
+                "mediaType": {
+                  "type": "string",
+                  "description": "Тип данных"
+                }
+              }
+            }
+          },
+          "required": [
+            "href",
+            "mediaType"
+          ],
+          "description": "Сотрудник, от имени которого обрабатывается запрос"
+        }
+      },
+      "required": [
+        "employee"
+      ]
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "href": {
+          "type": "string",
+          "description": "Ссылка на сущность"
+        },
+        "metadataHref": {
+          "type": "string",
+          "description": "Ссылка на метаданные сущности"
+        },
+        "type": {
+          "type": "string",
+          "description": "Тип сущности"
+        },
+        "mediaType": {
+          "type": "string",
+          "description": "Тип данных"
+        },
+        "size": {
+          "type": "number",
+          "description": "Количество сущностей"
+        },
+        "limit": {
+          "type": "number",
+          "description": "Лимит сущностей"
+        },
+        "offset": {
+          "type": "number",
+          "description": "Отступ в списке сущностей"
+        }
+      },
+      "required": [
+        "href",
+        "mediaType"
+      ]
+    },
+    "rows": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "meta": {
+              "type": "object",
+              "properties": {
+                "href": {
+                  "type": "string",
+                  "description": "Ссылка на сущность"
+                },
+                "metadataHref": {
+                  "type": "string",
+                  "description": "Ссылка на метаданные сущности"
+                },
+                "type": {
+                  "type": "string",
+                  "description": "Тип сущности"
+                },
+                "mediaType": {
+                  "type": "string",
+                  "description": "Тип данных"
+                }
+              },
+              "required": [
+                "href",
+                "mediaType"
+              ],
+              "additionalProperties": false,
+              "description": "Метаданные"
+            },
+            "id": {
+              "type": "string",
+              "description": "ID в формате UUID"
+            },
+            "accountId": {
+              "type": "string",
+              "description": "ID учетной записи"
+            },
+            "syncId": {
+              "type": "string",
+              "description": "ID в формате UUID"
+            },
+            "version": {
+              "type": "string",
+              "description": "Версия сущности"
+            },
+            "updated": {
+              "type": "string",
+              "description": "Момент последнего обновления сущности"
+            },
+            "deleted": {
+              "type": "string",
+              "description": "Момент последнего удаления сущности"
+            },
+            "name": {
+              "type": "string",
+              "description": "Наименование Розничной точки продаж"
+            },
+            "description": {
+              "type": "string",
+              "description": "Описание"
+            },
+            "code": {
+              "type": "string",
+              "description": "Код"
+            },
+            "externalCode": {
+              "type": "string",
+              "description": "Внешний код"
+            },
+            "archived": {
+              "type": "boolean",
+              "description": "Добавлена ли точка продаж в архив"
+            },
+            "address": {
+              "type": "string",
+              "description": "Адрес точки продаж"
+            },
+            "controlShippingStock": {
+              "type": "boolean",
+              "description": "Отметка о коонтроле остатков"
+            },
+            "active": {
+              "type": "boolean",
+              "description": "Включена ли точка продаж"
+            },
+            "controlCashierChoice": {
+              "type": "boolean",
+              "description": "Выбор продавца"
+            },
+            "priceType": {
+              "type": "string",
+              "description": "Тип цен, с которыми будут продаваться товары в рознице"
+            },
+            "cashiers": {
+              "type": "object",
+              "properties": {
+                "meta": {
+                  "type" : "object",
+                  "properties": {
+                    "href": {
+                      "type": "string",
+                      "description": "Ссылка на сущность"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Тип сущности"
+                    },
+                    "mediaType": {
+                      "type": "string",
+                      "description": "Тип данных"
+                    }
+                  },
+                  "required": [
+                    "href",
+                    "mediaType"
+                  ],
+                  "additionalProperties": false,
+                }
+              },
+              "description": "Ссылка на список кассиров на данной точке продаж"
+            },
+            "organization": {
+              "type": "object",
+              "properties": {
+                "meta": {
+                  "type" : "object",
+                  "properties": {
+                    "href": {
+                      "type": "string",
+                      "description": "Ссылка на сущность"
+                    },
+                    "metadataHref": {
+                      "type": "string",
+                      "description": "Ссылка на метаданные сущности"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Тип сущности"
+                    },
+                    "mediaType": {
+                      "type": "string",
+                      "description": "Тип данных"
+                    }
+                  },
+                  "required": [
+                    "href",
+                    "mediaType"
+                  ],
+                  "additionalProperties": false,
+                }
+              },
+              "description": "Ссылка на вашу организацию"
+            },
+            "store": {
+              "type": "object",
+              "properties": {
+                "meta": {
+                  "type" : "object",
+                  "properties": {
+                    "href": {
+                      "type": "string",
+                      "description": "Ссылка на сущность"
+                    },
+                    "metadataHref": {
+                      "type": "string",
+                      "description": "Ссылка на метаданные сущности"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Тип сущности"
+                    },
+                    "mediaType": {
+                      "type": "string",
+                      "description": "Тип данных"
+                    }
+                  },
+                  "required": [
+                    "href",
+                    "mediaType"
+                  ],
+                  "additionalProperties": false,
+                }
+              },
+              "description": "Ссылка на склад"
+            },
+            "acquire": {
+              "type": "object",
+              "properties": {
+                "meta": {
+                  "type" : "object",
+                  "properties": {
+                    "href": {
+                      "type": "string",
+                      "description": "Ссылка на сущность"
+                    },
+                    "metadataHref": {
+                      "type": "string",
+                      "description": "Ссылка на метаданные сущности"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Тип сущности"
+                    },
+                    "mediaType": {
+                      "type": "string",
+                      "description": "Тип данных"
+                    }
+                  },
+                  "required": [
+                    "href",
+                    "mediaType"
+                  ],
+                  "additionalProperties": false,
+                }
+              },
+              "description": "Ссылка на банк-эквайзер"
+            },
+            "lastOperationNames": {
+              "type": "array",
+              "items": [
+                {
+                  "type" : "object",
+                  "properties": {
+                    "entity": {
+                      "type" : "string",
+                      "description": "Ключевое слово, обозначающее тип последней операции"
+                    },
+                    "name" : {
+                      "type" : "string",
+                      "description": "Наименование (номер) последней операции"
+                    }
+                  }
+                }
+              ],
+              "description": "Краткий список последний операций"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

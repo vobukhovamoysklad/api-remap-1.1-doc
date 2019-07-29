@@ -1,0 +1,80 @@
+{
+  "name": "Бананы",
+  "code": "one1",
+  "externalCode": "456",
+  "description": "Бананы, Африка",
+  "vat": 18,
+  "effectiveVat": 18,
+  "uom": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/uom/metadata",
+      "type": "uom",
+      "mediaType": "application/json"
+    }
+  },
+  "supplier":{
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/2b5095a4-296b-11e6-8a84-bae500000051",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+      "type": "counterparty",
+      "mediaType": "application/json"
+    }
+  },
+  "minPrice": 532000,
+  "buyPrice": {
+    "value": 23553000,
+    "currency": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/2b50da23-296b-11e6-8a84-bae500000055",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+        "type": "currency",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "salePrices": [
+    {
+      "value": 346347237000,
+      "currency": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/2b50da23-296b-11e6-8a84-bae500000055",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+          "type": "currency",
+          "mediaType": "application/json"
+        }
+      },
+      "priceType": "Цена продажи"
+    },
+    {
+      "value": 100,
+      "currency": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/2b50da23-296b-11e6-8a84-bae500000055",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+          "type": "currency",
+          "mediaType": "application/json"
+        }
+      },
+      "priceType": "Цена для друзей"
+    }
+  ],
+  "article":"Ar23",
+  "weight": 200,
+  "volume": 300,
+  "packs": [
+    {
+      "uom": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/uom/2ec1170c-3f69-4409-87bb-c68e0011b275",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        }
+      },
+      "quantity": 2
+    }
+  ],
+  "isSerialTrackable": false,
+  "trackingType": "NOT_TRACKED"
+}

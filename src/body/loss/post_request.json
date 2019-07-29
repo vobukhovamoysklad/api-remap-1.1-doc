@@ -1,0 +1,42 @@
+{
+  "store": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/store/b72f4f02-9b8b-11e6-8af5-581e0000009b",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+      "type": "store",
+      "mediaType": "application/json"
+    }
+  },
+  "organization": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/95920812-9609-11e6-8af5-581e000000d4",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  },
+  "positions": [
+    {
+      "quantity": 23,
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/987148b8-9a09-11e6-8af5-581e0000006f",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+          "type": "product",
+          "mediaType": "application/json"
+        }
+      }
+    },
+    {
+      "quantity": 12,
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/987d77f1-9a09-11e6-8af5-581e00000074",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+          "type": "variant",
+          "mediaType": "application/json"
+        }
+      }
+    }
+  ]
+}

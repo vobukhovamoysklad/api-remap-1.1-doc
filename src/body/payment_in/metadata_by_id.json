@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/paymentin/metadata/attributes/04d7d27c-558b-11e6-8a84-bae500000075",
+    "type": "attributemetadata",
+    "mediaType": "application/json"
+  },
+  "id": "04d7d27c-558b-11e6-8a84-bae500000075",
+  "name": "Импорировано из банка",
+  "type": "boolean",
+  "required": false
+}

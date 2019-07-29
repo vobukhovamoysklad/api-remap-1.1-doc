@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashout/e446a227-41b1-11e6-8a84-bae500000005",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/cashout/metadata",
+    "type": "cashout",
+    "mediaType": "application/json"
+  },
+  "id": "e446a227-41b1-11e6-8a84-bae500000005",
+  "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+  "owner": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/faba7f37-2e58-11e6-8a84-bae500000028",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "shared": true,
+  "group": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/f97aa1fb-2e58-11e6-8a84-bae500000002",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+      "type": "group",
+      "mediaType": "application/json"
+    }
+  },
+  "version": 2,
+  "updated": "2016-07-04 09:41:17",
+  "name": "0722",
+  "description": "Расходный ордер созданный и обновлённый через API",
+  "code": "12412470912",
+  "externalCode": "unreal777slknf",
+  "moment": "2016-06-27 16:52:24",
+  "applicable": true,
+  "rate": {
+    "currency": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/baac25f0-50ac-11e5-300d-c79b00000055",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+        "type": "currency",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "sum": 900,
+  "organization": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/fae3561a-2e58-11e6-8a84-bae50000004e",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  },
+  "agent": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/147c1f1b-32ca-11e6-8a84-bae500000004",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+      "type": "counterparty",
+      "mediaType": "application/json"
+    }
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashout/metadata/attributes/c88569fc-3f8e-11e6-8a84-bae5000000fd",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "c88569fc-3f8e-11e6-8a84-bae5000000fd",
+      "name": "Доля",
+      "type": "double",
+      "value": 0.49
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashout/metadata/attributes/c88570d2-3f8e-11e6-8a84-bae5000000fe",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "c88570d2-3f8e-11e6-8a84-bae5000000fe",
+      "name": "Попытки",
+      "type": "long",
+      "value": 7501
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashout/metadata/attributes/c8857703-3f8e-11e6-8a84-bae5000000ff",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "c8857703-3f8e-11e6-8a84-bae5000000ff",
+      "name": "Поступил",
+      "type": "boolean",
+      "value": true
+    }
+  ],
+  "documents": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashout/06406b97-9138-11e6-8a84-bae500000000/documents",
+      "mediaType": "application/json",
+      "size": 0,
+      "limit": 100,
+      "offset": 0
+    }
+  },
+  "paymentPurpose": "Оплата нового заказа поставщику",
+  "expenseItem": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/expenseitem/1be23a18-0479-11e5-a260-448a5b426e7e",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/expenseitem/metadata",
+      "type": "expenseitem",
+      "mediaType": "application/json"
+    }
+  }
+}

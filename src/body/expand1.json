@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/salesreturn/166909e6-4a99-11e6-8a84-bae500000089?expand=demand",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/salesreturn/metadata",
+    "type": "salesreturn",
+    "mediaType": "application/json"
+  },
+  ...
+  "demand": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/demand/f99544d7-4a98-11e6-8a84-bae50000007f",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/demand/metadata",
+      "type": "demand",
+      "mediaType": "application/json"
+    },
+    "id": "f99544d7-4a98-11e6-8a84-bae50000007f",
+    "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+    "owner": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/faba7f37-2e58-11e6-8a84-bae500000028",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+        "type": "employee",
+        "mediaType": "application/json"
+      }
+    },
+    "shared": false,
+    "group": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/f97aa1fb-2e58-11e6-8a84-bae500000002",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+        "type": "group",
+        "mediaType": "application/json"
+      }
+    },
+    ...
+    "positions": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/demand/f99544d7-4a98-11e6-8a84-bae50000007f/positions",
+        "type": "demandposition",
+        "mediaType": "application/json",
+        "size": 2,
+        "limit": 100,
+        "offset": 0
+      }
+    },
+    "vatEnabled": true,
+    "vatIncluded": true,
+    "payedSum": 0,
+    "returns": [
+      {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/salesreturn/166909e6-4a99-11e6-8a84-bae500000089",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/salesreturn/metadata",
+          "type": "salesreturn",
+          "mediaType": "application/json"
+        }
+      }
+    ]
+  }
+}

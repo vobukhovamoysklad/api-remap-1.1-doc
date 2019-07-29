@@ -1,0 +1,18 @@
+[
+  {
+    "id": "24124124-4124-4124124",
+    "version": "1",
+    "updated": "2016-04-04 12:20:10",
+    "name": "Степан",
+    "description": "Бог прокрастинации",
+    "externalCode": "safsa6125461asfsa",
+    "email": "stepa@bog.ru",
+    "phone": "8495909090",
+    "position": "Подниматель пингвинов",
+    "agent": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/850efc5f-f504-11e5-8a84-bae500000161",
+      "type": "counterparty",
+      "mediaType": "application/json"
+    }
+  }
+]

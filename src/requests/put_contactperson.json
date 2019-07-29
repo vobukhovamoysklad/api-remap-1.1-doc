@@ -1,0 +1,61 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Имя контактного лица"
+    },
+    "description": {
+      "type": "string",
+      "description": "Описание контактного лица"
+    },
+    "externalCode": {
+      "type": "string",
+      "description": "Внешний код"
+    },
+    "email": {
+      "type": "string",
+      "description": "Адрес электронной почты контактного лица"
+    },
+    "phone": {
+      "type": "string",
+      "description": "Номер телефона контактного лица"
+    },
+    "position": {
+      "type": "string",
+      "description": "Должность, занимаемая контактным лицом"
+    },
+    "agent": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "href": {
+              "type": "string",
+              "description": "Ссылка на сущность"
+            },
+            "metadataHref": {
+              "type": "string",
+              "description": "Ссылка на метаданные сущности"
+            },
+            "type": {
+              "type": "string",
+              "description": "Тип сущности"
+            },
+            "mediaType": {
+              "type": "string",
+              "description": "Тип данных"
+            }
+          }
+        }
+      },
+      "required": [
+        "href",
+        "mediaType"
+      ],
+      "additionalProperties": false,
+      "description": "Агент"
+    }
+  }
+}

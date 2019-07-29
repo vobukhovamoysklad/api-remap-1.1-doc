@@ -1,0 +1,7 @@
+{
+  "name" : "Группа Овощи",
+  "code" : "vegetableFolderCode",
+  "externalCode" : "extVegCode",
+  "vat" : 5,
+  "effectiveVat":5
+}

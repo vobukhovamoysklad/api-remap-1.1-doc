@@ -1,0 +1,10 @@
+{
+	"internalOrder" : {
+		"meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/internalorder/64e426af-b0d8-11e6-8a84-bae500000064",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/internalorder/metadata",
+        "type": "internalorder",
+        "mediaType": "application/json"
+      }
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/f97aa1fb-2e58-11e6-8a84-bae500000002",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+    "type": "group",
+    "mediaType": "application/json"
+  },
+  "name": "Основной"
+}

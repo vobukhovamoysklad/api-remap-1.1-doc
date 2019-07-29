@@ -1,0 +1,94 @@
+{
+
+  "externalCode": "extCod1",
+  "moment": "2016-12-16 11:22:33",
+  "applicable": true,
+  "sum": 0,
+  "contract": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/contract/92df2d9c-ab02-11e6-8a84-bae500000084",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/contract/metadata",
+      "type": "contract",
+      "mediaType": "application/json"
+    }
+  },
+  "project": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/project/6c6dd3f9-97a1-11e6-8a84-bae500000002",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/project/metadata",
+      "type": "project",
+      "mediaType": "application/json"
+    }
+  },
+  "agent": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/b942c396-9128-11e6-8a84-bae500000056",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+      "type": "counterparty",
+      "mediaType": "application/json"
+    }
+  },
+  "organization": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/b9324d71-9128-11e6-8a84-bae500000051",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  },
+  "organizationAccount": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/b9324d71-9128-11e6-8a84-bae500000051/accounts/b932bc5b-9128-11e6-8a84-bae500000052",
+      "type": "account",
+      "mediaType": "application/json"
+    }
+  },
+  "positions": [
+    {
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/36eb1628-912b-11e6-8a84-bae500000124",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+          "type": "variant",
+          "mediaType": "application/json"
+        }
+      },
+      "quantity" : 12,
+      "price": 132.05,
+      "vat": 10,
+      "reward": 123
+    },
+    {
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/36edadbe-912b-11e6-8a84-bae500000128",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+          "type": "variant",
+          "mediaType": "application/json"
+        }
+      },
+      "quantity": 15,
+      "price": 99.399,
+      "vat": 0,
+      "reward": 100
+    }
+  ],
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/commissionreportout/metadata/attributes/4930a123-acda-11e6-8a84-bae50000006d",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "4930a123-acda-11e6-8a84-bae50000006d",
+      "value": "Newvalue"
+    }
+  ],
+  "vatEnabled": true,
+  "vatIncluded": true,
+  "vatSum": 0,
+  "commissionPeriodStart": "2016-11-01 10:07:00",
+  "commissionPeriodEnd": "2016-12-29 10:07:00",
+  "rewardType": "PercentOfSales",
+  "rewardPercent": 12
+}

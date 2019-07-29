@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/paymentout/64aa2e8c-3f95-11e6-8a84-bae50000010f",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/paymentout/metadata",
+    "type": "paymentout",
+    "mediaType": "application/json"
+  },
+  "id": "64aa2e8c-3f95-11e6-8a84-bae50000010f",
+  "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+  "owner": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/faba7f37-2e58-11e6-8a84-bae500000028",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "shared": false,
+  "group": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/f97aa1fb-2e58-11e6-8a84-bae500000002",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+      "type": "group",
+      "mediaType": "application/json"
+    }
+  },
+  "version": 2,
+  "updated": "2016-07-01 17:09:15",
+  "name": "00001",
+  "description": "Платим контрагенту",
+  "externalCode": "1PPP5fDei13CwEHXYUpV62",
+  "moment": "2016-07-01 17:07:00",
+  "applicable": true,
+  "rate": {
+    "currency": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/faf45b9a-2e58-11e6-8a84-bae500000055",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+        "type": "currency",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "sum": 12525000,
+  "organization": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/fae3561a-2e58-11e6-8a84-bae50000004e",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  },
+  "contract": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/contract/4680d884-3f95-11e6-8a84-bae50000010c",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/contract/metadata",
+      "type": "contract",
+      "mediaType": "application/json"
+    }
+  },
+  "project": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/project/722e39f0-313e-11e6-8a84-bae500000008",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/project/metadata",
+      "type": "project",
+      "mediaType": "application/json"
+    }
+  },
+  "agent": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/1496c09e-32ca-11e6-8a84-bae50000001b",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+      "type": "counterparty",
+      "mediaType": "application/json"
+    }
+  },
+  "organizationAccount": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/fae3561a-2e58-11e6-8a84-bae50000004e/accounts/fae39d66-2e58-11e6-8a84-bae50000004f",
+      "type": "account",
+      "mediaType": "application/json"
+    }
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/paymentout/metadata/attributes/ebc69be9-3f91-11e6-8a84-bae500000104",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "ebc69be9-3f91-11e6-8a84-bae500000104",
+      "name": "Поступил",
+      "type": "boolean",
+      "value": false
+    }
+  ],
+  "documents": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/paymentout/06406b97-9138-11e6-8a84-bae500000000/documents",
+      "mediaType": "application/json",
+      "size": 0,
+      "limit": 100,
+      "offset": 0
+    }
+  },
+  "paymentPurpose": "Оплата по счету за приёмку",
+  "expenseItem": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/expenseitem/1be2350e-0479-11e5-b03a-448a5b426e7e",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/expenseitem/metadata",
+      "type": "expenseitem",
+      "mediaType": "application/json"
+    }
+  },
+  "operations": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/supply/90ba347d-6b8b-11e6-8a84-bae5000000bd",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/supply/metadata",
+        "type": "supply",
+        "mediaType": "application/json"
+      },
+      "linkedSum": 80000
+    }
+  ]
+}

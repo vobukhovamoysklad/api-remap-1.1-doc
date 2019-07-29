@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/14553caa-2cb2-11e6-8a84-bae500000026",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+    "type": "variant",
+    "mediaType": "application/json"
+  },
+  "id": "14553caa-2cb2-11e6-8a84-bae500000026",
+  "accountId": "da7d9bbe-2c97-11e6-8a84-bae500000001",
+  "version": 0,
+  "updated": "2016-06-07 16:16:43",
+  "name": "Банан (оверспелый, черный)",
+  "code": "00011",
+  "externalCode": "tQcC7LdEjTZMh85Em6FTW1",
+  "archived": false,
+  "characteristics": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata/characteristics/627610e3-2cb1-11e6-8a84-bae500000054",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "627610e3-2cb1-11e6-8a84-bae500000054",
+      "name": "Спелость",
+      "value": "оверспелый"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata/characteristics/627617d8-2cb1-11e6-8a84-bae500000055",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "627617d8-2cb1-11e6-8a84-bae500000055",
+      "name": "Цвет",
+      "value": "черный"
+    }
+  ],
+  "minPrice": 10,
+  "buyPrice": {
+    "value": 20
+  },
+  "salePrices": [
+    {
+      "value": 900,
+      "priceType": "Цена продажи"
+    },
+    {
+      "value": 102,
+      "priceType": "Цена для друзей"
+    },
+    {
+      "value": 0,
+      "priceType": "Цена для конкурентов"
+    }
+  ],
+  "barcodes": [
+    "2890000006311"
+  ],
+  "product": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/86951fbe-2cb0-11e6-8a84-bae500000043",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+      "type": "product",
+      "mediaType": "application/json"
+    }
+  }
+}

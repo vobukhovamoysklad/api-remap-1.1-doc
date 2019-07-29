@@ -1,0 +1,33 @@
+{
+  "owner": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/f3c5d206-dafc-4eb3-8678-f97e76964e1d",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "shared": true,
+  "name": "000722",
+  "description": "Приходный ордер созданный и изменённый через API",
+  "code": "333712366",
+  "externalCode": "103kek312",
+  "moment": "2016-06-10 09:52:24",
+  "applicable": false,
+  "sum": 555000,
+  "paymentPurpose": "Оплата заказа №0046",
+  "attributes":[
+    {
+      "id": "c57c1f22-3fae-11e6-8a84-bae500000142",
+      "value" : 12
+    },
+    {
+      "id": "c57c2526-3fae-11e6-8a84-bae500000143",
+      "value": true
+    },
+    {
+      "id": "c57c2a5c-3fae-11e6-8a84-bae500000144",
+      "value": 3.13
+    }
+  ]
+}

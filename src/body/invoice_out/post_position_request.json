@@ -1,0 +1,13 @@
+{
+  "quantity": 12,
+  "price": 999,
+  "discount": 1,
+  "assortment": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/671402e4-f7d2-11e5-8a84-bae50000007c",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+      "type": "variant",
+      "mediaType": "application/json"
+    }
+  }
+}

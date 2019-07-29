@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/6314188d-2c7f-11e6-8a84-bae500000055",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+    "type": "currency",
+    "mediaType": "application/json"
+  },
+  "system": false,
+  "name": "руб",
+  "fullName": "Рубль",
+  "rate": 1.0,
+  "multiplicity": 1,
+  "indirect": false,
+  "rateUpdateType": "manual",
+  "code": "643",
+  "isoCode": "RUB",
+  "majorUnit": {
+    "gender": "masculine",
+    "s1": "рубль",
+    "s2": "рубля",
+    "s5": "рублей"
+  },
+  "minorUnit": {
+    "gender": "feminine",
+    "s1": "копейка",
+    "s2": "копейки",
+    "s5": "копеек"
+  },
+  "archived": false,
+  "default": true
+}

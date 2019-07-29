@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/paymentin/metadata",
+    "mediaType": "application/json"
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/paymentin/metadata/attributes/fd6114e2-3f91-11e6-8a84-bae500000107",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "fd6114e2-3f91-11e6-8a84-bae500000107",
+      "name": "Доля",
+      "type": "long",
+      "required": false
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/paymentin/metadata/attributes/fd611bc1-3f91-11e6-8a84-bae500000108",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "fd611bc1-3f91-11e6-8a84-bae500000108",
+      "name": "Попытки",
+      "type": "long",
+      "required": false
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/paymentin/metadata/attributes/fd612138-3f91-11e6-8a84-bae500000109",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "fd612138-3f91-11e6-8a84-bae500000109",
+      "name": "Поступил",
+      "type": "boolean",
+      "required": false
+    }
+  ],
+  "states": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/paymentin/metadata/states/ab8f5213-3f8e-11e6-8a84-bae5000000f5",
+        "type": "state",
+        "mediaType": "application/json"
+      },
+      "id": "ab8f5213-3f8e-11e6-8a84-bae5000000f5",
+      "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+      "name": "Оформлен",
+      "color": 10066329,
+      "stateType": "Regular",
+      "entityType": "paymentin"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/paymentin/metadata/states/ab8f5a56-3f8e-11e6-8a84-bae5000000f6",
+        "type": "state",
+        "mediaType": "application/json"
+      },
+      "id": "ab8f5a56-3f8e-11e6-8a84-bae5000000f6",
+      "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+      "name": "Переведён",
+      "color": 10066329,
+      "stateType": "Regular",
+      "entityType": "paymentin"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/paymentin/metadata/states/ab8f612b-3f8e-11e6-8a84-bae5000000f7",
+        "type": "state",
+        "mediaType": "application/json"
+      },
+      "id": "ab8f612b-3f8e-11e6-8a84-bae5000000f7",
+      "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+      "name": "Получен",
+      "color": 10066329,
+      "stateType": "Regular",
+      "entityType": "paymentin"
+    }
+  ],
+  "createShared": false
+}

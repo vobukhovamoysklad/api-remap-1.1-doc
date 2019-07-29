@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Наименование единицы измерения"
+    },
+    "description": {
+      "type": "string",
+      "description": "Описание единицы измерения"
+    },
+    "code": {
+      "type": "string",
+      "description": "Код сущности"
+    },
+    "externalCode": {
+      "type": "string",
+      "description": "Внешний код сущности"
+    }
+  },
+  "additionalProperties": false
+}

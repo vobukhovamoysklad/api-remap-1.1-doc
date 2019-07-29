@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "href": "http://online.moysklad.ru/api/remap/1.1/entity/pricelist/d983f7fc-afef-11e6-8af5-581e00000050",
+    "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/pricelist/metadata",
+    "type": "pricelist",
+    "mediaType": "application/json"
+  },
+  "id": "d983f7fc-afef-11e6-8af5-581e00000050",
+  "accountId": "9560e3e3-9609-11e6-8af5-581e00000008",
+  "owner": {
+    "meta": {
+      "href": "http://online.moysklad.ru/api/remap/1.1/entity/employee/9575ba6d-9609-11e6-8af5-581e000000ad",
+      "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "shared": false,
+  "group": {
+    "meta": {
+      "href": "http://online.moysklad.ru/api/remap/1.1/entity/group/956169fa-9609-11e6-8af5-581e00000009",
+      "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+      "type": "group",
+      "mediaType": "application/json"
+    }
+  },
+  "version": 0,
+  "updated": "2016-11-21 16:38:56",
+  "name": "Прайс-лист от 21.11.2016 (8)",
+  "externalCode": "rZNA7Lf3hWJwwpGy5HMoN1",
+  "moment": "2016-11-21 16:38:56",
+  "applicable": true,
+  "organization": {
+    "meta": {
+      "href": "http://online.moysklad.ru/api/remap/1.1/entity/organization/95920812-9609-11e6-8af5-581e000000d4",
+      "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  },
+  "documents": {
+    "meta": {
+      "href": "http://online.moysklad.ru/api/remap/1.1/entity/pricelist/d983f7fc-afef-11e6-8af5-581e00000050/documents",
+      "mediaType": "application/json",
+      "size": 0,
+      "limit": 100,
+      "offset": 0
+    }
+  },
+  "created": "2007-02-07 17:16:41",
+  "positions": {
+    "meta": {
+      "href": "http://online.moysklad.ru/api/remap/1.1/entity/pricelist/d983f7fc-afef-11e6-8af5-581e00000050/positions",
+      "type": "pricelistrow",
+      "mediaType": "application/json",
+      "size": 1,
+      "limit": 100,
+      "offset": 0
+    }
+  },
+  "priceType": "Закупочные",
+  "columns": [
+    {
+      "name": "обычная колонка"
+    }
+  ]
+}

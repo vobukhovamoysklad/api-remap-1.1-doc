@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/factureout/metadata",
+    "mediaType": "application/json"
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/factureout/metadata/attributes/8b0b6c1d-aa6f-11e6-8a84-bc520000008a",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "8b0b6c1d-aa6f-11e6-8a84-bc520000008a",
+      "name": "доп поле",
+      "type": "string",
+      "required": false
+    }
+  ],
+  "states": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/factureout/metadata/states/e1115474-aa6e-11e6-8a84-bc520000007c",
+        "type": "state",
+        "mediaType": "application/json"
+      },
+      "id": "e1115474-aa6e-11e6-8a84-bc520000007c",
+      "accountId": "c3cc7e30-99bb-11e6-8a84-bc5200000001",
+      "name": "rewtret",
+      "color": 10066329,
+      "stateType": "Regular",
+      "entityType": "factureout"
+    }
+  ],
+  "createShared": false
+}

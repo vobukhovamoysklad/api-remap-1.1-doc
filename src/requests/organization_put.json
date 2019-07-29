@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Наименование заказа покупателя"
+    },
+    "description": {
+      "type": "string",
+      "description": "Описание"
+    },
+    "code": {
+      "type": "string",
+      "description": "Код"
+    },
+    "externalCode": {
+      "type": "string",
+      "description": "Внешний код"
+    },
+    "archived": {
+      "type": "boolean",
+      "description": "Добавлена операция в архив"
+    },
+    "legalTitle": {
+      "type": "string",
+      "description": "Полное наименование"
+    },
+    "legalAddress": {
+      "type": "string",
+      "description": "Юридический адрес"
+    },
+    "actualAddress": {
+      "type": "string",
+      "description": "Фактический адрес"
+    },
+    "inn": {
+      "type": "string",
+      "description": "ИНН"
+    },
+    "kpp": {
+      "type": "string",
+      "description": "КПП"
+    },
+    "ogrn": {
+      "type": "string",
+      "description": "ОГРН"
+    },
+    "okpo": {
+      "type": "string",
+      "description": "ОКПО"
+    },
+    "ogrnip": {
+      "type": "string",
+      "description": "ОГРНИП"
+    },
+    "certificateNumber": {
+      "type": "string",
+      "description": "Номер свидетельства"
+    },
+    "certificateDate": {
+      "type": "string",
+      "description": "Дата свиделтельства"
+    },
+    "email": {
+      "type": "string",
+      "description": "Электронная почта"
+    },
+    "phone": {
+      "type": "string",
+      "description": "Телефон"
+    },
+    "fax": {
+      "type": "string",
+      "description": "Факс"
+    },
+    "attributes": {
+      "type": "array",
+      "items": [
+        {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "description" : "ID доп. поля"
+            },
+            "value": {
+              "type": "string",
+              "description" : "Значение доп. поля (должно соответствовать типу доп. поля)"
+            }
+          },
+          "required": [
+            "id",
+            "value"
+          ]
+        }
+      ],
+      "description": "Доп. поля"
+    }
+  }
+}

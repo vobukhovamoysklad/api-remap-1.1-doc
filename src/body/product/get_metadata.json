@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/product",
+    "mediaType": "application/json"
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata/attributes/0c2e54cd-2c80-11e6-8a84-bae50000009c",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "0c2e54cd-2c80-11e6-8a84-bae50000009c",
+      "name": "Экспорт",
+      "type": "boolean",
+      "required": false
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata/attributes/0c2e5dc5-2c80-11e6-8a84-bae50000009d",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "0c2e5dc5-2c80-11e6-8a84-bae50000009d",
+      "name": "Изготовитель",
+      "type": "string",
+      "required": false
+    }
+  ],
+  "priceTypes": [
+    {
+      "name": "Цена продажи"
+    },
+    {
+      "name": "Цена для друзей"
+    }
+  ],
+  "createShared": true
+}

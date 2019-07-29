@@ -1,0 +1,18 @@
+{
+    "code": "ke21k421c1o42n4signment12",
+    "externalCode": "fbajkwbfu1249SACSKW241LKSFA2sa1",
+    "description": "Серии товаров с таким названием лучше отслеживать",
+    "label": "Странный товар",
+    "barcodes": [
+        "123123123123123",
+        "321321321321321"
+    ],
+    "assortment": {
+        "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/7a81082f-3c64-11e6-8a84-bae50000000e",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+        "type": "variant",
+        "mediaType": "application/json"
+      }
+    }
+}

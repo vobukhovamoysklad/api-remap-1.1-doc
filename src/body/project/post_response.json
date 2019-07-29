@@ -1,0 +1,34 @@
+{
+    "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/project/2c013eeb-0af0-11e6-9464-e4de00000026",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/project/metadata",
+        "type": "project",
+        "mediaType": "application/json"
+    },
+    "id": "2c013eeb-0af0-11e6-9464-e4de00000026",
+    "accountId": "84e60e93-f504-11e5-8a84-bae500000008",
+    "owner": {
+        "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/faba7f37-2e58-11e6-8a84-bae500000028",
+            "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+            "type": "employee",
+            "mediaType": "application/json"
+        }
+    },
+    "shared": false,
+    "group": {
+        "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/f97aa1fb-2e58-11e6-8a84-bae500000002",
+            "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+            "type": "group",
+            "mediaType": "application/json"
+        }
+    },
+    "version": 0,
+    "updated": "2016-04-25 17:15:32",
+    "name": "Проект по вертикальной интеграциии с Поставщиком",
+    "description": "Интеграция с основным контрагентом",
+    "code": "006",
+    "externalCode": "814fhsafiwb124",
+    "archived": false
+}

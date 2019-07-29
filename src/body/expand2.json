@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/salesreturn/166909e6-4a99-11e6-8a84-bae500000089?expand=demand,demand.agent",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/salesreturn/metadata",
+    "type": "salesreturn",
+    "mediaType": "application/json"
+  },
+  ...
+  "demand": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/demand/f99544d7-4a98-11e6-8a84-bae50000007f?expand=agent",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/demand/metadata",
+      "type": "demand",
+      "mediaType": "application/json"
+    },
+    ...
+    "agent": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/147c1f1b-32ca-11e6-8a84-bae500000004",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+        "type": "counterparty",
+        "mediaType": "application/json"
+      },
+      ...
+      "name": "Агент1",
+      "code": "УТ0003074",
+      "externalCode": "kAgs4Xbhiz2Sp5oP2OCaB2",
+      "archived": false,
+      "legalTitle": "Общество с ограниченной ответственностью «Агент1»",
+      "legalAddress": "107023, г. Москва, Барабанный переулок, дом № 42, строение 2",
+      "inn": "7719864242",
+      "kpp": "771901001",
+      ...
+    },
+    ...
+    "positions": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/demand/f99544d7-4a98-11e6-8a84-bae50000007f/positions",
+        "type": "demandposition",
+        "mediaType": "application/json",
+        "size": 2,
+        "limit": 100,
+        "offset": 0
+      }
+    },
+    "vatEnabled": true,
+    "vatIncluded": true,
+    "payedSum": 0,
+    "returns": [
+      {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/salesreturn/166909e6-4a99-11e6-8a84-bae500000089",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/salesreturn/metadata",
+          "type": "salesreturn",
+          "mediaType": "application/json"
+        }
+      }
+    ]
+  }
+  ...
+}

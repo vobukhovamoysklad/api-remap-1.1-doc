@@ -1,0 +1,25 @@
+[
+    {
+    	"meta": {
+                "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/d955aa70-6703-11e7-9464-e4de00000051/accounts/d9560d0e-6703-11e7-9464-e4de00000052",
+                "type": "account",
+                "mediaType": "application/json"
+            },
+            "id": "d9560d0e-6703-11e7-9464-e4de00000052",
+      "isDefault": false,
+      "accountNumber": "1234567876543",
+      "bankName": "\"ОАО Сбербm;анк\"",
+      "bankLocation": "г Моl;;lсква",
+      "correspondentAccount": "12314124jkjj2451",
+      "bic": "21412hhhh4"
+    },
+    {
+
+      "isDefault": false,
+      "accountNumber": "1234567876543",
+      "bankName": "\"ОАО БАНК\"",
+      "bankLocation": "г Москва",
+      "correspondentAccount": "12314124jkjj2451",
+      "bic": "21412555554"
+    }
+]

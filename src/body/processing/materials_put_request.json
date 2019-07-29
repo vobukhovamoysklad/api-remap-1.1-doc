@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/processing/34efe2ee-015e-11e6-9464-e4de0000006b/materials/34f6344f-015e-11e6-9464-e4de0000006c",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/processing/metadata",
+    "type": "processingpositionmaterial",
+    "mediaType": "application/json"
+  },
+  "id": "34f6344f-015e-11e6-9464-e4de0000006c",
+  "quantity": 111,
+  "assortment": {
+     "meta": {
+         "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/eeef177f-f648-11e5-8a84-bae50000007a",
+         "type": "product",
+         "mediaType": "application/json"
+     }
+  }
+}

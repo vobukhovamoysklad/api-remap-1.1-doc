@@ -1,0 +1,73 @@
+{
+  "name" : "103034",
+  "description": "Типичный заказ поставщику",
+  "organization": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/fae3561a-2e58-11e6-8a84-bae50000004e",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  },
+  "code" : "404",
+  "moment": "2016-12-05 15:30:14",
+  "applicable": true,
+  "vatEnabled": true,
+  "vatIncluded": true,
+  "agent": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/1483952f-32ca-11e6-8a84-bae500000007",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+      "type": "counterparty",
+      "mediaType": "application/json"
+    }
+  },
+  "state": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchaseorder/metadata/states/11f5becd-3f70-11e6-8a84-bae50000008b",
+      "type": "state",
+      "mediaType": "application/json"
+    }
+  },
+  "store": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/store/faf3ff5b-2e58-11e6-8a84-bae500000050",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+      "type": "store",
+      "mediaType": "application/json"
+    }
+  },
+  "contract": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/contract/e105a2e7-3f6f-11e6-8a84-bae500000087",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/contract/metadata",
+      "type": "contract",
+      "mediaType": "application/json"
+    }
+  },
+  "rate": {
+    "currency": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/cdbc62de-3f68-11e6-8a84-bae500000050",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+        "type": "currency",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "deliveryPlannedMoment": "2015-02-15 14:12:19",
+  "attributes": [
+    {
+      "id": "6a885b1b-3f70-11e6-8a84-bae50000009d",
+      "value": "Черный"
+    },
+    {
+      "id": "6a88619c-3f70-11e6-8a84-bae50000009e",
+      "value": 0.4
+    },
+    {
+      "id": "6a886744-3f70-11e6-8a84-bae50000009f",
+      "value": true
+    }
+  ]
+}

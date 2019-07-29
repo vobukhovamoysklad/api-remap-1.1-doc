@@ -1,0 +1,62 @@
+[
+  {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/internalorder/64e426af-b0d8-11e6-8a84-bae500000064/positions/705ff11b-b305-11e6-8a84-bae50000000c",
+      "type": "internalorderposition",
+      "mediaType": "application/json"
+    },
+    "id": "705ff11b-b305-11e6-8a84-bae50000000c",
+    "accountId": "b8b74698-9128-11e6-8a84-bae500000001",
+    "quantity": 1,
+    "price": 100,
+    "vat": 10,
+    "assortment": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/f4ac4460-acf7-11e6-8a84-bae500000068",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/internalorder/64e426af-b0d8-11e6-8a84-bae500000064/positions/705ffca0-b305-11e6-8a84-bae50000000d",
+      "type": "internalorderposition",
+      "mediaType": "application/json"
+    },
+    "id": "705ffca0-b305-11e6-8a84-bae50000000d",
+    "accountId": "b8b74698-9128-11e6-8a84-bae500000001",
+    "quantity": 12,
+    "price": 200,
+    "vat": 18,
+    "assortment": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/f4ac4460-acf7-11e6-8a84-bae500000068",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/internalorder/64e426af-b0d8-11e6-8a84-bae500000064/positions/706006cd-b305-11e6-8a84-bae50000000e",
+      "type": "internalorderposition",
+      "mediaType": "application/json"
+    },
+    "id": "706006cd-b305-11e6-8a84-bae50000000e",
+    "accountId": "b8b74698-9128-11e6-8a84-bae500000001",
+    "quantity": 3,
+    "price": 2230,
+    "vat": 0,
+    "assortment": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/f4ac4460-acf7-11e6-8a84-bae500000068",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json"
+      }
+    }
+  }
+]

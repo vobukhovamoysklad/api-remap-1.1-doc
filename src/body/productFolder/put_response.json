@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/productfolder/3ea73e1a-2cad-11e6-8a84-bae50000001d",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/productfolder/metadata",
+    "type": "productfolder",
+    "mediaType": "application/json"
+  },
+  "id": "3ea73e1a-2cad-11e6-8a84-bae50000001d",
+  "accountId": "da7d9bbe-2c97-11e6-8a84-bae500000001",
+  "owner": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/faba7f37-2e58-11e6-8a84-bae500000028",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "shared": false,
+  "group": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/f97aa1fb-2e58-11e6-8a84-bae500000002",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+      "type": "group",
+      "mediaType": "application/json"
+    }
+  },
+  "version": 1,
+  "updated": "2016-06-07 15:45:28",
+  "name": "Группа Овощи",
+  "code": "vegetableFolderCode",
+  "externalCode": "extVegCode",
+  "archived": false,
+  "pathName": "",
+  "vat": 5,
+  "effectiveVat": 5
+}

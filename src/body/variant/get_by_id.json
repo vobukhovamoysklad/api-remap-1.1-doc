@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/7a81082f-3c64-11e6-8a84-bae50000000e",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+    "type": "variant",
+    "mediaType": "application/json"
+  },
+  "id": "7a81082f-3c64-11e6-8a84-bae50000000e",
+  "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+  "owner": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/faba7f37-2e58-11e6-8a84-bae500000028",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "shared": true,
+  "group": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/f97aa1fb-2e58-11e6-8a84-bae500000002",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+      "type": "group",
+      "mediaType": "application/json"
+    }
+  },
+  "version": 0,
+  "updated": "2016-06-27 15:41:33",
+  "name": "фацфацфвф (обхец)",
+  "code": "00003",
+  "externalCode": "YQ3kNHfDgtHOVhf20Md7Q0",
+  "archived": false,
+  "characteristics": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata/characteristics/7a6078e4-3c64-11e6-8a84-bae500000003",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "7a6078e4-3c64-11e6-8a84-bae500000003",
+      "name": "Цвет",
+      "value": "обхец"
+    }
+  ],
+  "salePrices": [
+    {
+      "value": 0,
+      "priceType": "Цена продажи"
+    },
+    {
+      "value": 0,
+      "priceType": "Цена для друзей"
+    },
+    {
+      "value": 0,
+      "priceType": "Цена для конкурентов"
+    }
+  ],
+  "barcodes": [
+    "2000000178998"
+  ],
+  "product": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/7a6f697f-3c64-11e6-8a84-bae500000006",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+      "type": "product",
+      "mediaType": "application/json"
+    }
+  }
+}

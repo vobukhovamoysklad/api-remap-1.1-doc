@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/prepayment/metadata/attributes/7c60b035-38df-11e9-ac12-000c0000004a",
+    "type": "attributemetadata",
+    "mediaType": "application/json"
+  },
+  "id": "7c60b035-38df-11e9-ac12-000c0000004a",
+  "name": "Label",
+  "type": "string",
+  "required": false
+}

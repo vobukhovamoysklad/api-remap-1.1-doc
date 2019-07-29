@@ -1,0 +1,10 @@
+{
+  "salesReturn": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/salesreturn/166909e6-4a99-11e6-8a84-bae500000089",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/salesreturn/metadata",
+      "type": "salesreturn",
+      "mediaType": "application/json"
+    }
+  }
+}

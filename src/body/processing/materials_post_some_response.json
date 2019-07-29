@@ -1,0 +1,59 @@
+[
+    {
+        "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.1/entity/processing/34efe2ee-015e-11e6-9464-e4de0000006b/materials/eb93683d-01be-11e6-9464-e4de0000003c",
+            "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/processing/metadata",
+            "type": "processingpositionmaterial",
+            "mediaType": "application/json"
+        },
+        "id": "eb93683d-01be-11e6-9464-e4de0000003c",
+        "accountId": "84e60e93-f504-11e5-8a84-bae500000008",
+        "quantity": 10,
+        "assortment": {
+            "meta": {
+                "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/8b382799-f7d2-11e5-8a84-bae5000003a5",
+                "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+                "type": "product",
+                "mediaType": "application/json"
+            }
+        }
+    },
+    {
+        "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.1/entity/processing/34efe2ee-015e-11e6-9464-e4de0000006b/materials/eb937351-01be-11e6-9464-e4de0000003d",
+            "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/processing/metadata",
+            "type": "processingpositionmaterial",
+            "mediaType": "application/json"
+        },
+        "id": "eb937351-01be-11e6-9464-e4de0000003d",
+        "accountId": "84e60e93-f504-11e5-8a84-bae500000008",
+        "quantity": 20,
+        "assortment": {
+            "meta": {
+                "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/be903062-f504-11e5-8a84-bae50000019a",
+                "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+                "type": "product",
+                "mediaType": "application/json"
+            }
+        }
+    },
+    {
+        "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.1/entity/processing/34efe2ee-015e-11e6-9464-e4de0000006b/materials/eb937d66-01be-11e6-9464-e4de0000003e",
+            "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/processing/metadata",
+            "type": "processingpositionmaterial",
+            "mediaType": "application/json"
+        },
+        "id": "eb937d66-01be-11e6-9464-e4de0000003e",
+        "accountId": "84e60e93-f504-11e5-8a84-bae500000008",
+        "quantity": 30,
+        "assortment": {
+            "meta": {
+                "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/c02e3a5c-007e-11e6-9464-e4de00000006",
+                "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+                "type": "product",
+                "mediaType": "application/json"
+            }
+        }
+    }
+]

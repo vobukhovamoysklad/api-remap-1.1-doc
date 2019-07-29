@@ -1,0 +1,13 @@
+{
+  "payments": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/paymentin/f69cb6ec-6d45-11e7-6adb-ede50000001c",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/paymentin/metadata",
+        "type": "paymentin",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#paymentin/edit?id=f69cb6ec-6d45-11e7-6adb-ede50000001c"
+      }
+    }
+  ]
+}

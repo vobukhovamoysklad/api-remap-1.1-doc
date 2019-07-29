@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/enter/2e12d827-5338-11e6-8a84-bae50000008e/positions/7ffb0be4-5339-11e6-8a84-bae500000016",
+    "type": "enterposition",
+    "mediaType": "application/json"
+  },
+  "id": "7ffb0be4-5339-11e6-8a84-bae500000016",
+  "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+  "quantity": 3,
+  "price": 333444,
+  "assortment": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/7a83c422-3c64-11e6-8a84-bae500000012",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+      "type": "variant",
+      "mediaType": "application/json"
+    }
+  },
+  "reason": "Обновлённая причина",
+  "overhead": 0
+}

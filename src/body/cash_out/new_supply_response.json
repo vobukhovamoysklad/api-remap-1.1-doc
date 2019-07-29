@@ -1,0 +1,53 @@
+{
+  "applicable": true,
+  "rate": {
+    "currency": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/baac25f0-50ac-11e5-300d-c79b00000055",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+        "type": "currency",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "sum": 0,
+  "agent": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/b942c396-9128-11e6-8a84-bae500000056",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+      "type": "counterparty",
+      "mediaType": "application/json"
+    }
+  },
+  "organization": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/b9324d71-9128-11e6-8a84-bae500000051",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  },
+  "documents": {
+    "rows": []
+  },
+  "paymentPurpose": "Оплата по накладной № 123 от 2016-10-14 12:46:00. Сумма: 0,00 без НДС",
+  "operations": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/supply/0f57efd5-91f3-11e6-8a84-bae500000086",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/supply/metadata",
+        "type": "supply",
+        "mediaType": "application/json"
+      },
+      "linkedSum": 0
+    }
+  ],
+  "expenseItem": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/expenseitem/1be2350e-0479-11e5-b03a-448a5b426e7e",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/expenseitem/metadata",
+      "type": "expenseitem",
+      "mediaType": "application/json"
+    }
+  }
+}

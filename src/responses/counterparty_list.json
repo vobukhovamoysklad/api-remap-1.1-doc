@@ -1,0 +1,326 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "context": {
+      "type": "object",
+      "properties": {
+        "employee": {
+          "meta": {
+            "type": "object",
+            "properties": {
+              "type": "object",
+              "properties": {
+                "href": {
+                  "type": "string",
+                  "description": "Ссылка на сущность"
+                },
+                "type": {
+                  "type": "string",
+                  "description": "Тип сущности"
+                },
+                "mediaType": {
+                  "type": "string",
+                  "description": "Тип данных"
+                }
+              }
+            }
+          },
+          "required": [
+            "href",
+            "mediaType"
+          ],
+          "description": "Сотрудник, от имени которого обрабатывается запрос"
+        }
+      },
+      "required": [
+        "employee"
+      ]
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "href": {
+          "type": "string",
+          "description": "Ссылка на сущность"
+        },
+        "metadataHref": {
+          "type": "string",
+          "description": "Ссылка на метаданные сущности"
+        },
+        "type": {
+          "type": "string",
+          "description": "Тип сущности"
+        },
+        "mediaType": {
+          "type": "string",
+          "description": "Тип данных"
+        },
+        "size": {
+          "type": "number",
+          "description": "Количество сущностей"
+        },
+        "limit": {
+          "type": "number",
+          "description": "Лимит сущностей"
+        },
+        "offset": {
+          "type": "number",
+          "description": "Отступ в списке сущностей"
+        }
+      },
+      "required": [
+        "href",
+        "mediaType"
+      ]
+    },
+    "rows": {
+      "type": "array",
+      "items": [
+        {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "type": "object",
+          "properties": {
+            "meta": {
+              "type": "object",
+              "properties": {
+                "href": {
+                  "type": "string",
+                  "description": "Ссылка на сущность"
+                },
+                "metadataHref": {
+                  "type": "string",
+                  "description": "Ссылка на метаданные сущности"
+                },
+                "type": {
+                  "type": "string",
+                  "description": "Тип сущности"
+                },
+                "mediaType": {
+                  "type": "string",
+                  "description": "Тип данных"
+                }
+              },
+              "required": [
+                "href",
+                "mediaType"
+              ],
+              "description": "metaData"
+            },
+            "id": {
+              "type": "string",
+              "description": "ID в формате UUID"
+            },
+            "accountId": {
+              "type": "string",
+              "description": "ID учетной записи"
+            },
+            "syncId": {
+              "type": "string",
+              "description": "ID в формате UUID"
+            },
+            "name": {
+              "type": "string",
+              "description": "Имя Контрагента"
+            },
+            "description": {
+              "type": "string",
+              "description": "Описание Контрагента"
+            },
+            "code": {
+              "type": "string"
+            },
+            "externalCode": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string",
+              "description": "эл почта"
+            },
+            "phone": {
+              "type": "string",
+              "description": "номер телефома"
+            },
+            "fax": {
+              "type": "string",
+              "description": "факс"
+            },
+            "actualAddress": {
+              "type": "string",
+              "description": "адрес"
+            },
+            "accounts": {
+              "type": "object",
+              "properties": {
+                "meta": {
+                  "type": "object",
+                  "properties": {
+                    "href": {
+                      "type": "string",
+                      "description": "Ссылка на сущность"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Тип сущности"
+                    },
+                    "mediaType": {
+                      "type": "string",
+                      "description": "Тип данных"
+                    },
+                    "size": {
+                      "type": "number",
+                      "description": "Количество сущностей"
+                    },
+                    "limit": {
+                      "type": "number",
+                      "description": "Лимит сущностей"
+                    },
+                    "offset": {
+                      "type": "number",
+                      "description": "Отступ в списке сущностей"
+                    },
+                    "description": "ссылка на массив счетов Контрагента"
+                  }
+                }
+              },
+              "required": [
+                "href",
+                "mediaType"
+              ],
+              "description": "Ссылка на массив счетов контрагента"
+            },
+            "legalTitle": {
+              "type": "string",
+              "description": "Полное наименование"
+            },
+            "legalAddress": {
+              "type": "string",
+              "description": "Юридический адрес"
+            },
+            "inn": {
+              "type": "string",
+              "description": "ИНН"
+            },
+            "kpp": {
+              "type": "string",
+              "description": "КПП"
+            },
+            "ogrn": {
+              "type": "string",
+              "description": "ОГРН"
+            },
+            "okpo": {
+              "type": "string",
+              "description": "ОКПО"
+            },
+            "tags": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ],
+              "description": "Группы контрагента."
+            },
+            "contactpersons": {
+              "type": "object",
+              "properties": {
+                "meta": {
+                  "type": "object",
+                  "properties": {
+                    "href": {
+                      "type": "string",
+                      "description": "Ссылка на сущность"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Тип сущности"
+                    },
+                    "mediaType": {
+                      "type": "string",
+                      "description": "Тип данных"
+                    },
+                    "size": {
+                      "type": "number",
+                      "description": "Количество сущностей"
+                    },
+                    "limit": {
+                      "type": "number",
+                      "description": "Лимит сущностей"
+                    },
+                    "offset": {
+                      "type": "number",
+                      "description": "Отступ в списке сущностей"
+                    }
+                  }
+                }
+              },
+              "required": [
+                "href",
+                "mediaType"
+              ],
+              "description": "Ссылка на массив контактных лиц Контрагента"
+            },
+            "attributes": {
+              "type": "array",
+              "items": [
+                {
+                  "$schema": "http://json-schema.org/draft-04/schema#",
+                  "type": "object",
+                  "properties": {
+                    "meta": {
+                      "type" : "object",
+                      "properties": {
+                        "href": {
+                          "type": "string",
+                          "description" : "Ссылка на представление доп поля"
+                        },
+                        "type": {
+                          "type": "string",
+                          "description": "Тип доп поля"
+                        },
+                        "mediaType": {
+                          "type": "string",
+                          "description" : "json"
+                        }
+                      }
+                    },
+                    "id": {
+                      "type": "string",
+                      "description" : "ID доп. поля"
+                    },
+                    "name": {
+                      "type": "string",
+                      "description" : "Наименование доп. поля"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description" : "Тип доп. поля"
+                    },
+                    "value": {
+                      "type": "string",
+                      "description" : "Значение доп. поля (должно соответствовать типу доп. поля)"
+                    }
+                  }
+                }
+              ],
+              "description": "Доп. поля"
+            }
+          },
+          "required": [
+            "accounts",
+            "tags",
+            "contactpersons"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Массив Контрагентов"
+    }
+  },
+  "required": [
+    "context",
+    "Meta",
+    "rows"
+  ]
+}

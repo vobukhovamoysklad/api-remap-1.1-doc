@@ -1,0 +1,10 @@
+{
+  "quantity": 49,
+  "assortment": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/66ccbc9f-f7d2-11e5-8a84-bae500000076",
+      "type": "product",
+      "mediaType": "application/json"
+    }
+  }
+ }

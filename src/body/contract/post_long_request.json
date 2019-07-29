@@ -1,0 +1,32 @@
+{
+  "name": "00000011111",
+  "description" : "Договор с партнёрской организацией ООО Солнышко",
+  "code" : "contractWithPartner",
+  "externalCode" : "extC12fd12a",
+  "moment": "2016-07-06 12:53:22",
+  "sum": 200000,
+  "contractType": "Sales",
+  "ownAgent" : {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/db141159-2c97-11e6-8a84-bae50000004e",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  },
+  "agent" : {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/2e6aa620-2c98-11e6-8a84-bae500000004",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+      "type": "counterparty",
+      "mediaType": "application/json"
+    }
+  },
+  "state": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/contract/metadata/states/fb56c504-2e58-11e6-8a84-bae500000069",
+      "type": "state",
+      "mediaType": "application/json"
+    }
+  }
+}

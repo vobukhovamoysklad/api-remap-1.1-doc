@@ -1,0 +1,61 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "ID в формате UUID"
+    },
+    "accountId": {
+      "type": "string",
+      "description": "ID учетной записи"
+    },
+    "quantity": {
+      "type": "number",
+      "description": "Количество товаров/услуг данного вида в возврате поставщику"
+    },
+    "price": {
+      "type": "number",
+      "description": "Стоимость позиции "
+    },
+    "discount": {
+      "type": "number",
+      "description": "Процент скидки"
+    },
+    "vat": {
+      "type": "number",
+      "description": "НДС"
+    },
+    "assortment": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "href": {
+              "type": "string",
+              "description": "Ссылка на сущность"
+            },
+            "metadataHref": {
+              "type": "string",
+              "description": "Ссылка на метаданные сущности"
+            },
+            "type": {
+              "type": "string",
+              "description": "Тип сущности"
+            },
+            "mediaType": {
+              "type": "string",
+              "description": "Тип данных"
+            }
+          }
+        }
+      },
+      "required": [
+        "href",
+        "mediaType"
+      ],
+      "additionalProperties": false,
+      "description": "Ссылка на продукт/услугу, который(ую) представляет данная позиция"
+    }
+  }
+}

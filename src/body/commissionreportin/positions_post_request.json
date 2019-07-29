@@ -1,0 +1,44 @@
+[
+	{
+      "quantity": 15,
+      "price": 1300,
+      "vat": 0,
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/36edadbe-912b-11e6-8a84-bae500000128",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+          "type": "variant",
+          "mediaType": "application/json"
+        }
+      },
+      "reward": 225
+    },
+    {
+      "quantity": 15,
+      "price": 1020,
+      "vat": 0,
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/36edadbe-912b-11e6-8a84-bae500000128",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+          "type": "variant",
+          "mediaType": "application/json"
+        }
+      },
+      "reward": 225
+    },
+    {
+      "quantity": 15,
+      "price": 101,
+      "vat": 0,
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/36edadbe-912b-11e6-8a84-bae500000128",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+          "type": "variant",
+          "mediaType": "application/json"
+        }
+      },
+      "reward": 225
+    }
+]

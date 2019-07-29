@@ -1,0 +1,58 @@
+{
+  "context": {
+    "employee": {
+      "meta": {
+        "href": "http://online.moysklad.ru/api/remap/1.1/context/employee",
+        "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+        "type": "employee",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "meta": {
+    "href": "http://online.moysklad.ru/api/remap/1.1/entity/bundle/c21646cf-ee08-11e6-8af5-581e00000023/components",
+    "type": "bundlecomponent",
+    "mediaType": "application/json",
+    "size": 2,
+    "limit": 25,
+    "offset": 0
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "http://online.moysklad.ru/api/remap/1.1/entity/bundle/c21646cf-ee08-11e6-8af5-581e00000023/components/c21661f2-ee08-11e6-8af5-581e00000026",
+        "type": "bundlecomponent",
+        "mediaType": "application/json"
+      },
+      "id": "c21661f2-ee08-11e6-8af5-581e00000026",
+      "accountId": "badae4a0-ee05-11e6-8af5-581e00000001",
+      "assortment": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/service/b3d8d132-ee08-11e6-8af5-581e00000013",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/service/metadata",
+          "type": "service",
+          "mediaType": "application/json"
+        }
+      },
+      "quantity": 1
+    },
+    {
+      "meta": {
+        "href": "http://online.moysklad.ru/api/remap/1.1/entity/bundle/c21646cf-ee08-11e6-8af5-581e00000023/components/c21668eb-ee08-11e6-8af5-581e00000027",
+        "type": "bundlecomponent",
+        "mediaType": "application/json"
+      },
+      "id": "c21668eb-ee08-11e6-8af5-581e00000027",
+      "accountId": "badae4a0-ee05-11e6-8af5-581e00000001",
+      "assortment": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/product/b01e8dfd-ee08-11e6-8af5-581e00000005",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+          "type": "product",
+          "mediaType": "application/json"
+        }
+      },
+      "quantity": 1
+    }
+  ]
+}

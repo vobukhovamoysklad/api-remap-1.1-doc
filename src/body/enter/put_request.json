@@ -1,0 +1,38 @@
+{
+    "name": "xX0enter0Xx",
+  "externalCode": "21721bddSAKDAbw21eh",
+  "moment": "2012-12-21 13:46:22",
+  "applicable": false,
+  "sum": 333,
+  "organization": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/fae3561a-2e58-11e6-8a84-bae50000004e",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  },
+  "store": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/store/e94a6e65-4f64-11e6-8a84-bae500000066",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+      "type": "store",
+      "mediaType": "application/json"
+    }
+  },
+  "attributes": [
+    {
+      "id": "6a9150cd-5338-11e6-8a84-bae50000009b",
+      "value": "Поменяли стрковое доп поле"
+    },
+    {
+      "id": "6a9158b2-5338-11e6-8a84-bae50000009c",
+      "value": 501
+    }
+  ],
+  "positions": [],
+  "overhead": {
+    "sum": 40400,
+    "distribution": "price"
+  }
+}

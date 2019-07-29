@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/facturein/metadata/attributes/6323b1d9-ab00-11e6-8af5-581e00000084",
+    "type": "attributemetadata",
+    "mediaType": "application/json"
+  },
+  "id": "6323b1d9-ab00-11e6-8af5-581e00000084",
+  "name": "else_field",
+  "type": "string",
+  "required": false
+}

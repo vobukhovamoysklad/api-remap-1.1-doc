@@ -1,0 +1,124 @@
+{
+    "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+        "mediaType": "application/json"
+    },
+    "attributes": [
+        {
+            "id": "574341db-fff7-11e5-9464-e4de00000038",
+            "name": "Attribute1",
+            "type": "long",
+            "required": false
+        },
+        {
+            "id": "86bc20ab-00b7-11e6-9464-e4de00000000",
+            "name": "attribute_name2",
+            "type": "long",
+            "required": false
+        },
+        {
+            "id": "cef34683-00ce-11e6-9464-e4de0000000d",
+            "name": "MetaRef",
+            "type": "string",
+            "required": false
+        },
+        {
+            "id": "5d4e954a-00cf-11e6-9464-e4de00000011",
+            "name": "Строка",
+            "type": "string",
+            "required": false
+        },
+        {
+            "id": "98f07476-00cf-11e6-9464-e4de00000012",
+            "name": "Целое число",
+            "type": "long",
+            "required": false
+        },
+        {
+            "id": "98f07c5e-00cf-11e6-9464-e4de00000013",
+            "name": "Дата",
+            "type": "time",
+            "required": false
+        },
+        {
+            "id": "98f083d7-00cf-11e6-9464-e4de00000014",
+            "name": "Справочник",
+            "type": "counterparty",
+            "required": false
+        },
+        {
+            "id": "98f08af7-00cf-11e6-9464-e4de00000015",
+            "name": "Файл",
+            "type": "file",
+            "required": false
+        },
+        {
+            "id": "98f091d6-00cf-11e6-9464-e4de00000016",
+            "name": "Число дробное",
+            "type": "double",
+            "required": false
+        },
+        {
+            "id": "98f09994-00cf-11e6-9464-e4de00000017",
+            "name": "Булин",
+            "type": "boolean",
+            "required": false
+        },
+        {
+            "id": "98f0a0b7-00cf-11e6-9464-e4de00000018",
+            "name": "Текст",
+            "type": "text",
+            "required": false
+        },
+        {
+            "id": "98f0a72e-00cf-11e6-9464-e4de00000019",
+            "name": "Ссылка",
+            "type": "link",
+            "required": false
+        },
+        {
+            "id": "aba8b124-00d1-11e6-9464-e4de00000027",
+            "name": "[Товар]",
+            "type": "productfolder",
+            "required": false
+        }
+    ],
+    "characteristics": [
+        {
+            "id": "fd68704f-f67d-11e5-8a84-bae50000006b",
+            "name": "feature",
+            "type": "string",
+            "required": false
+        },
+        {
+            "id": "66bcdde0-f7d2-11e5-8a84-bae500000072",
+            "name": "Вес",
+            "type": "string",
+            "required": false
+        },
+        {
+            "id": "66be57d2-f7d2-11e5-8a84-bae500000073",
+            "name": "Размер",
+            "type": "string",
+            "required": false
+        },
+        {
+            "id": "daec003b-fa34-11e5-9464-e4de0000006c",
+            "name": "Мода",
+            "type": "string",
+            "required": false
+        }
+    ],
+    "priceTypes": [
+        {
+            "name": "Цена продажи"
+        },
+        {
+            "name": "Цена для друзей"
+        },
+        {
+            "name": "Цена для конкурентов"
+        }
+    ],
+    "createShared": true
+}

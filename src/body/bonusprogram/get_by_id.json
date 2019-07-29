@@ -1,0 +1,20 @@
+{
+    "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.2/entity/bonusprogram/87c69fae-c1ad-4700-a852-f21939470760",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.2/entity/bonusprogram/metadata",
+        "type": "bonusprogram",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#discount/edit?id=1223d051-ba76-11e8-3353-995e0000005a"
+    },
+    "id": "87c69fae-c1ad-4700-a852-f21939470760",
+    "accountId": "dbb8cfc1-cbfa-11e1-6dfb-889ffa6f49fd",
+    "name": "bonusprogram",
+    "active": false,
+    "agentTags": [
+        "группа агентов"
+    ],
+    "earnRateRoublesToPoint": 7,
+    "spendRatePointsToRouble": 4,
+    "maxPaidRatePercents": 50
+}
+

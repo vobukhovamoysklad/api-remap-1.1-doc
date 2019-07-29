@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/ee15550e-2c9e-11e6-8a84-bae500000003/contactpersons/94433ed3-2c9f-11e6-8a84-bae500000010",
+    "type": "contactperson",
+    "mediaType": "application/json"
+  },
+  "id": "94433ed3-2c9f-11e6-8a84-bae500000010",
+  "accountId": "da7d9bbe-2c97-11e6-8a84-bae500000001",
+  "version": 2,
+  "updated": "2016-06-07 14:04:17",
+  "name": "Пётр",
+  "code": "Petya the deliverer",
+  "externalCode": "-odJxBw7i06O0GhSc28S90",
+  "email": "petr@ovoshy.com",
+  "phone": "+777 666 228",
+  "position": "овощедоставщик",
+  "agent": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/ee15550e-2c9e-11e6-8a84-bae500000003",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+      "type": "counterparty",
+      "mediaType": "application/json"
+    }
+  }
+}

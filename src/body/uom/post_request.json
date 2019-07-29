@@ -1,0 +1,6 @@
+{
+  "name" : "Попугаи",
+  "description" : "Для измерения удавов",
+  "code" : "papagei",
+  "externalCode" : "parrotUnitOfMeasure"
+}

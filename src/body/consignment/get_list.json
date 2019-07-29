@@ -1,0 +1,65 @@
+{
+  "context": {
+    "employee": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/context/employee",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+        "type": "employee",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/consignment",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/consignment/metadata",
+    "type": "consignment",
+    "mediaType": "application/json",
+    "size": 1,
+    "limit": 25,
+    "offset": 0
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/consignment/c66f4b17-36e7-11e7-8a7f-40d000000113",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/consignment/metadata",
+        "type": "consignment",
+        "mediaType": "application/json"
+      },
+      "id": "c66f4b17-36e7-11e7-8a7f-40d000000113",
+      "accountId": "103bff1b-36e7-11e7-8a7f-40d000000004",
+      "version": 0,
+      "updated": "2017-05-12 10:51:15",
+      "name": "product / consignment",
+      "code": "1012",
+      "externalCode": "g9BOLNRZglk9NMOHxcrVV0",
+      "label": "consignment",
+      "image": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/download/10385ef8-0639-4fbc-8bb4-6898e5e8b897",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "pear",
+        "filename": "pear.jpg",
+        "size": 46197,
+        "updated": "2018-06-04 12:59:01",
+        "miniature": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/download/10385ef8-0639-4fbc-8bb4-6898e5e8b897?miniature=true",
+          "mediaType": "image/png"
+        },
+        "tiny": {
+          "href": "https://online.moysklad.ru/app/download/6f38cce9-dbc5-407c-bcd4-f433a1b8c960/t.png",
+          "mediaType": "image/png"
+        }
+      },
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/35427052-36e7-11e7-8a7f-40d0000000d1",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+          "type": "product",
+          "mediaType": "application/json"
+        }
+      }
+    }
+  ]
+}

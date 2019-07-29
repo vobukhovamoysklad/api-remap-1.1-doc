@@ -1,0 +1,126 @@
+{
+  "name": "77887",
+  "owner": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/faba7f37-2e58-11e6-8a84-bae500000028",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "shared": false,
+  "group": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/f97aa1fb-2e58-11e6-8a84-bae500000002",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+      "type": "group",
+      "mediaType": "application/json"
+    }
+  },
+  "description": "Возврат поставщику созданный через API",
+  "code": "8865255398",
+  "externalCode": "fruitsareawesome124",
+  "moment": "2016-11-21 14:37:00",
+  "applicable": true,
+  "organization": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/fae3561a-2e58-11e6-8a84-bae50000004e",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  },
+  "agent": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/147c1f1b-32ca-11e6-8a84-bae500000004",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+      "type": "counterparty",
+      "mediaType": "application/json"
+    }
+  },
+  "store": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/store/faf3ff5b-2e58-11e6-8a84-bae500000050",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+      "type": "store",
+      "mediaType": "application/json"
+    }
+  },
+  "attributes": [
+    {
+       "id": "4fc7e7e7-41be-11e6-8a84-bae5000000cc",
+      "value": "отломана деталь"
+    },
+    {
+      "id": "4fc7e124-41be-11e6-8a84-bae5000000cb",
+      "value": false
+    }
+  ],
+  "positions": [
+    {
+      "quantity": 1,
+      "price": 1241200,
+      "discount": 0,
+      "vat": 0,
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/e6447ee7-3303-11e6-8a84-bae5000149c2",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+          "type": "product",
+          "mediaType": "application/json"
+        }
+      }
+    },
+    {
+      "quantity": 1,
+      "price": 24100,
+      "discount": 0,
+      "vat": 0,
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/e8517bc4-3303-11e6-8a84-bae500014de1",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+          "type": "product",
+          "mediaType": "application/json"
+        }
+      }
+    },
+    {
+      "quantity": 1,
+      "price": 421000,
+      "discount": 0,
+      "vat": 0,
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/service/6767bc73-3d19-11e6-8a84-bae500000002",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/service/metadata",
+          "type": "service",
+          "mediaType": "application/json"
+        }
+      }
+    },
+    {
+      "quantity": 1,
+      "price": 2421000,
+      "discount": 0,
+      "vat": 0,
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/e8563cc5-3303-11e6-8a84-bae500014df0",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+          "type": "product",
+          "mediaType": "application/json"
+        }
+      }
+    }
+  ],
+
+  "supply": {
+    "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/supply/7585391b-41c0-11e6-8a84-bae5000000de",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/supply/metadata",
+        "type": "supply",
+        "mediaType": "application/json"
+      }
+  }
+}

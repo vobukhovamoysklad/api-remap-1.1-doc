@@ -1,0 +1,58 @@
+{
+  "context": {
+    "employee": {
+      "meta": {
+        "href": "http://online.moysklad.ru/api/remap/1.1/context/employee",
+        "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+        "type": "employee",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "meta": {
+    "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/493ddf6b-aff9-11e6-5bed-427b00000076/materials",
+    "type": "processingpositionmaterial",
+    "mediaType": "application/json",
+    "size": 2,
+    "limit": 25,
+    "offset": 0
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/493ddf6b-aff9-11e6-5bed-427b00000076/materials/493de99a-aff9-11e6-5bed-427b00000077",
+        "type": "processingpositionmaterial",
+        "mediaType": "application/json"
+      },
+      "id": "493de99a-aff9-11e6-5bed-427b00000077",
+      "accountId": "d55cbfba-91f1-11e6-5bed-427b00000000",
+      "quantity": 4,
+      "assortment": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/product/0de151c1-acdc-11e6-5bed-427b00000080",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+          "type": "product",
+          "mediaType": "application/json"
+        }
+      }
+    },
+    {
+      "meta": {
+        "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/493ddf6b-aff9-11e6-5bed-427b00000076/materials/493defc4-aff9-11e6-5bed-427b00000078",
+        "type": "processingpositionmaterial",
+        "mediaType": "application/json"
+      },
+      "id": "493defc4-aff9-11e6-5bed-427b00000078",
+      "accountId": "d55cbfba-91f1-11e6-5bed-427b00000000",
+      "quantity": 1,
+      "assortment": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/product/1267a23f-acdc-11e6-5bed-427b00000086",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+          "type": "product",
+          "mediaType": "application/json"
+        }
+      }
+    }
+  ]
+}

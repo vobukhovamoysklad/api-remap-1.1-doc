@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/store/7a6a11b6-12c5-11e6-9464-e4de00000006",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+    "type": "store",
+    "mediaType": "application/json"
+  },
+  "id": "7a6a11b6-12c5-11e6-9464-e4de00000006",
+  "accountId": "84e60e93-f504-11e5-8a84-bae500000008",
+  "owner": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/faba7f37-2e58-11e6-8a84-bae500000028",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "shared": false,
+  "group": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/f97aa1fb-2e58-11e6-8a84-bae500000002",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+      "type": "group",
+      "mediaType": "application/json"
+    }
+  },
+  "version": 0,
+  "updated": "2016-05-05 16:30:05",
+  "name": "Склад3",
+  "code": "code4",
+  "externalCode": "223ddxzv223",
+  "archived": false,
+  "pathName": "",
+  "address": "11192342, Russia2, Chuvashia2, Moscow2, Leninskie goru2, 32, 412, addinfo2",
+  "addressFull": {
+    "addInfo": "addinfo2",
+    "apartment": "412",
+    "city": "Moscow2",
+    "comment": "some words about address2",
+    "country": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/country/40e6f69a-991c-4fbc-8be9-d0d906cad180",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/country/metadata",
+        "type": "country",
+        "mediaType": "application/json"
+      }
+    },
+    "house": "32",
+    "postalCode": "11192342",
+    "region": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/region/4bd3542a-f401-11e8-8eb2-f2801f1b9fd1",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/region/metadata",
+        "type": "region",
+        "mediaType": "application/json"
+      }
+    },
+    "street": "Leninskie goru2"
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata/attributes/0cd74e1e-2e59-11e6-8a84-bae50000008a",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "3a85cfe3-12c5-11e6-9464-e4de00000087",
+      "name": "Площадь",
+      "type": "long",
+      "value": 4000
+    }
+  ]
+}

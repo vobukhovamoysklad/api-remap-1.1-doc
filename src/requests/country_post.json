@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Наименование страны"
+    },
+    "description": {
+      "type": "string",
+      "description": "Описание Страны"
+    },
+    "code": {
+      "type": "string",
+      "description": "Код сущности"
+    },
+    "externalCode": {
+      "type": "string",
+      "description": "Внешний код сущности"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "name"
+  ]
+}

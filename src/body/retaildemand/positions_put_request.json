@@ -1,0 +1,13 @@
+{
+  "quantity": 90,
+  "price": 26700,
+  "discount": 0,
+  "vat": 0,
+  "assortment": {
+     "meta": {
+         "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/eeef177f-f648-11e5-8a84-bae50000007a",
+         "type": "product",
+         "mediaType": "application/json"
+     }
+  }
+}

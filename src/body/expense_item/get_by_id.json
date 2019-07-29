@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/expenseitem/fb0a4b75-2e58-11e6-8a84-bae500000058",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/expenseitem/metadata",
+    "type": "expenseitem",
+    "mediaType": "application/json"
+  },
+  "id": "fb0a4b75-2e58-11e6-8a84-bae500000058",
+  "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+  "version": 0,
+  "updated": "2016-06-09 18:43:58",
+  "name": "Аренда",
+  "description": "Аренда",
+  "code": "Аренда",
+  "externalCode": "IVslr34uhCUuglxPD7Idm0"
+}

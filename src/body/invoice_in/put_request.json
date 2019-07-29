@@ -1,0 +1,48 @@
+{
+  "name": "4040228",
+  "description": "Сделка с новым поставщиком",
+  "code": "1234124152",
+  "externalCode": "8756248",
+  "moment": "2016-06-29 10:59:24",
+  "applicable": false,
+  "sum": 125712521,
+  "organization": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/fae3561a-2e58-11e6-8a84-bae50000004e",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  },
+  "store": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/store/faf3ff5b-2e58-11e6-8a84-bae500000050",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+      "type": "store",
+      "mediaType": "application/json"
+    }
+  },
+  "agent": {
+    "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/149b96ba-32ca-11e6-8a84-bae50000001f",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+        "type": "counterparty",
+        "mediaType": "application/json"
+      }
+  },
+  "agentAccount": {
+    "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/149b96ba-32ca-11e6-8a84-bae50000001f/accounts/149ba387-32ca-11e6-8a84-bae500000020",
+        "type": "account",
+        "mediaType": "application/json"
+      }
+  },
+  "vatEnabled": true,
+  "vatIncluded": false,
+  "positions": [
+      ],
+  "payedSum": 700,
+  "shippedSum": 1230,
+  "incomingNumber": "66355",
+  "incomingDate": "2016-12-05 11:42:54"
+}

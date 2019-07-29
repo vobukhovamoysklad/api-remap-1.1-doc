@@ -1,0 +1,76 @@
+[
+  {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/supply/b1008773-313f-11e6-8a84-bae500000089/positions/3b5fdebd-3f65-11e6-8a84-bae50000002a",
+      "type": "supplyposition",
+      "mediaType": "application/json"
+    },
+    "id": "3b5fdebd-3f65-11e6-8a84-bae50000002a",
+    "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+    "quantity": 44,
+    "price": 700,
+    "discount": 23,
+    "vat": 10,
+    "assortment": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/7a7daa6b-3c64-11e6-8a84-bae50000000a",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+        "type": "variant",
+        "mediaType": "application/json"
+      }
+    },
+    "country": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/country/000d77a9-3000-4f81-a995-6b9cffdee1d2",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/country/metadata",
+        "type": "country",
+        "mediaType": "application/json"
+      }
+    },
+    "overhead": 0
+  },
+  {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/supply/b1008773-313f-11e6-8a84-bae500000089/positions/3b5fe7b8-3f65-11e6-8a84-bae50000002b",
+      "type": "supplyposition",
+      "mediaType": "application/json"
+    },
+    "id": "3b5fe7b8-3f65-11e6-8a84-bae50000002b",
+    "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+    "quantity": 3,
+    "price": 3500,
+    "discount": 0,
+    "vat": 7,
+    "assortment": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/7a81082f-3c64-11e6-8a84-bae50000000e",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+        "type": "variant",
+        "mediaType": "application/json"
+      }
+    },
+    "overhead": 0
+  },
+  {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/supply/b1008773-313f-11e6-8a84-bae500000089/positions/3b5ffcfd-3f65-11e6-8a84-bae50000002c",
+      "type": "supplyposition",
+      "mediaType": "application/json"
+    },
+    "id": "3b5ffcfd-3f65-11e6-8a84-bae50000002c",
+    "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+    "quantity": 21,
+    "price": 2300,
+    "discount": 0,
+    "vat": 21,
+    "assortment": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/7a81082f-3c64-11e6-8a84-bae50000000e",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+        "type": "variant",
+        "mediaType": "application/json"
+      }
+    },
+    "overhead": 0
+  }
+]

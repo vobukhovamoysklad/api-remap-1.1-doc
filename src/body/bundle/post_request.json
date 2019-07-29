@@ -1,0 +1,60 @@
+{
+  "name": "Комплект с товаром и еще одним товаром",
+  "code": "00003",
+  "externalCode": "iOzqxcTCiAK1-6-eAjVR12",
+  "archived": false,
+  "pathName": "",
+  "uom": {
+    "meta": {
+      "href": "http://online.moysklad.ru/api/remap/1.1/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+      "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/uom/metadata",
+      "type": "uom",
+      "mediaType": "application/json"
+    }
+  },
+  "minPrice": 0,
+  "salePrices": [
+    {
+      "value": 20,
+      "currency": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/currency/bb724075-ee05-11e6-8af5-581e00000058",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+          "type": "currency",
+          "mediaType": "application/json"
+        }
+      },
+      "priceType": "Цена продажи"
+    }
+  ],
+  "weight": 0,
+  "volume": 0,
+  "barcodes": [
+    "2000000000039"
+  ],
+  "trackingType": "NOT_TRACKED",
+  "components": [
+    {
+      "assortment": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/product/010afdea-ea40-11e6-5bed-427b000000b8",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+          "type": "product",
+          "mediaType": "application/json"
+        }
+      },
+      "quantity": 1
+    },
+    {
+      "assortment": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/product/010afdea-ea40-11e6-5bed-427b000000b9",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+          "type": "product",
+          "mediaType": "application/json"
+        }
+      },
+      "quantity": 1
+    }
+  ]
+}

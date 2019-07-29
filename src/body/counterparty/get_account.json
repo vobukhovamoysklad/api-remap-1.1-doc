@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/ee15550e-2c9e-11e6-8a84-bae500000003/accounts/a6aa5466-2ca2-11e6-8a84-bae500000017",
+    "type": "account",
+    "mediaType": "application/json"
+  },
+  "id": "a6aa5466-2ca2-11e6-8a84-bae500000017",
+  "accountId": "da7d9bbe-2c97-11e6-8a84-bae500000001",
+  "version": 0,
+  "updated": "2016-06-07 14:26:17",
+  "isDefault": false,
+  "accountNumber": "12512568161257982",
+  "bankName": "ВТБ",
+  "bic": "7654352"
+}

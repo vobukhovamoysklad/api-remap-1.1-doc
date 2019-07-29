@@ -1,0 +1,9 @@
+{
+  "retailShift": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/retailshift/ed8de012-479b-11e8-7ae5-8ba2000000ce",
+      "type": "retailshift",
+      "mediaType": "application/json"
+    }
+  }
+}

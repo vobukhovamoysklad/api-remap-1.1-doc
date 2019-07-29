@@ -1,0 +1,64 @@
+{
+    "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.2/entity/bonustransaction/d8dda7b8-b76d-11e8-727d-3073000000a2",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.2/entity/bonustransaction/metadata",
+        "type": "bonustransaction",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#bonustransaction/edit?id=d8dda7b8-b76d-11e8-727d-3073000000a2"
+    },
+    "id": "d8dda7b8-b76d-11e8-727d-3073000000a2",
+    "accountId": "44245b3a-b685-11e8-727d-307300000001",
+    "owner": {
+        "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.2/entity/employee/4a980e02-b685-11e8-727d-30730000002b",
+            "metadataHref": "https://online.moysklad.ru/api/remap/1.2/entity/employee/metadata",
+            "type": "employee",
+            "mediaType": "application/json",
+            "uuidHref": "https://online.moysklad.ru/app/#employee/edit?id=4a980e02-b685-11e8-727d-30730000002b"
+        }
+    },
+    "shared": false,
+    "group": {
+        "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.2/entity/group/4427b6f1-b685-11e8-727d-307300000002",
+            "metadataHref": "https://online.moysklad.ru/api/remap/1.2/entity/group/metadata",
+            "type": "group",
+            "mediaType": "application/json"
+        }
+    },
+    "updated": "2018-09-14 10:19:54",
+    "name": "name_change",
+    "externalCode": "dzmLEueIjUHccIa6GP6UX2",
+    "moment": "2018-09-13 18:58:00",
+    "applicable": true,
+    "agent": {
+        "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.2/entity/counterparty/4ac8d7ea-b685-11e8-727d-307300000056",
+            "metadataHref": "https://online.moysklad.ru/api/remap/1.2/entity/counterparty/metadata",
+            "type": "counterparty",
+            "mediaType": "application/json",
+            "uuidHref": "https://online.moysklad.ru/app/#company/edit?id=4ac8d7ea-b685-11e8-727d-307300000056"
+        }
+    },
+    "created": "2018-09-13 18:58:25",
+    "parentDocument": {
+        "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.2/entity/retaildemand/90f4f8df-b76b-11e8-727d-307300000090",
+            "metadataHref": "https://online.moysklad.ru/api/remap/1.2/entity/retaildemand/metadata",
+            "type": "retaildemand",
+            "mediaType": "application/json",
+            "uuidHref": "https://online.moysklad.ru/app/#retaildemand/edit?id=90f4f8df-b76b-11e8-727d-307300000090"
+        }
+    },
+    "bonusProgram": {
+        "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.2/entity/bonusprogram/3cc6edd8-b688-11e8-727d-30730000001b",
+            "metadataHref": "https://online.moysklad.ru/api/remap/1.2/entity/bonusprogram/metadata",
+            "type": "bonusprogram",
+            "mediaType": "application/json",
+            "uuidHref": "https://online.moysklad.ru/app/#discount/edit?id=3cc6edd8-b688-11e8-727d-30730000001b"
+        }
+    },
+    "bonusValue": 15524,
+    "transactionType": "SPENDING"
+}

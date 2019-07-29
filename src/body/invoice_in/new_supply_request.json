@@ -1,0 +1,13 @@
+{
+  "supplies": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/supply/60c7896d-cf7c-11e7-6a80-332a00000004",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/supply/metadata",
+        "type": "supply",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#supply/edit?id=60c7896d-cf7c-11e7-6a80-332a00000004"
+      }
+    }
+  ]
+}

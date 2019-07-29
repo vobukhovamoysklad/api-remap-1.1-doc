@@ -1,0 +1,97 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "href": {
+          "type": "string",
+          "description": "Ссылка на метаданные"
+        },
+        "metadataHref": {
+          "type": "string",
+          "description": "Ссылка на метаданные сущности"
+        },
+        "metadataHref": {
+          "type": "string",
+          "description": "Ссылка на метаданные сущности"
+        },
+        "mediaType": {
+          "type": "string",
+          "description": "Тип данных (application/json)"
+        }
+      },
+      "description": "Ссылка на метаданные"
+    },
+    "attributes": {
+      "type": "array",
+      "items": [
+        {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "description" : "ID доп. поля"
+            },
+            "name": {
+              "type": "string",
+              "description" : "Наименование доп. поля"
+            },
+            "type": {
+              "type": "string",
+              "description" : "Тип доп. поля"
+            },
+            "required": {
+              "type": "boolean",
+              "description" : "Флажок о том, является ли доп. поле обязательным"
+            }
+          }
+        }
+      ]
+    },
+    "priceTypes": {
+      "type": "array",
+      "items": [
+        {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "type": "object",
+          "properties": {
+            "name": {
+              "type" : "string",
+              "description" : "Наименование типа цен"
+            }
+          }
+        }
+      ]
+    },
+    "characteristics": {
+      "type": "array",
+      "items": [
+        {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "description" : "ID Характеристики"
+            },
+            "name": {
+              "type": "string",
+              "description" : "Наименование Характеристики"
+            },
+            "type": {
+              "type": "string",
+              "description" : "Тип Характеристики"
+            },
+            "required": {
+              "type": "boolean",
+              "description" : "Флажок о том, является ли Характеристика обязательной"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/uom/01be5f70-24d1-11e6-8a84-bae50000001a",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/uom/metadata",
+    "type": "uom",
+    "mediaType": "application/json"
+  },
+  "id": "01be5f70-24d1-11e6-8a84-bae50000001a",
+  "accountId": "45489428-24a5-11e6-8a84-bae500000001",
+  "owner": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/1fe747fc-7df4-11e8-7e04-3e5a0000002d",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json",
+      "uuidHref": "https://online.moysklad.ru/app/#employee/edit?id=1fe747fc-7df4-11e8-7e04-3e5a0000002d"
+    }
+  },
+  "shared": true,
+  "group": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/19062b38-7df4-11e8-7e04-3e5a00000002",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+      "type": "group",
+      "mediaType": "application/json"
+    }
+  },
+  "version": 1,
+  "updated": "2016-05-30 10:06:42",
+  "name": "Попугай",
+  "description": "Для точного измерения удавов",
+  "code": "papagai",
+  "externalCode": "papagaitUnitOfMeasure"
+}
+  

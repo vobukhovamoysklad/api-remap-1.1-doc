@@ -1,0 +1,28 @@
+{
+  "groups" : {
+    "customer_order" : {
+      "enabled" : true,
+      "channels" : [ "email", "push" ]
+    },
+    "invoice" : {
+      "enabled" : true,
+      "channels" : [ "email", "push" ]
+    },
+    "stock" : {
+      "enabled" : true,
+      "channels" : [ "email", "push" ]
+    },
+    "retail" : {
+      "enabled" : true,
+      "channels" : [ "email", "push" ]
+    },
+    "task" : {
+      "enabled" : true,
+      "channels" : [ "email", "push" ]
+    },
+    "data_exchange" : {
+      "enabled" : true,
+      "channels" : [ "email", "push" ]
+    }
+  }
+}

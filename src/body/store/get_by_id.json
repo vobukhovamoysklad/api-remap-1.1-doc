@@ -1,0 +1,82 @@
+{
+    "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/store/95dcda62-056b-11e6-9464-e4de000000b7",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+        "type": "store",
+        "mediaType": "application/json"
+    },
+    "id": "95dcda62-056b-11e6-9464-e4de000000b7",
+    "accountId": "84e60e93-f504-11e5-8a84-bae500000008",
+    "owner": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/faba7f37-2e58-11e6-8a84-bae500000028",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+        "type": "employee",
+        "mediaType": "application/json"
+      }
+    },
+    "shared": false,
+    "group": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/f97aa1fb-2e58-11e6-8a84-bae500000002",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+        "type": "group",
+        "mediaType": "application/json"
+      }
+    },
+    "version": 0,
+    "updated": "2016-04-18 16:43:51",
+    "name": "Склад1",
+    "description": "Основной склад",
+    "code": "113AB79",
+    "externalCode": "fQPIOtxjg-FaeZNKcLx6B3",
+    "archived": false,
+    "address": "125009, Россия, г Москва, Москва, ул Тверская, 1, 123, addInfo",
+    "addressFull": {
+      "postalCode": "125009",
+      "country": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/country/9df7c2c3-7782-4c5c-a8ed-1102af611608",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/country/metadata",
+          "type": "country",
+          "mediaType": "application/json"
+        }
+      },
+      "region": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/region/00000000-0000-0000-0000-000000000077",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/region/metadata",
+          "type": "region",
+          "mediaType": "application/json"
+        }
+      },
+      "city": "Москва",
+      "street": "ул Тверская",
+      "house": "1",
+      "apartment": "123",
+      "addInfo": "addinfo",
+      "comment": "some words about address"
+    },
+    "parent": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/store/faf3ff5b-2e58-11e6-8a84-bae500000050",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+        "type": "store",
+        "mediaType": "application/json"
+      }
+    },
+    "pathName": "Основной склад",
+    "attributes": [
+      {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata/attributes/0cd74e1e-2e59-11e6-8a84-bae50000008a",
+          "type": "attributemetadata",
+          "mediaType": "application/json"
+        },
+        "id": "3a85cfe3-12c5-11e6-9464-e4de00000087",
+        "name": "Площадь",
+        "type": "long",
+        "value": 4400
+      }
+    ]
+}

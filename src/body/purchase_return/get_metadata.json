@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchasereturn/metadata",
+    "mediaType": "application/json"
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchasereturn/metadata/attributes/4fc7e124-41be-11e6-8a84-bae5000000cb",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "4fc7e124-41be-11e6-8a84-bae5000000cb",
+      "name": "Брак продукции",
+      "type": "boolean",
+      "required": false
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchasereturn/metadata/attributes/4fc7e7e7-41be-11e6-8a84-bae5000000cc",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "4fc7e7e7-41be-11e6-8a84-bae5000000cc",
+      "name": "Причина, отличная от брака",
+      "type": "text",
+      "required": false
+    }
+  ],
+  "states": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchasereturn/metadata/states/69e394ff-41be-11e6-8a84-bae5000000d0",
+        "type": "state",
+        "mediaType": "application/json"
+      },
+      "id": "69e394ff-41be-11e6-8a84-bae5000000d0",
+      "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+      "name": "Оформлен",
+      "color": 9245744,
+      "stateType": "Regular",
+      "entityType": "purchasereturn"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchasereturn/metadata/states/69e39958-41be-11e6-8a84-bae5000000d1",
+        "type": "state",
+        "mediaType": "application/json"
+      },
+      "id": "69e39958-41be-11e6-8a84-bae5000000d1",
+      "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+      "name": "Произведён частично",
+      "color": 4354177,
+      "stateType": "Regular",
+      "entityType": "purchasereturn"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchasereturn/metadata/states/69e39d04-41be-11e6-8a84-bae5000000d2",
+        "type": "state",
+        "mediaType": "application/json"
+      },
+      "id": "69e39d04-41be-11e6-8a84-bae5000000d2",
+      "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+      "name": "Произведён",
+      "color": 8825440,
+      "stateType": "Regular",
+      "entityType": "purchasereturn"
+    }
+  ],
+  "createShared": false
+}

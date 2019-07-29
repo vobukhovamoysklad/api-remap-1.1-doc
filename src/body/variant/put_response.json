@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/b2347044-181d-11e6-9464-e4de00000015",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+    "type": "variant",
+    "mediaType": "application/json"
+  },
+  "id": "b2347044-181d-11e6-9464-e4de00000015",
+  "accountId": "305f25aa-137a-11e6-9464-e4de00000001",
+  "version": 3,
+  "updated": "2016-05-12 11:56:15",
+  "name": "Апельсины (Средний, Оранжевый, Свежий)",
+  "code": "orangeCode",
+  "externalCode": "orange303",
+  "archived": false,
+  "characteristics": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata/characteristics/627610e3-2cb1-11e6-8a84-bae500000054",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "07e9aa56-137b-11e6-9464-e4de000000e7",
+      "name": "Размер",
+      "value": "Средний"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata/characteristics/627610e3-2cb1-11e6-8a84-bae500000054",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "07e9b661-137b-11e6-9464-e4de000000e8",
+      "name": "Цвет",
+      "value": "Оранжевый"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata/characteristics/627610e3-2cb1-11e6-8a84-bae500000054",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "60907bc8-137b-11e6-9464-e4de00000155",
+      "name": "Свежесть",
+      "value": "Свежий"
+    }
+  ],
+  "minPrice": 101,
+  "buyPrice": {
+    "value": 700
+  },
+  "salePrices": [
+    {
+
+      "value": 1100,
+      "priceType": "Цена продажи"
+    },
+    {
+      "value": 702,
+      "priceType": "Цена для друзей"
+    },
+    {
+      "value": 1230,
+      "priceType": "Цена для конкурентов"
+    }
+  ],
+  "barcodes": [
+    "2890000005511"
+  ],
+  "product": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/07ed3a66-137b-11e6-9464-e4de000000eb",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+      "type": "product",
+      "mediaType": "application/json"
+    }
+  }
+}
