@@ -1,0 +1,77 @@
+{
+  "owner": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/d7a0c095-d7d9-11e6-1542-821d0000002a",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "shared": false,
+  "group": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/d732fca4-d7d9-11e6-1542-821d00000002",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+      "type": "group",
+      "mediaType": "application/json"
+    }
+  },
+  "moment": "2017-03-16 16:09:44",
+  "applicable": true,
+  "sum": 0,
+  "store": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/store/d7db331a-d7d9-11e6-1542-821d00000053",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+      "type": "store",
+      "mediaType": "application/json"
+    }
+  },
+  "organization": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/d7cac318-d7d9-11e6-1542-821d00000051",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  },
+  "retailShift": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/retailshift/0b2b2caf-055e-11e6-9464-e4de0000007c",
+      "type": "retailshift",
+      "mediaType": "application/json"
+    }
+  },
+  "positions": [
+    {
+        "quantity": 1,
+        "price": 1000,
+        "discount": 0,
+        "vat": 0,
+        "assortment": {
+            "meta": {
+                "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/9f9ac08a-e0e3-11e7-9464-e4de00000003",
+                "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+                "type": "product",
+                "mediaType": "application/json",
+                "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=9f97f569-e0e3-11e7-9464-e4de00000001"
+            }
+        }
+    }
+  ],
+  "vatEnabled": true,
+  "vatIncluded": true,
+  "payedSum": 0,
+  "fiscal": false,
+  "cashSum": 0,
+  "noCashSum": 0,
+  "prepaymentCashSum": 0,
+  "prepaymentNoCashSum": 0,
+  "customerOrder": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/customerorder/1b2b2caf-055e-11e6-9464-e4de0000007c",
+      "type": "customerorder",
+      "mediaType": "application/json"
+    }
+  }
+}

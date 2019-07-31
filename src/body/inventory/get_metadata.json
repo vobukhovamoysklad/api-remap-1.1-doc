@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "href": "http://online.moysklad.ru/api/remap/1.1/entity/inventory/metadata",
+    "mediaType": "application/json"
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "http://online.moysklad.ru/api/remap/1.1/entity/inventory/metadata/attributes/1f7dbb1b-ad6e-11e6-8a84-bc52000000eb",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "1f7dbb1b-ad6e-11e6-8a84-bc52000000eb",
+      "name": "доп.поле1",
+      "type": "string",
+      "required": false
+    },
+    {
+      "meta": {
+        "href": "http://online.moysklad.ru/api/remap/1.1/entity/inventory/metadata/attributes/1f7dc230-ad6e-11e6-8a84-bc52000000ec",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "1f7dc230-ad6e-11e6-8a84-bc52000000ec",
+      "name": "доп.поле2",
+      "type": "long",
+      "required": false
+    }
+  ],
+  "createShared": false
+}

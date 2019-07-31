@@ -1,0 +1,71 @@
+[
+  {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchaseorder/172fb2f6-3f70-11e6-8a84-bae50000008e/positions/f389488d-3f71-11e6-8a84-bae50000005f",
+      "type": "purchaseorderposition",
+      "mediaType": "application/json"
+    },
+    "id": "f389488d-3f71-11e6-8a84-bae50000005f",
+    "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+    "quantity": 12,
+    "price": 300,
+    "discount": 0,
+    "vat": 0,
+    "assortment": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/7a81082f-3c64-11e6-8a84-bae50000000e",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+        "type": "variant",
+        "mediaType": "application/json"
+      }
+    },
+    "shipped": 0,
+    "inTransit": 11
+  },
+  {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchaseorder/172fb2f6-3f70-11e6-8a84-bae50000008e/positions/f389521b-3f71-11e6-8a84-bae500000060",
+      "type": "purchaseorderposition",
+      "mediaType": "application/json"
+    },
+    "id": "f389521b-3f71-11e6-8a84-bae500000060",
+    "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+    "quantity": 3,
+    "price": 1000,
+    "discount": 0,
+    "vat": 10,
+    "assortment": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/7a6f697f-3c64-11e6-8a84-bae500000006",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json"
+      }
+    },
+    "shipped": 0,
+    "inTransit": 1
+  },
+  {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchaseorder/172fb2f6-3f70-11e6-8a84-bae50000008e/positions/f3895aa1-3f71-11e6-8a84-bae500000061",
+      "type": "purchaseorderposition",
+      "mediaType": "application/json"
+    },
+    "id": "f3895aa1-3f71-11e6-8a84-bae500000061",
+    "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+    "quantity": 404,
+    "price": 454,
+    "discount": 200,
+    "vat": 21,
+    "assortment": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/7a83c422-3c64-11e6-8a84-bae500000012",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+        "type": "variant",
+        "mediaType": "application/json"
+      }
+    },
+    "shipped": 0,
+    "inTransit": 216
+  }
+]

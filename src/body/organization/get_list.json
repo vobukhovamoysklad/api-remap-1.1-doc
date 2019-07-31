@@ -1,0 +1,132 @@
+{
+  "context": {
+    "employee": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/context/employee",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+    "type": "organization",
+    "mediaType": "application/json",
+    "size": 1,
+    "limit": 25,
+    "offset": 0
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/850c8195-f504-11e5-8a84-bae50000015e",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+        "type": "organization",
+        "mediaType": "application/json"
+      },
+      "id": "850c8195-f504-11e5-8a84-bae50000015e",
+      "accountId": "84e60e93-f504-11e5-8a84-bae500000008",
+      "owner": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/faba7f37-2e58-11e6-8a84-bae500000028",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+          "type": "employee",
+          "mediaType": "application/json"
+        }
+      },
+      "shared": false,
+      "group": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/f97aa1fb-2e58-11e6-8a84-bae500000002",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+          "type": "group",
+          "mediaType": "application/json"
+        }
+      },
+      "version": 5,
+      "updated": "2016-04-18 17:26:20",
+      "name": "ООО ОАО ООО ОАО",
+      "description": "юрлицо, делающее основнуб прибыль",
+      "code": "1214124",
+      "externalCode": "6IRv89VSgKY7yQAmAuV7n0",
+      "archived": false,
+      "created": "2007-02-07 17:16:41",
+      "trackingContractNumber": "12345678",
+      "trackingContractDate": "2007-02-07 00:00:00",
+      "legalTitle": "ООО Великое объединение любителей великих объединений",
+      "legalAddress": "125009, Россия, г Москва, Москва, ул Тверская, 1, 123, addInfo",
+      "legalAddressFull": {
+        "postalCode": "125009",
+        "country": {
+          "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.1/entity/country/9df7c2c3-7782-4c5c-a8ed-1102af611608",
+            "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/country/metadata",
+            "type": "country",
+            "mediaType": "application/json"
+          }
+        },
+        "region": {
+          "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.1/entity/region/00000000-0000-0000-0000-000000000077",
+            "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/region/metadata",
+            "type": "region",
+            "mediaType": "application/json"
+          }
+        },
+        "city": "Москва",
+        "street": "ул Тверская",
+        "house": "1",
+        "apartment": "123",
+        "addInfo": "addinfo",
+        "comment": "some words about address"
+      },
+      "actualAddress": "125009, Россия, г Москва, Москва, ул Тверская, 1, 111, addInfo",
+      "actualAddressFull": {
+        "postalCode": "125009",
+        "country": {
+          "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.1/entity/country/9df7c2c3-7782-4c5c-a8ed-1102af611608",
+            "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/country/metadata",
+            "type": "country",
+            "mediaType": "application/json"
+          }
+        },
+        "region": {
+          "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.1/entity/region/00000000-0000-0000-0000-000000000077",
+            "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/region/metadata",
+            "type": "region",
+            "mediaType": "application/json"
+          }
+        },
+        "city": "Москва",
+        "street": "ул Тверская",
+        "house": "1",
+        "apartment": "111",
+        "addInfo": "addinfo",
+        "comment": "some words about address"
+      },
+      "inn": "8274424278",
+      "kpp": "123456789",
+      "ogrn": "121410924",
+      "okpo": "1241252156",
+      "email": "asdad@sfasf.erq",
+      "phone": "fawofyho21f1",
+      "fax": "feisafhn0e12f31",
+      "accounts": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/850c8195-f504-11e5-8a84-bae50000015e/accounts",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+          "type": "account",
+          "mediaType": "application/json",
+          "size": 2,
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      "isEgaisEnable": true,
+      "fsrarId": "1963703",
+      "payerVat": true,
+      "utmUrl": "10.250.110.81"
+    }
+  ]
+}

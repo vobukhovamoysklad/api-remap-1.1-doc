@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata/states/6262b270-60c3-11e7-6adb-ede50000000d",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+    "type": "state",
+    "mediaType": "application/json"
+  },
+  "id": "6262b270-60c3-11e7-6adb-ede50000000d",
+  "accountId": "0af94520-54f7-11e7-6adb-ede500000001",
+  "name": "Одобрено",
+  "color": 255,
+  "stateType": "Regular",
+  "entityType": "counterparty"
+}

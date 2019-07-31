@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashin/metadata",
+    "mediaType": "application/json"
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashin/metadata/attributes/c57c1f22-3fae-11e6-8a84-bae500000142",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "c57c1f22-3fae-11e6-8a84-bae500000142",
+      "name": "Карма",
+      "type": "long",
+      "required": false
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashin/metadata/attributes/c57c2526-3fae-11e6-8a84-bae500000143",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "c57c2526-3fae-11e6-8a84-bae500000143",
+      "name": "С основанием",
+      "type": "boolean",
+      "required": false
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashin/metadata/attributes/c57c2a5c-3fae-11e6-8a84-bae500000144",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "c57c2a5c-3fae-11e6-8a84-bae500000144",
+      "name": "Коэффициент",
+      "type": "double",
+      "required": false
+    }
+  ],
+  "states": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashin/metadata/states/aaa6c45a-3fac-11e6-8a84-bae50000012b",
+        "type": "state",
+        "mediaType": "application/json"
+      },
+      "id": "aaa6c45a-3fac-11e6-8a84-bae50000012b",
+      "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+      "name": "Выслан",
+      "color": 15280409,
+      "stateType": "Regular",
+      "entityType": "cashin"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashin/metadata/states/aaa6ca7a-3fac-11e6-8a84-bae50000012c",
+        "type": "state",
+        "mediaType": "application/json"
+      },
+      "id": "aaa6ca7a-3fac-11e6-8a84-bae50000012c",
+      "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+      "name": "Принят",
+      "color": 34617,
+      "stateType": "Regular",
+      "entityType": "cashin"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashin/metadata/states/aaa6cfcf-3fac-11e6-8a84-bae50000012d",
+        "type": "state",
+        "mediaType": "application/json"
+      },
+      "id": "aaa6cfcf-3fac-11e6-8a84-bae50000012d",
+      "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+      "name": "Ожидается",
+      "color": 15106326,
+      "stateType": "Regular",
+      "entityType": "cashin"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashin/metadata/states/aaa6d501-3fac-11e6-8a84-bae50000012e",
+        "type": "state",
+        "mediaType": "application/json"
+      },
+      "id": "aaa6d501-3fac-11e6-8a84-bae50000012e",
+      "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+      "name": "Оформлен",
+      "color": 10774205,
+      "stateType": "Regular",
+      "entityType": "cashin"
+    }
+  ],
+  "createShared": false
+}

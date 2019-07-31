@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/04996e84-29a1-11e6-8a84-bae500000002",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+    "type": "product",
+    "mediaType": "application/json"
+  },
+  "id": "04996e84-29a1-11e6-8a84-bae500000002",
+  "accountId": "2aa3f5df-296b-11e6-8a84-bae500000001",
+  "owner": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/faba7f37-2e58-11e6-8a84-bae500000028",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "shared": false,
+  "group": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/f97aa1fb-2e58-11e6-8a84-bae500000002",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+      "type": "group",
+      "mediaType": "application/json"
+    }
+  },
+  "version": 0,
+  "updated": "2016-06-03 18:37:02",
+  "name": "Мандарины",
+  "code": "00003",
+  "externalCode": "Cf0ehavIglre6sMX-J2rR2",
+  "archived": false,
+  "pathName": "",
+  "weight": 0.0,
+  "volume": 0.0,
+  "isSerialTrackable": false,
+  "trackingType": "NOT_TRACKED"
+}

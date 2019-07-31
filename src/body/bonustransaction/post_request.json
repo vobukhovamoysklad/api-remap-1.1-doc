@@ -1,0 +1,29 @@
+{
+  "name": "d00001",
+  "applicable": true,
+
+  "agent": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.2/entity/counterparty/45457cb8-f473-4618-ab19-2294c328f4ba",
+      "type": "counterparty",
+      "mediaType": "application/json"
+    }
+  },
+  "bonusProgram": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.2/entity/bonusprogram/fc2666ba-5d39-4a60-8105-4b678180b059",
+      "type": "bonusprogram",
+      "mediaType": "application/json"
+    }
+  },
+  "parentDocument": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.2/entity/retaildemand/0b0b7d56-2a44-4aa2-adc2-a49dadd61af0",
+      "type": "retaildemand",
+      "mediaType": "application/json"
+    }
+  },
+  "transactionType":"EARNING",
+  "bonusValue":15
+}
+

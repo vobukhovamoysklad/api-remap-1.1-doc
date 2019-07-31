@@ -1,0 +1,77 @@
+{
+  "name": "000039",
+  "externalCode": "championCode",
+  "code": "codeOfChampion",
+  "moment": "2013-04-19 13:50:24",
+  "applicable": true,
+  "vatEnabled": true,
+  "vatIncluded": true,
+  "agent": {
+    "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/71d48933-fd85-11e5-9464-e4de00000005",
+        "type": "counterparty",
+        "mediaType": "application/json"
+    }
+  },
+  "agentAccount": {
+    "meta": {
+                "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/71d48933-fd85-11e5-9464-e4de00000005/accounts/71d4cfdb-fd85-11e5-9464-e4de00000006",
+                "type": "account",
+                "mediaType": "application/json"
+            }
+  },
+  "state": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/customerorder/metadata/states/fb56c504-2e58-11e6-8a84-bae500000069",
+      "type": "state",
+      "mediaType": "application/json"
+    }
+  },
+  "positions": [
+    {
+      "id": "34f6344f-015e-11e6-9464-e4de0000006c",
+      "quantity": 10,
+      "price": 100,
+      "discount": 0,
+      "vat": 0,
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/8b382799-f7d2-11e5-8a84-bae5000003a5",
+          "type": "product",
+          "mediaType": "application/json"
+        }
+      },
+      "reserve": 10
+    },
+    {
+      "id": "34f6344f-015e-11e6-9464-e4de0000006d",
+      "quantity": 20,
+      "price": 200,
+      "discount": 0,
+      "vat": 21,
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/be903062-f504-11e5-8a84-bae50000019a",
+          "type": "product",
+          "mediaType": "application/json"
+        }
+      },
+      "reserve": 20
+    },
+    {
+      "id": "34f6344f-015e-11e6-9464-e4de0000006e",
+      "quantity": 30,
+      "price": 300,
+      "discount": 0,
+      "vat": 7,
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/c02e3a5c-007e-11e6-9464-e4de00000006",
+          "type": "product",
+          "mediaType": "application/json"
+        }
+      },
+      "reserve": 30
+    }
+  ]
+}

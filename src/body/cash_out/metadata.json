@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashout/metadata",
+    "mediaType": "application/json"
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashout/metadata/attributes/c88569fc-3f8e-11e6-8a84-bae5000000fd",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "c88569fc-3f8e-11e6-8a84-bae5000000fd",
+      "name": "Доля",
+      "type": "double",
+      "required": false
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashout/metadata/attributes/c88570d2-3f8e-11e6-8a84-bae5000000fe",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "c88570d2-3f8e-11e6-8a84-bae5000000fe",
+      "name": "Попытки",
+      "type": "long",
+      "required": false
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashout/metadata/attributes/c8857703-3f8e-11e6-8a84-bae5000000ff",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "c8857703-3f8e-11e6-8a84-bae5000000ff",
+      "name": "Поступил",
+      "type": "boolean",
+      "required": false
+    }
+  ],
+  "states": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashout/metadata/states/0eda7963-41b1-11e6-8a84-bae50000006e",
+        "type": "state",
+        "mediaType": "application/json"
+      },
+      "id": "0eda7963-41b1-11e6-8a84-bae50000006e",
+      "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+      "name": "Kek",
+      "color": 10667543,
+      "stateType": "Regular",
+      "entityType": "cashout"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashout/metadata/states/0eda80ad-41b1-11e6-8a84-bae50000006f",
+        "type": "state",
+        "mediaType": "application/json"
+      },
+      "id": "0eda80ad-41b1-11e6-8a84-bae50000006f",
+      "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+      "name": "Lol",
+      "color": 4354177,
+      "stateType": "Regular",
+      "entityType": "cashout"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashout/metadata/states/0eda8542-41b1-11e6-8a84-bae500000070",
+        "type": "state",
+        "mediaType": "application/json"
+      },
+      "id": "0eda8542-41b1-11e6-8a84-bae500000070",
+      "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+      "name": "LMAO",
+      "color": 15491487,
+      "stateType": "Regular",
+      "entityType": "cashout"
+    }
+  ],
+  "createShared": false
+}

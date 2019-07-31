@@ -1,0 +1,198 @@
+{
+  "context": {
+    "employee": {
+      "meta": {
+        "href": "http://online.moysklad.ru/api/remap/1.1/context/employee",
+        "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+        "type": "employee",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "meta": {
+    "href": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan",
+    "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/metadata",
+    "type": "processingplan",
+    "mediaType": "application/json",
+    "size": 3,
+    "limit": 25,
+    "offset": 0
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/1a18770e-ad9a-11e6-5bed-427b00000064",
+        "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/metadata",
+        "type": "processingplan",
+        "mediaType": "application/json"
+      },
+      "id": "1a18770e-ad9a-11e6-5bed-427b00000064",
+      "accountId": "d55cbfba-91f1-11e6-5bed-427b00000000",
+      "owner": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/employee/d5ad957e-91f1-11e6-5bed-427b0000002a",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+          "type": "employee",
+          "mediaType": "application/json"
+        }
+      },
+      "shared": true,
+      "group": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/group/d55da707-91f1-11e6-5bed-427b00000001",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+          "type": "group",
+          "mediaType": "application/json"
+        }
+      },
+      "version": 1,
+      "updated": "2016-11-21 14:55:08",
+      "name": "Тех. карточка",
+      "externalCode": "4geOQkq5h7d5w1-tUATmt3",
+      "pathName": "",
+      "cost": 1000,
+      "materials": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/1a18770e-ad9a-11e6-5bed-427b00000064/materials",
+          "type": "processingplanmaterial",
+          "mediaType": "application/json",
+          "size": 1,
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      "products": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/1a18770e-ad9a-11e6-5bed-427b00000064/products",
+          "type": "processingplanresult",
+          "mediaType": "application/json",
+          "size": 2,
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "href": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/6b4ffbf7-ac12-11e6-5bed-427b00000091",
+        "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/metadata",
+        "type": "processingplan",
+        "mediaType": "application/json"
+      },
+      "id": "6b4ffbf7-ac12-11e6-5bed-427b00000091",
+      "accountId": "d55cbfba-91f1-11e6-5bed-427b00000000",
+      "owner": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/employee/d5ad957e-91f1-11e6-5bed-427b0000002a",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+          "type": "employee",
+          "mediaType": "application/json"
+        }
+      },
+      "shared": true,
+      "group": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/group/d55da707-91f1-11e6-5bed-427b00000001",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+          "type": "group",
+          "mediaType": "application/json"
+        }
+      },
+      "version": 4,
+      "updated": "2016-11-17 14:48:32",
+      "name": "Тех. карта",
+      "externalCode": "Lr9zJa9qgpvs6f6laIgtG2",
+      "pathName": "Группа",
+      "folder": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processingplanfolder/bfb6c5dc-acbb-11e6-5bed-427b00000001",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/processingplanfolder/metadata",
+          "type": "processingplanfolder",
+          "mediaType": "application/json"
+        }
+      },
+      "cost": 2000,
+      "materials": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/6b4ffbf7-ac12-11e6-5bed-427b00000091/materials",
+          "type": "processingplanmaterial",
+          "mediaType": "application/json",
+          "size": 1,
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      "products": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/6b4ffbf7-ac12-11e6-5bed-427b00000091/products",
+          "type": "processingplanresult",
+          "mediaType": "application/json",
+          "size": 1,
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "href": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/c38e50b0-acdc-11e6-5bed-427b0000009e",
+        "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/metadata",
+        "type": "processingplan",
+        "mediaType": "application/json"
+      },
+      "id": "c38e50b0-acdc-11e6-5bed-427b0000009e",
+      "accountId": "d55cbfba-91f1-11e6-5bed-427b00000000",
+      "owner": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/employee/d5ad957e-91f1-11e6-5bed-427b0000002a",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+          "type": "employee",
+          "mediaType": "application/json"
+        }
+      },
+      "shared": true,
+      "group": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/group/d55da707-91f1-11e6-5bed-427b00000001",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+          "type": "group",
+          "mediaType": "application/json"
+        }
+      },
+      "version": 0,
+      "updated": "2016-11-17 18:44:45",
+      "name": "Карта",
+      "externalCode": "QrWcKk6mhnNX2Jhi-WsIh2",
+      "pathName": "Группа",
+      "folder": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processingplanfolder/bfb6c5dc-acbb-11e6-5bed-427b00000001",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/processingplanfolder/metadata",
+          "type": "processingplanfolder",
+          "mediaType": "application/json"
+        }
+      },
+      "cost": 10000,
+      "materials": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/c38e50b0-acdc-11e6-5bed-427b0000009e/materials",
+          "type": "processingplanmaterial",
+          "mediaType": "application/json",
+          "size": 2,
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      "products": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/c38e50b0-acdc-11e6-5bed-427b0000009e/products",
+          "type": "processingplanresult",
+          "mediaType": "application/json",
+          "size": 2,
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    }
+  ]
+}

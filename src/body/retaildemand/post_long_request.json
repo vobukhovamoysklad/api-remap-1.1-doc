@@ -1,0 +1,24 @@
+{
+  "retailShift": {
+    "meta": {
+                "href": "https://online.moysklad.ru/api/remap/1.1/entity/retailshift/0b2b2caf-055e-11e6-9464-e4de0000007c",
+                "type": "retailshift",
+                "mediaType": "application/json"
+            }
+  },
+  "name": "666demand",
+  "code": "fuuuuCode1",
+  "externalCode": "sd1wqsfa2qas",
+  "moment": "2016-04-27 13:06:44",
+  "applicable": true,
+  "sum": 200,
+  "payedSum": 200,
+  "fiscal": true,
+  "fiscalPrinterInfo": "The freaking best FiscalPrinter ever!!",
+  "documentNumber": 39,
+  "checkNumber": 124421,
+  "checkSum": 200,
+  "sessionNumber": 251251,
+  "ofdCode": 13
+
+}

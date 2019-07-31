@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/bc962452-cd64-11e8-ac12-000800000000",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+    "type": "employee",
+    "mediaType": "application/json",
+    "uuidHref": "https://online.moysklad.ru/app/#employee/edit?id=bc962452-cd64-11e8-ac12-000800000000"
+  },
+  "id": "bc962452-cd64-11e8-ac12-000800000000",
+  "accountId": "ffb8f6b1-cd3a-11e8-ac12-000700000001",
+  "owner": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/00f76fbb-cd3b-11e8-ac12-00080000002d",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json",
+      "uuidHref": "https://online.moysklad.ru/app/#employee/edit?id=00f76fbb-cd3b-11e8-ac12-00080000002d"
+    }
+  },
+  "shared": true,
+  "group": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/ffbc0889-cd3a-11e8-ac12-000700000002",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+      "type": "group",
+      "mediaType": "application/json"
+    }
+  },
+  "version": 0,
+  "updated": "2018-10-11 17:48:37",
+  "name": "Мойскладкин П. И.",
+  "description": "Описание",
+  "externalCode": "tJfzU8g2hVgXFOiFGTMIe3",
+  "archived": false,
+  "created": "2018-10-11 17:48:37",
+  "phone": "+7(999)888-7766",
+  "firstName": "Петр",
+  "middleName": "Иванович",
+  "lastName": "Мойскладкин",
+  "fullName": "Петр Иванович Мойскладкин",
+  "shortFio": "Мойскладкин П. И.",
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata/attributes/ed14b498-cae3-11e8-9dd2-f3a300000044",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "ed14b498-cae3-11e8-9dd2-f3a300000044",
+      "name": "Название",
+      "type": "string",
+      "value": "Строковое доп поле"
+    }
+  ],
+  "inn": "222490425273",
+  "position": "Директор"
+}

@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/contract/ecd4567e-2cb6-11e6-8a84-bae50000002f",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/contract/metadata",
+    "type": "contract",
+    "mediaType": "application/json"
+  },
+  "id": "ecd4567e-2cb6-11e6-8a84-bae50000002f",
+  "accountId": "da7d9bbe-2c97-11e6-8a84-bae500000001",
+  "owner": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/faba7f37-2e58-11e6-8a84-bae500000028",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "shared": true,
+  "group": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/f97aa1fb-2e58-11e6-8a84-bae500000002",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+      "type": "group",
+      "mediaType": "application/json"
+    }
+  },
+  "version": 0,
+  "updated": "2016-06-07 16:51:25",
+  "name": "00000011333",
+  "description": "Договор с партнёрской организацией ООО Кубы в Кубе",
+  "code": "contractWithPartner",
+  "externalCode": "extC12fd12a",
+  "archived": false,
+  "moment": "2016-07-06 12:53:22",
+  "sum": 300,
+  "contractType": "Commission",
+  "rewardType": "PercentOfSales",
+  "rewardPercent": 30,
+  "ownAgent": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/db141159-2c97-11e6-8a84-bae50000004e",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  },
+  "agent": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/2e82fc20-2c98-11e6-8a84-bae500000019",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+      "type": "counterparty",
+      "mediaType": "application/json"
+    }
+  },
+  "state": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/contract/metadata/states/fb56c504-2e58-11e6-8a84-bae500000069",
+      "type": "state",
+      "mediaType": "application/json"
+    }
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/contract/metadata/attributes/73161806-2cb6-11e6-8a84-bae5000000d9",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "73161806-2cb6-11e6-8a84-bae5000000d9",
+      "name": "При поддержке",
+      "type": "string",
+      "value": "aviasaSlaveles.ru"
+    }
+  ],
+  "rate": {
+    "currency": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/baac25f0-50ac-11e5-300d-c79b00000055",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+        "type": "currency",
+        "mediaType": "application/json"
+      }
+    }
+  }
+}

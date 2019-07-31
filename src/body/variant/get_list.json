@@ -1,0 +1,96 @@
+{
+  "context": {
+      "employee": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/context/employee",
+          "type": "employee",
+          "mediaType": "application/json"
+      }
+  },
+  "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+      "type": "variant",
+      "mediaType": "application/json",
+      "size": 1,
+      "limit": 25,
+      "offset": 0
+},
+  "rows": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/66cc36dc-f7d2-11e5-8a84-bae500000074/671402e4-f7d2-11e5-8a84-bae50000007c",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+        "type": "variant",
+        "mediaType": "application/json"
+      },
+      "id": "671402e4-f7d2-11e5-8a84-bae50000007c",
+      "accountId": "84e60e93-f504-11e5-8a84-bae500000008",
+      "version": 3,
+      "updated": "2016-04-01 09:24:34",
+      "name": "ТоварМногоМодификаций (1, 100, 10)",
+      "code": "00005",
+      "externalCode": "rAhHA0T1glL2xY3d1aHFT2",
+      "archived": false,
+      "characteristics": [
+        {
+          "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata/characteristics/7a6078e4-3c64-11e6-8a84-bae500000003",
+            "type": "attributemetadata",
+            "mediaType": "application/json"
+          },
+          "id": "7a6078e4-3c64-11e6-8a84-bae500000003",
+          "name": "Цвет",
+          "value": "красны"
+        },
+        {
+          "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata/characteristics/7a6078e4-3c64-11e6-8a84-bae500000003",
+            "type": "attributemetadata",
+            "mediaType": "application/json"
+          },
+          "id": "7a6078e4-3c64-11e6-8a84-bae500000003",
+          "name": "Свежесть",
+          "value": "Свежий"
+        },
+        {
+          "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata/characteristics/7a6078e4-3c64-11e6-8a84-bae500000003",
+            "type": "attributemetadata",
+            "mediaType": "application/json"
+          },
+          "id": "7a6078e4-3c64-11e6-8a84-bae500000003",
+          "name": "Вкус",
+          "value": "Вкусный"
+        }
+      ],
+      "buyPrice": {
+          "value": 0
+      },
+      "salePrices": [
+          {
+              "value": 0,
+              "priceType": "Цена продажи"
+          },
+          {
+              "value": 0,
+              "priceType": "Цена для друзей"
+          },
+          {
+              "value": 0,
+              "priceType": "Цена для конкурентов"
+          }
+      ],
+      "barcodes": [
+        "2890000006304"
+      ],
+      "product": {
+          "meta": {
+              "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/66ccbc9f-f7d2-11e5-8a84-bae500000076",
+              "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+              "type": "product",
+              "mediaType": "application/json"
+          }
+      }
+    }
+  ]
+}

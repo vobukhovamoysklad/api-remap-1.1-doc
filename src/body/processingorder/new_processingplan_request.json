@@ -1,0 +1,10 @@
+{
+  "processingPlan": {
+    "meta": {
+      "href": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/5fbf79f4-adac-11e6-5bed-427b0000006a",
+      "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/metadata",
+      "type": "processingplan",
+      "mediaType": "application/json"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "context": {
+    "employee": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/context/employee",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+        "type": "employee",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/6a9c3857-2c8b-11e6-8a84-bae500000047/accounts",
+    "type": "account",
+    "mediaType": "application/json",
+    "size": 2,
+    "limit": 25,
+    "offset": 0
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/6a9c3857-2c8b-11e6-8a84-bae500000047/accounts/04c5d0dc-2c92-11e6-8a84-bae5000000f6",
+        "type": "account",
+        "mediaType": "application/json"
+      },
+      "id": "04c5d0dc-2c92-11e6-8a84-bae5000000f6",
+      "accountId": "6270cd18-2c7f-11e6-8a84-bae500000001",
+      "version": 0,
+      "updated": "2016-06-07 12:27:13",
+      "isDefault": false,
+      "accountNumber": "125917666032321985647",
+      "bankName": "ВТБ",
+      "bankLocation": "ул Сахаровского д 153",
+      "correspondentAccount": "12512578256712",
+      "bic": "1258617"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/6a9c3857-2c8b-11e6-8a84-bae500000047/accounts/6a9c43ce-2c8b-11e6-8a84-bae500000048",
+        "type": "account",
+        "mediaType": "application/json"
+      },
+      "id": "6a9c43ce-2c8b-11e6-8a84-bae500000048",
+      "accountId": "6270cd18-2c7f-11e6-8a84-bae500000001",
+      "version": 1,
+      "updated": "2016-06-07 11:39:58",
+      "isDefault": true,
+      "accountNumber": "236174374372272747234743274",
+      "bankName": "ОАО Сбербанк",
+      "bankLocation": "ул Ваивлова д 19",
+      "correspondentAccount": "251632427568",
+      "bic": "125125125"
+    }
+  ]
+}

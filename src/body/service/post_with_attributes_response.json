@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/service/63e4fa87-2c87-11e6-8a84-bae500000030",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/service/metadata",
+    "type": "service",
+    "mediaType": "application/json"
+  },
+  "id": "63e4fa87-2c87-11e6-8a84-bae500000030",
+  "accountId": "6270cd18-2c7f-11e6-8a84-bae500000001",
+  "owner": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/faba7f37-2e58-11e6-8a84-bae500000028",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "shared": false,
+  "group": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/f97aa1fb-2e58-11e6-8a84-bae500000002",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+      "type": "group",
+      "mediaType": "application/json"
+    }
+  },
+  "version": 0,
+  "updated": "2016-06-07 11:11:08",
+  "name": "Облицовка",
+  "description": "Облицовка доставляемого товара",
+  "code": "additionalprot",
+  "externalCode": "addProt",
+  "archived": false,
+  "pathName": "",
+  "vat": 6,
+  "effectiveVat": 6,
+  "minPrice": 52,
+  "salePrices": [
+    {
+      "value": 1052,
+      "currency": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/6314188d-2c7f-11e6-8a84-bae500000055",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+          "type": "currency",
+          "mediaType": "application/json"
+        }
+      },
+      "priceType": "Цена продажи"
+    },
+    {
+      "value": 1020,
+      "currency": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/6314188d-2c7f-11e6-8a84-bae500000055",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+          "type": "currency",
+          "mediaType": "application/json"
+        }
+      },
+      "priceType": "Цена для друзей"
+    }
+  ],
+  "buyPrice": {
+    "value": 700,
+    "currency": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/10772c12-36e7-11e7-8a7f-40d000000097",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+        "type": "currency",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/service/metadata/attributes/0c2e54cd-2c80-11e6-8a84-bae50000009c",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "0c2e54cd-2c80-11e6-8a84-bae50000009c",
+      "name": "Экспорт",
+      "type": "boolean",
+      "value": true
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/service/metadata/attributes/0c2e5dc5-2c80-11e6-8a84-bae50000009d",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "0c2e5dc5-2c80-11e6-8a84-bae50000009d",
+      "name": "Изготовитель",
+      "type": "counterparty",
+      "value": "ООО Компания"
+    }
+  ],
+  "barcodes": [
+    "2000000000039",
+    "2000000000046"
+  ]
+}

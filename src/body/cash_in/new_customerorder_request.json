@@ -1,0 +1,12 @@
+{
+  "operations":[
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/customerorder/559adab5-915c-11e6-8a84-bae500000014",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/customerorder/metadata",
+        "type": "customerorder",
+        "mediaType": "application/json"
+      }
+    }
+  ]
+}

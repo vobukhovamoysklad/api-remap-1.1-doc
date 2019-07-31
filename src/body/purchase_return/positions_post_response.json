@@ -1,0 +1,44 @@
+[
+  {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchasereturn/e699b298-41bd-11e6-8a84-bae5000000ba/positions/9cfa8b56-41bf-11e6-8a84-bae500000014",
+      "type": "purchasereturnposition",
+      "mediaType": "application/json"
+    },
+    "id": "9cfa8b56-41bf-11e6-8a84-bae500000014",
+    "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+    "quantity": 1,
+    "price": 263000,
+    "discount": 0,
+    "vat": 0,
+    "assortment": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/20485cfd-2e62-11e6-8a84-bae500000112",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchasereturn/e699b298-41bd-11e6-8a84-bae5000000ba/positions/9cfa9b0e-41bf-11e6-8a84-bae500000015",
+      "type": "purchasereturnposition",
+      "mediaType": "application/json"
+    },
+    "id": "9cfa9b0e-41bf-11e6-8a84-bae500000015",
+    "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+    "quantity": 1,
+    "price": 10000,
+    "discount": 0,
+    "vat": 0,
+    "assortment": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/0744d71b-2e59-11e6-8a84-bae50000007f",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json"
+      }
+    }
+  }
+]

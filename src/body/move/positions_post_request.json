@@ -1,0 +1,30 @@
+[
+  {
+
+    "quantity": 43,
+    "price": 670,
+    "assortment": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/4f2a0659-3304-11e6-8a84-bae50001c6a1",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json"
+      }
+    },
+    "overhead": 70
+  },
+  {
+
+    "quantity": 32,
+    "price":640,
+    "assortment": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/27eba7b5-3303-11e6-8a84-bae500002b72",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json"
+      }
+    },
+    "overhead": 65
+  }
+]

@@ -1,0 +1,97 @@
+{
+  "context": {
+    "employee": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/context/employee",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+        "type": "employee",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/b80ea81b-7058-11e6-8a84-bae500000000/contactpersons",
+    "type": "contactperson",
+    "mediaType": "application/json",
+    "size": 3,
+    "limit": 25,
+    "offset": 0
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/b80ea81b-7058-11e6-8a84-bae500000000/contactpersons/43e39375-7059-11e6-8a84-bae5000000cb",
+        "type": "contactperson",
+        "mediaType": "application/json"
+      },
+      "id": "43e39375-7059-11e6-8a84-bae5000000cb",
+      "accountId": "1185513e-692c-11e6-8a84-bae500000001",
+      "version": 0,
+      "updated": "2016-09-01 18:32:17",
+      "name": "Адвокатов Петр Сергеевич",
+      "description": "Адвокат",
+      "externalCode": "asI0ncJch5jkgxxlCQKiH1",
+      "email": "advopetr@mail.ru",
+      "phone": "87127418",
+      "position": "Адвокат",
+      "agent": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/b80ea81b-7058-11e6-8a84-bae500000000",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+          "type": "counterparty",
+          "mediaType": "application/json"
+        }
+      }
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/b80ea81b-7058-11e6-8a84-bae500000000/contactpersons/308142fc-7059-11e6-8a84-bae5000000c6",
+        "type": "contactperson",
+        "mediaType": "application/json"
+      },
+      "id": "308142fc-7059-11e6-8a84-bae5000000c6",
+      "accountId": "1185513e-692c-11e6-8a84-bae500000001",
+      "version": 1,
+      "updated": "2016-09-01 18:31:44",
+      "name": "Travolta Jehn",
+      "description": "Траволта на связи",
+      "externalCode": "9QZNh3dbiLu1-V9bmmLKu0",
+      "email": "travolta@mail.ru",
+      "phone": "125815120",
+      "position": "Секретарь",
+      "agent": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/b80ea81b-7058-11e6-8a84-bae500000000",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+          "type": "counterparty",
+          "mediaType": "application/json"
+        }
+      }
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/b80ea81b-7058-11e6-8a84-bae500000000/contactpersons/13af74bf-7059-11e6-8a84-bae5000000c3",
+        "type": "contactperson",
+        "mediaType": "application/json"
+      },
+      "id": "13af74bf-7059-11e6-8a84-bae5000000c3",
+      "accountId": "1185513e-692c-11e6-8a84-bae500000001",
+      "version": 1,
+      "updated": "2016-09-01 18:30:56",
+      "name": "Панин Алексей Олегович",
+      "description": "Бухгалтерия",
+      "externalCode": "Gaizui5siLqoUbZ3jpE2I2",
+      "email": "mail@mail.rq",
+      "phone": "12412512512",
+      "position": "Бухгалтер",
+      "agent": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/b80ea81b-7058-11e6-8a84-bae500000000",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+          "type": "counterparty",
+          "mediaType": "application/json"
+        }
+      }
+    }
+  ]
+}

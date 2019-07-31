@@ -1,0 +1,10 @@
+{
+    "supply": {
+        "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/supply/373d2925-4a98-11e6-8a84-bae500000069",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/supply/metadata",
+        "type": "supply",
+        "mediaType": "application/json"
+      }
+    }
+}

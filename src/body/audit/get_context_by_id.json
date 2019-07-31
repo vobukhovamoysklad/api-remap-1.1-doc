@@ -1,0 +1,12 @@
+{
+  "meta":{
+    "href":"https://online.moysklad.ru/api/remap/1.1/audit/b912e9d1-3fbe-11e7-8a7f-40d000000000",
+    "type":"audit",
+    "mediaType":"application/json"
+  },
+  "id":"b912e9d1-3fbe-11e7-8a7f-40d000000000",
+  "uid":"admin@1",
+  "source":"loginlogout",
+  "moment":"2017-05-23 16:50:03",
+  "info":"Вход в МойСклад (127.0.0.1, Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0)"
+}

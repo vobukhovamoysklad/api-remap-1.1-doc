@@ -1,0 +1,93 @@
+{
+  "name": "Тыква",
+  "code": "pumpkin1",
+  "externalCode": "456pumpkin",
+  "description": "Тыква, Германия",
+  "vat": 18,
+  "effectiveVat": 18,
+  "uom": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/uom/metadata",
+      "type": "uom",
+      "mediaType": "application/json"
+    }
+  },
+  "supplier":{
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/6313d1e7-2c7f-11e6-8a84-bae500000051",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+      "type": "counterparty",
+      "mediaType": "application/json"
+    }
+  },
+  "minPrice": 53,
+  "buyPrice": {
+    "value": 54,
+    "currency": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/6314188d-2c7f-11e6-8a84-bae500000055",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+        "type": "currency",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "salePrices": [
+    {
+      "value": 3353,
+      "currency": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/6314188d-2c7f-11e6-8a84-bae500000055",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+          "type": "currency",
+          "mediaType": "application/json"
+        }
+      },
+      "priceType": "Цена продажи"
+    },
+    {
+      "value": 3253,
+      "currency": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/6314188d-2c7f-11e6-8a84-bae500000055",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+          "type": "currency",
+          "mediaType": "application/json"
+        }
+      },
+      "priceType": "Цена для друзей"
+    }
+  ],
+  "article":"Ar23",
+  "weight": 200,
+  "volume": 300,
+  "attributes" : [
+    {
+
+      "id": "0c2e54cd-2c80-11e6-8a84-bae50000009c",
+      "name": "Экспорт",
+      "value": true
+    },
+    {
+
+      "id": "0c2e5dc5-2c80-11e6-8a84-bae50000009d",
+      "name": "Изготовитель",
+      "value" : "фермерское хозяйство \"Петрович\" "
+    },
+    {
+      "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata/attributes/0f1e750e-e1b2-11e7-9464-e4de00000003",
+          "type": "attributemetadata",
+          "mediaType": "application/json"
+      },
+      "id": "0f1e750e-e1b2-11e7-9464-e4de00000003",
+      "name": "not strange attribute name",
+      "type": "file",
+      "file": {
+        "name": "filename",
+    	  "content": "5cYwMpOmNk5kSVr4YgZGKtXJb/7KpHVLDUawyZrD5Nf0WDhB7mS1I77VcAMqYQ8DkP/1wDLhb0X6b2JO4pdpKA=="
+      }
+    }
+  ]
+}

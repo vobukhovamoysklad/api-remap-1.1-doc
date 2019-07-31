@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/internalorder/metadata/attributes/68d142e7-b300-11e6-8a84-bae50000008b",
+    "type": "attributemetadata",
+    "mediaType": "application/json"
+  },
+  "id": "68d142e7-b300-11e6-8a84-bae50000008b",
+  "name": "Доп поле внут заказа",
+  "type": "string",
+  "required": false
+}

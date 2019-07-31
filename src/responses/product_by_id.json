@@ -1,0 +1,446 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "href": {
+          "type": "string",
+          "description": "Ссылка на сущность"
+        },
+        "metadataHref": {
+          "type": "string",
+          "description": "Ссылка на метаданные сущности"
+        },
+        "type": {
+          "type": "string",
+          "description": "Тип сущности"
+        },
+        "mediaType": {
+          "type": "string",
+          "description": "Тип данных"
+        }
+      },
+      "required": [
+        "href",
+        "mediaType"
+      ],
+      "additionalProperties": false,
+      "description": "Метаданные"
+    },
+    "id": {
+      "type": "string",
+      "description": "ID в формате UUID"
+    },
+    "accountId": {
+      "type": "string",
+      "description": "ID учетной записи"
+    },
+    "syncId": {
+      "type": "string",
+      "description": "ID в формате UUID"
+    },
+    "version": {
+      "type": "string",
+      "description": "Версия сущности"
+    },
+    "updated": {
+      "type": "string",
+      "description": "Момент последнего обновления сущности"
+    },
+    "deleted": {
+      "type": "string",
+      "description": "Момент последнего удаления сущности"
+    },
+    "name": {
+      "type": "string",
+      "description": "Имя Товара"
+    },
+    "description": {
+      "type": "string",
+      "description": "Описание Товара"
+    },
+    "code": {
+      "type": "string",
+      "description": "Код"
+    },
+    "externalCode": {
+      "type": "string",
+    },
+    "archived": {
+      "type": "boolean",
+      "description": "Добавлен ли товар в архив"
+    },
+    "pathName": {
+      "type": "string",
+      "description": "Наименование группы, в которую входит товар"
+    },
+    "vat": {
+      "type": "string",
+      "description": "НДС %"
+    },
+    "effectiveVat": {
+      "type": "string",
+      "description": "Реальный НДС %"
+    },
+    "productFolder": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "href": {
+              "type": "string",
+              "description": "Ссылка на сущность"
+            },
+            "metadataHref": {
+              "type": "string",
+              "description": "Ссылка на метаданные сущности"
+            },
+            "type": {
+              "type": "string",
+              "description": "Тип сущности"
+            },
+            "mediaType": {
+              "type": "string",
+              "description": "Тип данных"
+            }
+          },
+          "required": [
+            "href",
+            "mediaType"
+          ],
+          "additionalProperties": false,
+          "description": "Метаданные"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Ссылка на сущность группы товаров"
+    },
+    "uom": {
+      "type": "string",
+      "description": "Единицы измерения"
+    },
+    "image": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "meta": {
+              "type": "object",
+              "properties": {
+                "href": {
+                  "type": "string",
+                  "description": "Ссылка на сущность"
+                },
+                "metadataHref": {
+                  "type": "string",
+                  "description": "Ссылка на метаданные сущности"
+                },
+                "type": {
+                  "type": "string",
+                  "description": "Тип сущности"
+                },
+                "mediaType": {
+                  "type": "string",
+                  "description": "Тип данных"
+                }
+              },
+              "required": [
+                "href",
+                "mediaType"
+              ],
+              "additionalProperties": false,
+              "description": "Метаданные"
+            }
+          },
+          "additionalProperties": false,
+          "description": "Метаданные об изображении"
+        },
+        "title": {
+          "type": "string",
+          "description": "Название изображения"
+        },
+        "filename": {
+          "type": "string",
+          "description": "Имя файла"
+        },
+        "size": {
+          "type": "number",
+          "description": "Размер файла в байтах"
+        },
+        "miniature": {
+          "type": "object",
+          "properties": {
+            "href": {
+              "type": "string",
+              "description": "Ссылка на изображение"
+            },
+            "mediaType": {
+              "type": "string",
+              "description": "Тип данных"
+            }
+          },
+          "required": [
+            "href",
+            "mediaType"
+          ],
+          "additionalProperties": false,
+          "description": "Ссылка на миниатюру изображения"
+        },
+        "tiny": {
+          "type": "object",
+          "properties": {
+            "href": {
+              "type": "string",
+              "description": "Ссылка на изображение"
+            },
+            "mediaType": {
+              "type": "string",
+              "description": "Тип данных"
+            }
+          },
+          "required": [
+            "href",
+            "mediaType"
+          ],
+          "additionalProperties": false,
+          "description": "Ссылка на уменьшенное изображение"
+        }
+      },
+      "additionalProperties": false
+    },
+    "minPrice": {
+      "type": "number",
+      "description": "Минимальная цена"
+    },
+    "buyPrice": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "number",
+          "description" : "Значение цены"
+        },
+        "currency" : {
+          "type": "object",
+          "properties": {
+            "meta": {
+              "type": "object",
+              "properties": {
+                "href": {
+                  "type": "string",
+                  "description": "Ссылка на сущность"
+                },
+                "metadataHref": {
+                  "type": "string",
+                  "description": "Ссылка на метаданные сущности"
+                },
+                "type": {
+                  "type": "string",
+                  "description": "Тип сущности"
+                },
+                "mediaType": {
+                  "type": "string",
+                  "description": "Тип данных"
+                }
+              }
+            }
+          },
+          "description" : "Ссылка на валюту"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Цена закупки"
+    },
+    "salePrices": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number",
+              "description": "Значение цены"
+            },
+            "currency" : {
+              "type": "object",
+              "properties": {
+                "meta": {
+                  "type": "object",
+                  "properties": {
+                    "href": {
+                      "type": "string",
+                      "description": "Ссылка на сущность"
+                    },
+                    "metadataHref": {
+                      "type": "string",
+                      "description": "Ссылка на метаданные сущности"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Тип сущности"
+                    },
+                    "mediaType": {
+                      "type": "string",
+                      "description": "Тип данных"
+                    }
+                  }
+                }
+              },
+              "description" : "Ссылка на валюту"
+            },
+            "priceType": {
+              "type": "string",
+              "description": "Тип цены"
+            }
+          },
+          "additionalProperties": false
+        }
+      ],
+      "description": "Цены продажи"
+    },
+    "supplier": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "href": {
+              "type": "string",
+              "description": "Ссылка на сущность"
+            },
+            "metadataHref": {
+              "type": "string",
+              "description": "Ссылка на метаданные сущности"
+            },
+            "type": {
+              "type": "string",
+              "description": "Тип сущности"
+            },
+            "mediaType": {
+              "type": "string",
+              "description": "Тип данных"
+            }
+          },
+          "required": [
+            "href",
+            "mediaType"
+          ],
+          "additionalProperties": false,
+          "description": "Метаданные"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Контрагент-поставщик"
+    },
+    "attributes": {
+      "type": "array",
+      "items": [
+        {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "type": "object",
+          "properties": {
+            "meta": {
+              "type" : "object",
+              "properties": {
+                "href": {
+                  "type": "string",
+                  "description" : "Ссылка на представление доп поля"
+                },
+                "type": {
+                  "type": "string",
+                  "description": "Тип доп поля"
+                },
+                "mediaType": {
+                  "type": "string",
+                  "description" : "json"
+                }
+              }
+            },
+            "id": {
+              "type": "string",
+              "description" : "ID доп. поля"
+            },
+            "name": {
+              "type": "string",
+              "description" : "Наименование доп. поля"
+            },
+            "type": {
+              "type": "string",
+              "description" : "Тип доп. поля"
+            },
+            "value": {
+              "type": "string",
+              "description" : "Значение доп. поля (должно соответствовать типу доп. поля)"
+            }
+          }
+        }
+      ],
+      "description": "Доп. поля"
+    },
+    "article": {
+      "type": "string",
+      "description": "Артикул"
+    },
+    "weight": {
+      "type": "number",
+      "description": "Вес"
+    },
+    "volume": {
+      "type": "number",
+      "description": "Объём"
+    },
+    "packs": {
+      "type" : "array",
+      "items": [
+        {
+          "type" : "object",
+          "properties": {
+            "id": {
+              "type" : "string",
+              "description" : "id упаковки"
+            },
+            "uom": {
+              "type" : "object",
+              "properties": {
+                "meta": {
+                  "type": "object",
+                  "properties": {
+                    "href": {
+                      "type": "string",
+                      "description": "Ссылка на сущность"
+                    },
+                    "metadataHref": {
+                      "type": "string",
+                      "description": "Ссылка на метаданные сущности"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Тип сущности"
+                    },
+                    "mediaType": {
+                      "type": "string",
+                      "description": "Тип данных"
+                    }
+                  }
+                }
+              },
+              "description" : "Ссылка на Единицу измерения"
+            },
+            "quantity": {
+              "type" : "number",
+              "description": "Количество товара в упаковке"
+            }
+          },
+          "required": [
+            "uom",
+            "quantity"
+          ]
+        }
+      ]
+    }
+  },
+  "additionalProperties": false
+}

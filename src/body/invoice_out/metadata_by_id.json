@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/invoiceout/metadata/attributes/d91965f1-558b-11e6-8a84-bae500000087",
+    "type": "attributemetadata",
+    "mediaType": "application/json"
+  },
+  "id": "d91965f1-558b-11e6-8a84-bae500000087",
+  "name": "Процент прибыли",
+  "type": "double",
+  "required": false
+}

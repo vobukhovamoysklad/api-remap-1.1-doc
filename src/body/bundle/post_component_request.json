@@ -1,0 +1,11 @@
+{
+  "assortment": {
+    "meta": {
+      "href": "http://online.moysklad.ru/api/remap/1.1/entity/product/010afdea-ea40-11e6-5bed-427b000000b8",
+      "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+      "type": "product",
+      "mediaType": "application/json"
+    }
+  },
+  "quantity": 1
+}

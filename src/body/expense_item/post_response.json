@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/expenseitem/76e88dff-3f9b-11e6-8a84-bae50000009b",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/expenseitem/metadata",
+    "type": "expenseitem",
+    "mediaType": "application/json"
+  },
+  "id": "76e88dff-3f9b-11e6-8a84-bae50000009b",
+  "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+  "version": 0,
+  "updated": "2016-07-01 17:52:42",
+  "name": "Налоги и не налоги",
+  "description": "Статья расходов налоги",
+  "code": "nalogi",
+  "externalCode": "wwoaon21431"
+}

@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata/attributes/0cd74e1e-2e59-11e6-8a84-bae50000008a",
+    "type": "attributemetadata",
+    "mediaType": "application/json"
+  },
+  "id": "0cd74e1e-2e59-11e6-8a84-bae50000008a",
+  "name": "фыныфг",
+  "type": "string",
+  "required": false
+}

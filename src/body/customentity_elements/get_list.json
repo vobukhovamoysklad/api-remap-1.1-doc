@@ -1,0 +1,69 @@
+{
+  "context": {
+    "employee": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/context/employee",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+        "type": "employee",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/customentity/7944ef04-f831-11e5-7a69-971500188b19/",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/customentity/metadata",
+    "type": "customentity",
+    "mediaType": "application/json",
+    "uuidHref": "https://online.moysklad.ru/app/#custom_7944ef04-f831-11e5-7a69-971500188b19",
+    "size": 3,
+    "limit": 25,
+    "offset": 0
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/customentity/7944ef04-f831-11e5-7a69-971500188b19/01b29035-2656-11e6-8a84-bae500000048",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/companysettings/metadata/customEntities/7944ef04-f831-11e5-7a69-971500188b19",
+        "type": "customentity",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#custom_7944ef04-f831-11e5-7a69-971500188b19/edit?id=01b29035-2656-11e6-8a84-bae500000048"
+      },
+      "id": "01b29035-2656-11e6-8a84-bae500000048",
+      "accountId": "45489428-24a5-11e6-8a84-bae500000001",
+      "updated": "2017-08-13 17:55:08",
+      "name": "Партнёр1",
+      "code": "partner1",
+      "externalCode": "5434665867876"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/customentity/7944ef04-f831-11e5-7a69-971500188b19/3fbe37f2-2659-11e6-8a84-bae500000013",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/companysettings/metadata/customEntities/7944ef04-f831-11e5-7a69-971500188b19",
+        "type": "customentity",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#custom_7944ef04-f831-11e5-7a69-971500188b19/edit?id=3fbe37f2-2659-11e6-8a84-bae500000013"
+      },
+      "id": "3fbe37f2-2659-11e6-8a84-bae500000013",
+      "accountId": "45489428-24a5-11e6-8a84-bae500000001",
+      "updated": "2017-08-13 11:06:23",
+      "name": "Партнёр 2",
+      "externalCode": "5434665867877"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/customentity/7944ef04-f831-11e5-7a69-971500188b19/6343f631-265d-11e6-8a84-bae500000014",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/companysettings/metadata/customEntities/7944ef04-f831-11e5-7a69-971500188b19",
+        "type": "customentity",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#custom_7944ef04-f831-11e5-7a69-971500188b19/edit?id=6343f631-265d-11e6-8a84-bae500000014"
+      },
+      "id": "6343f631-265d-11e6-8a84-bae500000014",
+      "accountId": "45489428-24a5-11e6-8a84-bae500000001",
+      "updated": "2017-08-14 10:22:51",
+      "name": "Пётр михалыч из ООО Предприятие",
+      "code": "partner mikhalych",
+      "description": "Ключевой сотрудник ООО Предприятие",
+      "externalCode": "5434665867878"
+    }
+  ]
+}

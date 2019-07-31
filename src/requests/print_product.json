@@ -1,0 +1,32 @@
+{
+  "organization": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/107430bc-36e7-11e7-8a7f-40d000000090",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json",
+      "uuidHref": "https://online.moysklad.ru/app/#mycompany/edit?id=107430bc-36e7-11e7-8a7f-40d000000090"
+    }
+  },
+  "count": 10,
+  "salePrice": {
+    "currency": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/10772c12-36e7-11e7-8a7f-40d000000097",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+        "type": "currency",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#currency/edit?id=10772c12-36e7-11e7-8a7f-40d000000097"
+      }
+    },
+    "priceType": "Цена продажи"
+  },
+  "template": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata/embeddedtemplate/f8e295eb-15c6-3184-b934-14fe90b3ea81",
+      "type": "embeddedtemplate",
+      "mediaType": "application/json"
+    }
+  },
+  "extension": "pdf"
+}

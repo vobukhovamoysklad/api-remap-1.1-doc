@@ -1,0 +1,23 @@
+{
+  "quantity": 44,
+  "price": 700,
+  "discount": 23,
+  "vat": 10,
+  "assortment": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/7a7daa6b-3c64-11e6-8a84-bae50000000a",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+      "type": "variant",
+      "mediaType": "application/json"
+    }
+  },
+  "country": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/country/000d77a9-3000-4f81-a995-6b9cffdee1d2",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/country/metadata",
+      "type": "country",
+      "mediaType": "application/json"
+    }
+  },
+  "overhead": 300
+}

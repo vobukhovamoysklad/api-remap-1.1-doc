@@ -1,0 +1,27 @@
+{
+  "name": "ООО Радуга",
+  "description" : "Сеть стройматериалов Радуга ЭКСПО",
+  "code" : "rainbowCode",
+  "externalCode" : "extRainbw",
+  "email" : "raduga@stroi.ru",
+  "phone" : "+7 495 331 22 33",
+  "fax" : "1257752",
+  "actualAddress": "г.Москва ул Академика Миля дом 15 к 21",
+  "legalTitle": "Общество с ограниченой ответственностью \"Радуга\"",
+  "legalAddress": "г.Москва ул Авиастроителей д 93 к 12",
+  "inn" : "125152124152",
+  "kpp" : "12155521",
+  "ogrn" : "1251512",
+  "okpo" : "201355",
+  "tags" : [
+   "Строители", "Радуга", "Ремонт"
+   ],
+  "state": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata/states/fb56c504-2e58-11e6-8a84-bae500000069",
+      "type": "state",
+      "mediaType": "application/json"
+    }
+  },
+   "priceType": "Цена летняя"
+}

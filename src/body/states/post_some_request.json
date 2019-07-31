@@ -1,0 +1,12 @@
+[
+  {
+    "name":"На рассмотрении",
+    "color":8767198,
+    "stateType":"Regular"
+  },
+  {
+    "name":"На подписании",
+    "color":34617,
+    "stateType":"Regular"
+  }
+]

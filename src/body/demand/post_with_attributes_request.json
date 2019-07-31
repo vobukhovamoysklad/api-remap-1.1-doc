@@ -1,0 +1,43 @@
+{
+  "name": "888",
+  "organization": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/850c8195-f504-11e5-8a84-bae50000015e",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  },
+  "agent": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/9794d400-f689-11e5-8a84-bae500000078",
+      "type": "counterparty",
+      "mediaType": "application/json"
+    }
+  },
+  "store": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/store/850ee995-f504-11e5-8a84-bae500000160",
+      "type": "store",
+      "mediaType": "application/json"
+    }
+  },
+  "code" : "1243521",
+  "moment": "2016-04-19 13:50:24",
+  "applicable": false,
+  "vatEnabled": true,
+  "vatIncluded": true,
+  "customerOrder":{
+    "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/customerorder/c49e83b3-01af-11e6-9464-e4de00000026",
+    "type": "customerorder",
+    "mediaType": "application/json"
+    }
+  },
+  "attributes": [
+    {
+      "id": "23d3965d-0313-11e6-9464-e4de00000097",
+      "type": "string",
+      "value": "Весело"
+    }
+  ]
+}

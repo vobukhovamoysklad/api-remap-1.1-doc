@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/supply/metadata/attributes/a31685ae-3f62-11e6-8a84-bae50000007b",
+    "type": "attributemetadata",
+    "mediaType": "application/json"
+  },
+  "id": "a31685ae-3f62-11e6-8a84-bae50000007b",
+  "name": "Доп. дата",
+  "type": "time",
+  "required": false
+}

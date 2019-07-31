@@ -1,0 +1,672 @@
+{
+  "context": {
+    "employee": {
+      "meta": {
+        "href": "http://online.moysklad.ru/api/remap/1.1/context/employee",
+        "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+        "type": "employee",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "meta": {
+    "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing",
+    "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/processing/metadata",
+    "type": "processing",
+    "mediaType": "application/json",
+    "size": 6,
+    "limit": 25,
+    "offset": 0
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/493ddf6b-aff9-11e6-5bed-427b00000076",
+        "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/processing/metadata",
+        "type": "processing",
+        "mediaType": "application/json"
+      },
+      "id": "493ddf6b-aff9-11e6-5bed-427b00000076",
+      "accountId": "d55cbfba-91f1-11e6-5bed-427b00000000",
+      "owner": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/employee/d5ad957e-91f1-11e6-5bed-427b0000002a",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+          "type": "employee",
+          "mediaType": "application/json"
+        }
+      },
+      "shared": false,
+      "group": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/group/d55da707-91f1-11e6-5bed-427b00000001",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+          "type": "group",
+          "mediaType": "application/json"
+        }
+      },
+      "version": 0,
+      "updated": "2016-11-21 17:46:29",
+      "name": "я1",
+      "externalCode": "JhQJY8u1isyuqHyn7B6Wx3",
+      "moment": "2016-11-21 17:46:00",
+      "applicable": true,
+      "project": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/project/7f3a7d7a-97a1-11e6-5bed-427b0000009c",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/project/metadata",
+          "type": "project",
+          "mediaType": "application/json"
+        }
+      },
+      "organization": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/organization/a1331985-a1c8-11e6-5bed-427b00000084",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+          "type": "organization",
+          "mediaType": "application/json"
+        }
+      },
+      "documents": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/493ddf6b-aff9-11e6-5bed-427b00000076/documents",
+          "mediaType": "application/json",
+          "size": 0,
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      "processingSum": 10000,
+      "quantity": 1,
+      "processingPlan": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/c38e50b0-acdc-11e6-5bed-427b0000009e",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/metadata",
+          "type": "processingplan",
+          "mediaType": "application/json"
+        }
+      },
+      "productsStore": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/store/c61ce912-a747-11e6-5bed-427b000000a8",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+          "type": "store",
+          "mediaType": "application/json"
+        }
+      },
+      "materialsStore": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/store/d5e311c0-91f1-11e6-5bed-427b00000053",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+          "type": "store",
+          "mediaType": "application/json"
+        }
+      },
+      "processingOrder": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processingorder/c7201428-afcc-11e6-5bed-427b00000068",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/processingorder/metadata",
+          "type": "processingorder",
+          "mediaType": "application/json"
+        }
+      },
+      "products": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/493ddf6b-aff9-11e6-5bed-427b00000076/products",
+          "type": "processingpositionresult",
+          "mediaType": "application/json",
+          "size": 2,
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      "materials": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/493ddf6b-aff9-11e6-5bed-427b00000076/materials",
+          "type": "processingpositionmaterial",
+          "mediaType": "application/json",
+          "size": 2,
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/8450f4de-b002-11e6-5bed-427b00000000",
+        "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/processing/metadata",
+        "type": "processing",
+        "mediaType": "application/json"
+      },
+      "id": "8450f4de-b002-11e6-5bed-427b00000000",
+      "accountId": "d55cbfba-91f1-11e6-5bed-427b00000000",
+      "owner": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/employee/d5ad957e-91f1-11e6-5bed-427b0000002a",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+          "type": "employee",
+          "mediaType": "application/json"
+        }
+      },
+      "shared": false,
+      "group": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/group/d55da707-91f1-11e6-5bed-427b00000001",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+          "type": "group",
+          "mediaType": "application/json"
+        }
+      },
+      "version": 0,
+      "updated": "2016-11-21 18:52:33",
+      "name": "я2",
+      "externalCode": "pJCPjt45j2MH-RF6joC801",
+      "moment": "2016-11-21 18:51:23",
+      "applicable": true,
+      "project": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/project/7f3a7d7a-97a1-11e6-5bed-427b0000009c",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/project/metadata",
+          "type": "project",
+          "mediaType": "application/json"
+        }
+      },
+      "organization": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/organization/a1331985-a1c8-11e6-5bed-427b00000084",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+          "type": "organization",
+          "mediaType": "application/json"
+        }
+      },
+      "documents": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/8450f4de-b002-11e6-5bed-427b00000000/documents",
+          "mediaType": "application/json",
+          "size": 0,
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      "processingSum": 1000,
+      "quantity": 3,
+      "processingPlan": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/1a18770e-ad9a-11e6-5bed-427b00000064",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/metadata",
+          "type": "processingplan",
+          "mediaType": "application/json"
+        }
+      },
+      "productsStore": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/store/d5e311c0-91f1-11e6-5bed-427b00000053",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+          "type": "store",
+          "mediaType": "application/json"
+        }
+      },
+      "materialsStore": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/store/d5e311c0-91f1-11e6-5bed-427b00000053",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+          "type": "store",
+          "mediaType": "application/json"
+        }
+      },
+      "processingOrder": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processingorder/5fbf79f4-adac-11e6-5bed-427b0000006a",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/processingorder/metadata",
+          "type": "processingorder",
+          "mediaType": "application/json"
+        }
+      },
+      "products": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/8450f4de-b002-11e6-5bed-427b00000000/products",
+          "type": "processingpositionresult",
+          "mediaType": "application/json",
+          "size": 2,
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      "materials": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/8450f4de-b002-11e6-5bed-427b00000000/materials",
+          "type": "processingpositionmaterial",
+          "mediaType": "application/json",
+          "size": 1,
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/86e98bad-acc4-11e6-5bed-427b0000006f",
+        "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/processing/metadata",
+        "type": "processing",
+        "mediaType": "application/json"
+      },
+      "id": "86e98bad-acc4-11e6-5bed-427b0000006f",
+      "accountId": "d55cbfba-91f1-11e6-5bed-427b00000000",
+      "owner": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/employee/d5ad957e-91f1-11e6-5bed-427b0000002a",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+          "type": "employee",
+          "mediaType": "application/json"
+        }
+      },
+      "shared": false,
+      "group": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/group/d55da707-91f1-11e6-5bed-427b00000001",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+          "type": "group",
+          "mediaType": "application/json"
+        }
+      },
+      "version": 7,
+      "updated": "2016-11-21 17:18:59",
+      "name": "3",
+      "description": "123",
+      "externalCode": "wI2vDDTVgkW48xeO4nQx83",
+      "moment": "2016-11-17 18:15:00",
+      "applicable": true,
+      "project": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/project/7f3a7d7a-97a1-11e6-5bed-427b0000009c",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/project/metadata",
+          "type": "project",
+          "mediaType": "application/json"
+        }
+      },
+      "organization": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/organization/a1331985-a1c8-11e6-5bed-427b00000084",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+          "type": "organization",
+          "mediaType": "application/json"
+        }
+      },
+      "documents": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/86e98bad-acc4-11e6-5bed-427b0000006f/documents",
+          "mediaType": "application/json",
+          "size": 0,
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      "processingSum": 77800,
+      "quantity": 1,
+      "processingPlan": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/6b4ffbf7-ac12-11e6-5bed-427b00000091",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/metadata",
+          "type": "processingplan",
+          "mediaType": "application/json"
+        }
+      },
+      "productsStore": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/store/d5e311c0-91f1-11e6-5bed-427b00000053",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+          "type": "store",
+          "mediaType": "application/json"
+        }
+      },
+      "materialsStore": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/store/d5e311c0-91f1-11e6-5bed-427b00000053",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+          "type": "store",
+          "mediaType": "application/json"
+        }
+      },
+      "products": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/86e98bad-acc4-11e6-5bed-427b0000006f/products",
+          "type": "processingpositionresult",
+          "mediaType": "application/json",
+          "size": 1,
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      "materials": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/86e98bad-acc4-11e6-5bed-427b0000006f/materials",
+          "type": "processingpositionmaterial",
+          "mediaType": "application/json",
+          "size": 1,
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/bcd6e6b5-b002-11e6-5bed-427b0000000b",
+        "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/processing/metadata",
+        "type": "processing",
+        "mediaType": "application/json"
+      },
+      "id": "bcd6e6b5-b002-11e6-5bed-427b0000000b",
+      "accountId": "d55cbfba-91f1-11e6-5bed-427b00000000",
+      "owner": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/employee/d5ad957e-91f1-11e6-5bed-427b0000002a",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+          "type": "employee",
+          "mediaType": "application/json"
+        }
+      },
+      "shared": false,
+      "group": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/group/d55da707-91f1-11e6-5bed-427b00000001",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+          "type": "group",
+          "mediaType": "application/json"
+        }
+      },
+      "version": 1,
+      "updated": "2016-11-21 18:57:52",
+      "name": "я3",
+      "externalCode": "299q4AXMhEnfW6V49y5nK3",
+      "moment": "2016-11-21 18:51:00",
+      "applicable": true,
+      "project": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/project/7f3a7d7a-97a1-11e6-5bed-427b0000009c",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/project/metadata",
+          "type": "project",
+          "mediaType": "application/json"
+        }
+      },
+      "organization": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/organization/a1331985-a1c8-11e6-5bed-427b00000084",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+          "type": "organization",
+          "mediaType": "application/json"
+        }
+      },
+      "documents": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/bcd6e6b5-b002-11e6-5bed-427b0000000b/documents",
+          "mediaType": "application/json",
+          "size": 0,
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      "processingSum": 1000,
+      "quantity": 3,
+      "processingPlan": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/1a18770e-ad9a-11e6-5bed-427b00000064",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/metadata",
+          "type": "processingplan",
+          "mediaType": "application/json"
+        }
+      },
+      "productsStore": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/store/d5e311c0-91f1-11e6-5bed-427b00000053",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+          "type": "store",
+          "mediaType": "application/json"
+        }
+      },
+      "materialsStore": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/store/d5e311c0-91f1-11e6-5bed-427b00000053",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+          "type": "store",
+          "mediaType": "application/json"
+        }
+      },
+      "processingOrder": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processingorder/5fbf79f4-adac-11e6-5bed-427b0000006a",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/processingorder/metadata",
+          "type": "processingorder",
+          "mediaType": "application/json"
+        }
+      },
+      "products": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/bcd6e6b5-b002-11e6-5bed-427b0000000b/products",
+          "type": "processingpositionresult",
+          "mediaType": "application/json",
+          "size": 2,
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      "materials": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/bcd6e6b5-b002-11e6-5bed-427b0000000b/materials",
+          "type": "processingpositionmaterial",
+          "mediaType": "application/json",
+          "size": 1,
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/e0ecaec9-acdc-11e6-5bed-427b000000a5",
+        "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/processing/metadata",
+        "type": "processing",
+        "mediaType": "application/json"
+      },
+      "id": "e0ecaec9-acdc-11e6-5bed-427b000000a5",
+      "accountId": "d55cbfba-91f1-11e6-5bed-427b00000000",
+      "owner": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/employee/d5ad957e-91f1-11e6-5bed-427b0000002a",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+          "type": "employee",
+          "mediaType": "application/json"
+        }
+      },
+      "shared": false,
+      "group": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/group/d55da707-91f1-11e6-5bed-427b00000001",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+          "type": "group",
+          "mediaType": "application/json"
+        }
+      },
+      "version": 2,
+      "updated": "2016-11-18 16:56:54",
+      "name": "1234",
+      "externalCode": "P81TjGDDiO5p7oUzSsvtk3",
+      "moment": "2016-11-17 18:44:00",
+      "applicable": true,
+      "project": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/project/7f3a7d7a-97a1-11e6-5bed-427b0000009c",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/project/metadata",
+          "type": "project",
+          "mediaType": "application/json"
+        }
+      },
+      "organization": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/organization/a1331985-a1c8-11e6-5bed-427b00000084",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+          "type": "organization",
+          "mediaType": "application/json"
+        }
+      },
+      "documents": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/e0ecaec9-acdc-11e6-5bed-427b000000a5/documents",
+          "mediaType": "application/json",
+          "size": 0,
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      "processingSum": 0,
+      "quantity": 2,
+      "processingPlan": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/c38e50b0-acdc-11e6-5bed-427b0000009e",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/metadata",
+          "type": "processingplan",
+          "mediaType": "application/json"
+        }
+      },
+      "productsStore": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/store/d5e311c0-91f1-11e6-5bed-427b00000053",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+          "type": "store",
+          "mediaType": "application/json"
+        }
+      },
+      "materialsStore": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/store/d5e311c0-91f1-11e6-5bed-427b00000053",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+          "type": "store",
+          "mediaType": "application/json"
+        }
+      },
+      "products": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/e0ecaec9-acdc-11e6-5bed-427b000000a5/products",
+          "type": "processingpositionresult",
+          "mediaType": "application/json",
+          "size": 2,
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      "materials": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/e0ecaec9-acdc-11e6-5bed-427b000000a5/materials",
+          "type": "processingpositionmaterial",
+          "mediaType": "application/json",
+          "size": 0,
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    },
+    {
+      "meta": {
+        "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/e4f01df6-adb0-11e6-5bed-427b0000007a",
+        "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/processing/metadata",
+        "type": "processing",
+        "mediaType": "application/json"
+      },
+      "id": "e4f01df6-adb0-11e6-5bed-427b0000007a",
+      "accountId": "d55cbfba-91f1-11e6-5bed-427b00000000",
+      "owner": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/employee/d5ad957e-91f1-11e6-5bed-427b0000002a",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+          "type": "employee",
+          "mediaType": "application/json"
+        }
+      },
+      "shared": false,
+      "group": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/group/d55da707-91f1-11e6-5bed-427b00000001",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+          "type": "group",
+          "mediaType": "application/json"
+        }
+      },
+      "version": 0,
+      "updated": "2016-11-18 20:03:14",
+      "name": "я",
+      "externalCode": "9VU4bcd7jcC3nOhk5M2Ul0",
+      "moment": "2016-11-18 19:59:00",
+      "applicable": true,
+      "project": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/project/7f3a7d7a-97a1-11e6-5bed-427b0000009c",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/project/metadata",
+          "type": "project",
+          "mediaType": "application/json"
+        }
+      },
+      "organization": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/organization/a1331985-a1c8-11e6-5bed-427b00000084",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+          "type": "organization",
+          "mediaType": "application/json"
+        }
+      },
+      "documents": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/e4f01df6-adb0-11e6-5bed-427b0000007a/documents",
+          "mediaType": "application/json",
+          "size": 0,
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      "processingSum": 10000,
+      "quantity": 4,
+      "processingPlan": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/c38e50b0-acdc-11e6-5bed-427b0000009e",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/metadata",
+          "type": "processingplan",
+          "mediaType": "application/json"
+        }
+      },
+      "productsStore": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/store/d5e311c0-91f1-11e6-5bed-427b00000053",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+          "type": "store",
+          "mediaType": "application/json"
+        }
+      },
+      "materialsStore": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/store/d5e311c0-91f1-11e6-5bed-427b00000053",
+          "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+          "type": "store",
+          "mediaType": "application/json"
+        }
+      },
+      "products": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/e4f01df6-adb0-11e6-5bed-427b0000007a/products",
+          "type": "processingpositionresult",
+          "mediaType": "application/json",
+          "size": 2,
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      "materials": {
+        "meta": {
+          "href": "http://online.moysklad.ru/api/remap/1.1/entity/processing/e4f01df6-adb0-11e6-5bed-427b0000007a/materials",
+          "type": "processingpositionmaterial",
+          "mediaType": "application/json",
+          "size": 2,
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    }
+  ]
+}

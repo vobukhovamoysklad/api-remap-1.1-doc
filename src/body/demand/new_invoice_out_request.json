@@ -1,0 +1,13 @@
+{
+    "invoicesOut": [
+        {
+            "meta": {
+                "href": "https://online.moysklad.ru/api/remap/1.1/entity/invoiceout/1571eb25-d03d-11e7-6a80-332a00000002",
+                "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/invoiceout/metadata",
+                "type": "invoiceout",
+                "mediaType": "application/json",
+                "uuidHref": "https://online.moysklad.ru/app/#invoiceout/edit?id=1571eb25-d03d-11e7-6a80-332a00000002"
+            }
+        }
+    ]
+}

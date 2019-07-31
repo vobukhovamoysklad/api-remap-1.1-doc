@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashout/metadata/attributes/b54f1d9c-558a-11e6-8a84-bae50000006c",
+    "type": "attributemetadata",
+    "mediaType": "application/json"
+  },
+  "id": "b54f1d9c-558a-11e6-8a84-bae50000006c",
+  "name": "Строка",
+  "type": "string",
+  "required": false
+}

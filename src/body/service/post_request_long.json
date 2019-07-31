@@ -1,0 +1,50 @@
+{
+  "name": "Доставка",
+  "code": "delivery",
+  "externalCode": "delCode",
+  "description": "Доставка выбранного товара",
+  "vat": 10,
+  "effectiveVat": 10,
+  "minPrice": 532,
+  "salePrices": [
+    {
+      "value": 10532,
+      "currency": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/6314188d-2c7f-11e6-8a84-bae500000055",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+          "type": "currency",
+          "mediaType": "application/json"
+        }
+      },
+      "priceType": "Цена продажи"
+    },
+    {
+      "value": 100,
+      "currency": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/6314188d-2c7f-11e6-8a84-bae500000055",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+          "type": "currency",
+          "mediaType": "application/json"
+        }
+      },
+      "priceType": "Цена для друзей"
+    }
+  ],
+  "buyPrice": {
+    "value": 1047,
+    "currency": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/6314188d-2c7f-11e6-8a84-bae500000055",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+        "type": "currency",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "barcodes": [
+    "2000000000039",
+    "2000000000046"
+  ]
+}

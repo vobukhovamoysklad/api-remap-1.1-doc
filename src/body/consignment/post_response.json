@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/consignment/17a32a0a-5310-11e6-8a84-bae500000000",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/consignment/metadata",
+    "type": "consignment",
+    "mediaType": "application/json"
+  },
+  "id": "17a32a0a-5310-11e6-8a84-bae500000000",
+  "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+  "version": 0,
+  "updated": "2016-07-26 12:05:25",
+  "name": "фацфацфвф (цфвцф) / Метка",
+  "externalCode": "NptSJ1REgVkhqCV0RlyfV0",
+  "label": "Метка",
+  "barcodes": [
+    "2000000179087"
+  ],
+  "assortment": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/7a83c422-3c64-11e6-8a84-bae500000012",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+      "type": "variant",
+      "mediaType": "application/json"
+    }
+  }
+}

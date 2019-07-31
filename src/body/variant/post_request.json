@@ -1,0 +1,35 @@
+{
+  "name" : "(оверспелый, жёлтый)",
+  "characteristics": [
+    {
+      "id": "627610e3-2cb1-11e6-8a84-bae500000054",
+      "value": "оверспелый"
+    },
+    {
+      "id": "627617d8-2cb1-11e6-8a84-bae500000055",
+      "value": "черный"
+    }
+  ],
+  "minPrice" : 10,
+  "buyPrice": {
+    "value": 20
+  },
+  "salePrices": [
+    {
+      "value": 900,
+      "priceType": "Цена продажи"
+    },
+    {
+      "value": 102,
+      "priceType": "Цена для друзей"
+    }
+  ],
+  "product" : {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/86951fbe-2cb0-11e6-8a84-bae500000043",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+      "type": "product",
+      "mediaType": "application/json"
+    }
+  }
+}

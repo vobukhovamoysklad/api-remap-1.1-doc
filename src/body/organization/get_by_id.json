@@ -1,0 +1,117 @@
+{
+    "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/4b9d5bec-0575-11e6-9464-e4de00000008",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+        "type": "organization",
+        "mediaType": "application/json"
+    },
+    "id": "4b9d5bec-0575-11e6-9464-e4de00000008",
+    "accountId": "84e60e93-f504-11e5-8a84-bae500000008",
+    "owner": {
+        "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/faba7f37-2e58-11e6-8a84-bae500000028",
+            "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+            "type": "employee",
+            "mediaType": "application/json"
+        }
+    },
+    "shared": false,
+    "group": {
+        "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/f97aa1fb-2e58-11e6-8a84-bae500000002",
+            "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+            "type": "group",
+            "mediaType": "application/json"
+        }
+    },
+    "version": 1,
+    "updated": "2016-04-18 17:57:27",
+    "name": "ОАО СветПром",
+    "description": "юрлицо, делающее маленькую прибыль",
+    "code": "666",
+    "externalCode": "666АААА666",
+    "archived": false,
+    "created": "2007-02-07 17:16:41",
+    "trackingContractNumber": "12345678",
+    "trackingContractDate": "2007-02-07 00:00:00",
+    "legalTitle": "ООО Великое Свет Пром",
+    "legalAddress": "125009, Россия, г Москва, Москва, ул Тверская, 1, 123, addInfo",
+    "legalAddressFull": {
+      "postalCode": "125009",
+      "country": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/country/9df7c2c3-7782-4c5c-a8ed-1102af611608",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/country/metadata",
+          "type": "country",
+          "mediaType": "application/json"
+        }
+      },
+      "region": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/region/00000000-0000-0000-0000-000000000077",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/region/metadata",
+          "type": "region",
+          "mediaType": "application/json"
+        }
+      },
+      "city": "Москва",
+      "street": "ул Тверская",
+      "house": "1",
+      "apartment": "123",
+      "addInfo": "addinfo",
+      "comment": "some words about address"
+    },
+    "actualAddress": "125009, Россия, г Москва, Москва, ул Тверская, 1, 111, addInfo",
+    "actualAddressFull": {
+      "postalCode": "125009",
+      "country": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/country/9df7c2c3-7782-4c5c-a8ed-1102af611608",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/country/metadata",
+          "type": "country",
+          "mediaType": "application/json"
+        }
+      },
+      "region": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/region/00000000-0000-0000-0000-000000000077",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/region/metadata",
+          "type": "region",
+          "mediaType": "application/json"
+        }
+      },
+      "city": "Москва",
+      "street": "ул Тверская",
+      "house": "1",
+      "apartment": "111",
+      "addInfo": "addinfo",
+      "comment": "some words about address"
+    },
+    "inn": "87654321",
+    "kpp": "15312532",
+    "ogrn": "12345",
+    "okpo": "12345",
+    "ogrnip": "58632598y21jk",
+    "certificateNumber": "klghvew983412",
+    "certificateDate": "2016-04-30 00:00:00",
+    "email": "svetprom@mail.svet",
+    "phone": "22222222",
+    "fax": "bello123",
+    "accounts": {
+        "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/4b9d5bec-0575-11e6-9464-e4de00000008/accounts",
+            "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+            "type": "account",
+            "mediaType": "application/json",
+            "size": 1,
+            "limit": 100,
+            "offset": 0
+        }
+    },
+    "isEgaisEnable": true,
+    "fsrarId": "1963703",
+    "payerVat": true,
+    "utmUrl": "10.250.110.81",
+    "director": "Администратор",
+    "chiefAccountant": "Администратор"
+}

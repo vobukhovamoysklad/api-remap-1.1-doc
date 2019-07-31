@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/7944ef04-f831-11e5-7a69-971500188b19",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+    "type": "employee",
+    "mediaType": "application/json"
+  },
+  "id": "7944ef04-f831-11e5-7a69-971500188b19",
+  "accountId": "84e60e93-f504-11e5-8a84-bae500000008",
+  "owner": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/00f76fbb-cd3b-11e8-ac12-00080000002d",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json",
+      "uuidHref": "https://online.moysklad.ru/app/#employee/edit?id=00f76fbb-cd3b-11e8-ac12-00080000002d"
+    }
+  },
+  "shared": true,
+  "group": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/ffbc0889-cd3a-11e8-ac12-000700000002",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+      "type": "group",
+      "mediaType": "application/json"
+    }
+  },
+  "version": 1,
+  "updated": "2016-03-28 19:45:46",
+  "name": "Мойскладкин П. И.",
+  "description":"Описание",
+  "externalCode": "4A039QXHgbZdAHdXbcUI71",
+  "archived": false,
+  "phone":"+7(999)888-7766",
+  "uid": "admin@reqwy1",
+  "email": "asdad@sfasf.erq",
+  "firstName": "Петр",
+  "middleName": "Иванович",
+  "lastName": "Мойскладкин",
+  "fullName": "Петр Иванович Мойскладкин",
+  "shortFio": "Мойскладкин П. И.",
+  "cashier": {
+    "id": "851fa2f7-f504-11e5-8a84-bae50000016d",
+    "accountId": "84e60e93-f504-11e5-8a84-bae500000008",
+    "employee": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/7944ef04-f831-11e5-7a69-971500188b19",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+        "type": "employee",
+        "mediaType": "application/json"
+      }
+    },
+    "retailStore": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/retailstore/851f8576-f504-11e5-8a84-bae50000016c",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/retailstore/metadata",
+        "type": "retailstore",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata/attributes/0cd74e1e-2e59-11e6-8a84-bae50000008a",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "d49d59bd-12dc-11e6-9464-e4de0000006b",
+      "name": "ЗП",
+      "type": "long",
+      "value": 200
+    },
+    {
+      "meta":{
+        "href":"https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata/attributes/ed14b498-cae3-11e8-9dd2-f3a300000044",
+        "type":"attributemetadata",
+        "mediaType":"application/json"
+      },
+      "id":"ed14b498-cae3-11e8-9dd2-f3a300000044",
+      "name":"Строка",
+      "type":"string",
+      "value":"Строковое доп поле"
+    }
+  ],
+  "inn": "222490425273",
+  "position": "Директор"
+}

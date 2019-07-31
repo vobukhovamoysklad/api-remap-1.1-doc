@@ -1,0 +1,16 @@
+{
+  "name": "change name",
+  "code" : "change_code",
+  "externalCode" : "666777666",
+  "moment": "2016-04-19 13:50:24",
+  "applicable": false,
+  "description" : "Комментарий к счёту",
+  "store": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/store/850ee995-f504-11e5-8a84-bae500000160",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+      "type": "store",
+      "mediaType": "application/json"
+    }
+  }
+}

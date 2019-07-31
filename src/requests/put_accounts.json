@@ -1,0 +1,42 @@
+{
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "ID в формате UUID"
+        },
+        "isDefault": {
+          "type": "boolean",
+          "description": "Является ли счет счетом по умолчанию"
+        },
+        "accountNumber": {
+          "type": "string",
+          "description": "Номер счёта"
+        },
+        "bankname": {
+          "type": "string",
+          "description": "Наименование банка"
+        },
+        "bankLocation": {
+          "type": "string",
+          "description": "Адрес банка"
+        },
+        "correspondentAccount": {
+          "type": "string",
+          "description": "корр счет"
+        },
+        "bic": {
+          "type": "string",
+          "description": "БИК"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  ],
+  "description": "Массив Cчетов"
+}

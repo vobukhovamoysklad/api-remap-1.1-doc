@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Наименование склада"
+    },
+    "description": {
+      "type": "string",
+      "description": "Описание"
+    },
+    "code": {
+      "type": "string",
+      "description": "Код"
+    },
+    "externalCode": {
+      "type": "string",
+      "description": "Внешний код"
+    },
+    "address": {
+      "type": "string",
+      "description": "Адрес склада"
+    },
+    "pathName": {
+      "type": "string",
+      "description": "Группа склада"
+    },
+    "attributes": {
+      "type": "array",
+      "items": [
+        {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "description" : "ID доп. поля"
+            },
+            "value": {
+              "type": "string",
+              "description" : "Значение доп. поля (должно соответствовать типу доп. поля)"
+            }
+          },
+          "required": [
+            "id",
+            "value"
+          ]
+        }
+      ],
+      "description": "Доп. поля"
+    }
+  }
+}

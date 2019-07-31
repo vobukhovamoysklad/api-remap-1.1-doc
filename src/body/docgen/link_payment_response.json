@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/paymentin/94a9f8e9-b30b-11e6-8a84-bae500000017",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/paymentin/metadata",
+    "type": "paymentin",
+    "mediaType": "application/json"
+  },
+  "id": "94a9f8e9-b30b-11e6-8a84-bae500000017",
+  "accountId": "b8b74698-9128-11e6-8a84-bae500000001",
+  "owner": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/b905bfb0-9128-11e6-8a84-bae50000002a",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "shared": false,
+  "group": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/b8ba0d3f-9128-11e6-8a84-bae500000002",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+      "type": "group",
+      "mediaType": "application/json"
+    }
+  },
+  "version": 0,
+  "updated": "2016-11-25 15:35:00",
+  "name": "lol2",
+  "externalCode": "-S9khhF3gNPa78SPCu81S2",
+  "moment": "2016-11-25 15:35:00",
+  "applicable": true,
+  "sum": 400,
+  "agent": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/b942953e-9128-11e6-8a84-bae500000054",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+      "type": "counterparty",
+      "mediaType": "application/json"
+    }
+  },
+  "organization": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/a8f3150d-9d39-11e6-8a84-bae500000074",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  },
+  "documents": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/paymentin/94a9f8e9-b30b-11e6-8a84-bae500000017/documents",
+      "mediaType": "application/json",
+      "size": 0,
+      "limit": 100,
+      "offset": 0
+    }
+  },
+  "vatSum": 0,
+  "operations": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/commissionreportin/392fb7a9-ab02-11e6-8a84-bae500000073",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/commissionreportin/metadata",
+        "type": "commissionreportin",
+        "mediaType": "application/json"
+      },
+      "linkedSum": 0
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/task/3f614763-3658-11e7-8a84-bae50000003d",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/task/metadata",
+    "type": "task",
+    "mediaType": "application/json"
+  },
+  "id": "3f614763-3658-11e7-8a84-bae50000003d",
+  "accountId": "cd53c846-22e3-11e7-9464-e4de00000008",
+  "author": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/cd650c8e-22e3-11e7-9464-e4de000000ad",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "version": 0,
+  "created": "2017-05-10 16:40:51",
+  "updated": "2017-05-11 17:43:50",
+  "description": "Уточнить контактные лица",
+  "dueToDate": "2017-05-12 17:43:00",
+  "assignee": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/011a2e98-3652-11e7-8a84-bae500000026",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "done": true,
+  "agent": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/57e51bb1-2b2d-11e7-9464-e4de00000090",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+      "type": "counterparty",
+      "mediaType": "application/json"
+    }
+  }
+}

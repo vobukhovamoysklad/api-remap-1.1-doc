@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/task/df7a77dd-3653-11e7-8a84-bae50000002f",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/task/metadata",
+    "type": "task",
+    "mediaType": "application/json"
+  },
+  "id": "df7a77dd-3653-11e7-8a84-bae50000002f",
+  "accountId": "cd53c846-22e3-11e7-9464-e4de00000008",
+  "author": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/cd650c8e-22e3-11e7-9464-e4de000000ad",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "version": 0,
+  "created": "2017-05-11 17:12:31",
+  "updated": "2017-05-11 17:12:31",
+  "description": "Исправить реквизиты юрлица",
+  "dueToDate": "2017-05-12 17:12:00",
+  "assignee": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/011a2e98-3652-11e7-8a84-bae500000026",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "done": false,
+  "agent": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/cd7d65f7-22e3-11e7-9464-e4de000000d4",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  }
+}

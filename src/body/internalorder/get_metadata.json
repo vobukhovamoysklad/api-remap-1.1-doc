@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/internalorder/metadata",
+    "mediaType": "application/json"
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/internalorder/metadata/attributes/68d142e7-b300-11e6-8a84-bae50000008b",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "68d142e7-b300-11e6-8a84-bae50000008b",
+      "name": "Доп поле внут заказа",
+      "type": "string",
+      "required": false
+    }
+  ],
+  "states": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/internalorder/metadata/states/f804ff3d-b2fc-11e6-8a84-bae500000065",
+        "type": "state",
+        "mediaType": "application/json"
+      },
+      "id": "f804ff3d-b2fc-11e6-8a84-bae500000065",
+      "accountId": "b8b74698-9128-11e6-8a84-bae500000001",
+      "name": "OMG",
+      "color": 10066329,
+      "stateType": "Regular",
+      "entityType": "internalorder"
+    }
+  ],
+  "createShared": false
+}

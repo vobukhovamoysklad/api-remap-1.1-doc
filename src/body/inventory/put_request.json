@@ -1,0 +1,37 @@
+{
+  "name": "newname",
+  "positions": {
+    "rows": [
+      {
+        "quantity": 140,
+        "price": 5000,
+        "assortment": {
+          "meta": {
+            "href": "http://online.moysklad.ru/api/remap/1.1/entity/product/b6be720e-ad63-11e6-8a84-bc520000008f",
+            "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+            "type": "product",
+            "mediaType": "application/json"
+          }
+        },
+        "correctionAmount": -60,
+        "calculatedQuantity": 200,
+        "correctionSum": -300000
+      },
+      {
+        "quantity": 80,
+        "price": 4000,
+        "assortment": {
+          "meta": {
+            "href": "http://online.moysklad.ru/api/remap/1.1/entity/product/58948866-ad65-11e6-8a84-bc52000000cf",
+            "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+            "type": "product",
+            "mediaType": "application/json"
+          }
+        },
+        "correctionAmount": -20,
+        "calculatedQuantity": 100,
+        "correctionSum": -80000
+      }
+    ]
+  }
+}

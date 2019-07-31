@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "href": "hhttps://online.moysklad.ru/api/remap/1.1/entity/demand/metadata/attributes/53eb36a5-a78a-11e9-ac12-000c00000000",
+    "type": "attributemetadata",
+    "mediaType": "application/json"
+  },
+  "customEntityMeta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/companysettings/metadata/customEntities/0347beb0-a785-11e9-ac12-000800000003",
+    "type": "customentitymetadata",
+    "mediaType": "application/json"
+  },
+  "id": "53eb36a5-a78a-11e9-ac12-000c00000000",
+  "name": "Доп поле типа пользовательский справочник",
+  "type": "customentity",
+  "required": false
+}

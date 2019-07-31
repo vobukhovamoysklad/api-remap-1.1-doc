@@ -1,0 +1,161 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "Код"
+    },
+    "externalCode": {
+      "type": "string",
+      "description": "Внешний код"
+    },
+    "characteristics": {
+      "type": "array",
+      "items": [
+        {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "description" : "ID Характеристики"
+            },
+            "name": {
+              "type": "string",
+              "description" : "Наименование Характеристики"
+            },
+            "value": {
+              "type": "string",
+              "description" : "Значение характеристики"
+            }
+          },
+          "required": [
+            "id",
+            "value"
+          ]
+        }
+      ]
+    },
+    "minPrice": {
+      "type": "number",
+      "description": "Минимальная цена"
+    },
+    "buyPrice": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "number",
+          "description" : "Значение цены"
+        },
+        "currency" : {
+          "type": "object",
+          "properties": {
+            "meta": {
+              "type": "object",
+              "properties": {
+                "href": {
+                  "type": "string",
+                  "description": "Ссылка на сущность"
+                },
+                "type": {
+                  "type": "string",
+                  "description": "Тип сущности"
+                },
+                "mediaType": {
+                  "type": "string",
+                  "description": "Тип данных"
+                }
+              },
+              "required": [
+                "href",
+                "mediaType"
+              ]
+            }
+          },
+          "description" : "Ссылка на валюту"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Цена закупки"
+    },
+    "salePrices": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number",
+              "description": "Значение цены"
+            },
+            "currency" : {
+              "type": "object",
+              "properties": {
+                "meta": {
+                  "type": "object",
+                  "properties": {
+                    "href": {
+                      "type": "string",
+                      "description": "Ссылка на сущность"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Тип сущности"
+                    },
+                    "mediaType": {
+                      "type": "string",
+                      "description": "Тип данных"
+                    }
+                  },
+                  "required": [
+                    "href",
+                    "mediaType"
+                  ]
+                }
+              },
+              "description" : "Ссылка на валюту"
+            },
+            "priceType": {
+              "type": "string",
+              "description": "Тип цены"
+            }
+          },
+          "additionalProperties": false
+        }
+      ],
+      "description": "Цены продажи"
+    },
+    "product": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "href": {
+              "type": "string",
+              "description": "Ссылка на сущность"
+            },
+            "metadataHref": {
+              "type": "string",
+              "description": "Ссылка на метаданные сущности"
+            },
+            "type": {
+              "type": "string",
+              "description": "Тип сущности"
+            },
+            "mediaType": {
+              "type": "string",
+              "description": "Тип данных"
+            }
+          }
+        }
+      },
+      "required": [
+        "href",
+        "mediaType"
+      ],
+      "description": "Ссылка на продукт, к которому относится модификация"
+    }
+  },
+}

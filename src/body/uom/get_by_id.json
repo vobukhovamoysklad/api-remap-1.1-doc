@@ -1,0 +1,15 @@
+{
+    "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/uom/061721df-9197-49a5-b637-7f5b4d3be969",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/uom/metadata",
+        "type": "uom",
+        "mediaType": "application/json"
+    },
+    "id": "061721df-9197-49a5-b637-7f5b4d3be969",
+    "version": 0,
+    "updated": "2012-11-02 11:07:44",
+    "name": "дюйм",
+    "description": "Дюйм (25,4 мм)",
+    "code": "039",
+    "externalCode": "039"
+}

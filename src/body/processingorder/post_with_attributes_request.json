@@ -1,0 +1,35 @@
+{
+  "organization": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/850c8195-f504-11e5-8a84-bae50000015e",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  },
+  "processingPlan": {
+      "meta": {
+        "href": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/c38e50b0-acdc-11e6-5bed-427b0000009e",
+        "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/processingplan/metadata",
+        "type": "processingplan",
+        "mediaType": "application/json"
+      }
+  },
+  "positions": [
+    {
+      "quantity": 111,
+      "assortment": {
+         "meta": {
+             "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/eeef177f-f648-11e5-8a84-bae50000007a",
+             "type": "product",
+             "mediaType": "application/json"
+         }
+      }
+    }
+  ],
+  "attributes": [
+    {
+      "id": "c2ecd338-015e-11e6-9464-e4de0000008f",
+      "value": "Атрибут заказа",
+    }
+  ]
+}

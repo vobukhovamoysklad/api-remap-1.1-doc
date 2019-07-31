@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Наименование статьи расходов"
+    },
+    "description": {
+      "type": "string",
+      "description": "Описание статьи расходов"
+    },
+    "code": {
+      "type": "string",
+      "description": "Код статьи расходов"
+    },
+    "externalCode": {
+      "type": "string",
+      "description": "Внешний код статьи расходов"
+    }
+  },
+  "required": [
+    "name"
+  ]
+}

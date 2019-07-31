@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/invoicein/metadata/attributes/48c7b9af-3f55-11e6-8a84-bae500000076",
+    "type": "attributemetadata",
+    "mediaType": "application/json"
+  },
+  "id": "48c7b9af-3f55-11e6-8a84-bae500000076",
+  "name": "По акции",
+  "type": "boolean",
+  "required": false
+}

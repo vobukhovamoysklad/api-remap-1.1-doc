@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Строковое",
+    "type": "string",
+    "required": false
+  },
+  {
+    "name": "Целочисленное",
+    "type": "long",
+    "required": true
+  }
+]

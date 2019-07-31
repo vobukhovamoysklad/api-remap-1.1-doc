@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/companysettings",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/companysettings/metadata",
+    "type": "companysettings",
+    "mediaType": "application/json"
+  },
+  "currency": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/45ffbac2-24a5-11e6-8a84-bae500000055",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+      "type": "currency",
+      "mediaType": "application/json"
+    }
+  },
+  "discountStrategy": "bySum"
+}

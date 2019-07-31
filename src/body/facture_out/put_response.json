@@ -1,0 +1,81 @@
+{
+    "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/factureout/99d41b01-aa8a-11e6-8af5-581e0000007e",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/factureout/metadata",
+        "type": "factureout",
+        "mediaType": "application/json"
+    },
+    "id": "99d41b01-aa8a-11e6-8af5-581e0000007e",
+    "accountId": "f4917c99-2346-11e7-1542-821d00000001",
+    "owner": {
+        "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/f500c39b-2346-11e7-1542-821d0000002a",
+            "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+            "type": "employee",
+            "mediaType": "application/json"
+        }
+    },
+    "shared": false,
+    "group": {
+        "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/f49447eb-2346-11e7-1542-821d00000002",
+            "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+            "type": "group",
+            "mediaType": "application/json"
+        }
+    },
+    "version": 1,
+    "updated": "2017-04-27 18:36:36",
+    "name": "FactureOut2",
+    "externalCode": "KAwh2VT7hIzHDWQoIcfvS0",
+    "moment": "2017-04-27 18:27:00",
+    "applicable": true,
+    "rate": {
+        "currency": {
+            "meta": {
+                "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/f52dd97c-2346-11e7-1542-821d00000058",
+                "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+                "type": "currency",
+                "mediaType": "application/json"
+            }
+        }
+    },
+    "sum": 0,
+    "agent": {
+        "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/f52d95dd-2346-11e7-1542-821d00000056",
+            "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+            "type": "counterparty",
+            "mediaType": "application/json"
+        }
+    },
+    "organization": {
+        "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/f52a29b3-2346-11e7-1542-821d00000051",
+            "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+            "type": "organization",
+            "mediaType": "application/json"
+        }
+    },
+    "documents": {
+        "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.1/entity/factureout/99d41b01-aa8a-11e6-8af5-581e0000007e/documents",
+            "mediaType": "application/json",
+            "size": 0,
+            "limit": 100,
+            "offset": 0
+        }
+    },
+    "created": "2017-04-27 18:27:09",
+    "stateContractId": "005674",
+    "demands": [
+        {
+            "meta": {
+                "href": "https://online.moysklad.ru/api/remap/1.1/entity/demand/a95dbc95-24e0-11e7-1542-821d00000001",
+                "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/demand/metadata",
+                "type": "demand",
+                "mediaType": "application/json"
+            }
+        }
+    ]
+}

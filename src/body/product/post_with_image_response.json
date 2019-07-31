@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/bd1c0a3e-95ee-11e6-8a84-bae500000004",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+    "type": "product",
+    "mediaType": "application/json"
+  },
+  "id": "bd1c0a3e-95ee-11e6-8a84-bae500000004",
+  "accountId": "b8b74698-9128-11e6-8a84-bae500000001",
+  "owner": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/b905bfb0-9128-11e6-8a84-bae50000002a",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "shared": true,
+  "group": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/b8ba0d3f-9128-11e6-8a84-bae500000002",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+      "type": "group",
+      "mediaType": "application/json"
+    }
+  },
+  "version": 0,
+  "updated": "2016-10-19 14:25:28",
+  "name": "testimage",
+  "code": "00006",
+  "externalCode": "0bmPIvHxgEDlNIZrZ6GLt2",
+  "archived": false,
+  "pathName": "",
+  "image": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/download/bd159783-95ee-11e6-8a84-bae500000001",
+      "mediaType": "application/octet-stream"
+    },
+    "updated": "2017-01-11 14:54:10",
+    "title": "birdimage.png",
+    "filename": "birdimage.png",
+    "size": 14052,
+    "miniature": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/download/bd159783-95ee-11e6-8a84-bae500000001?miniature=true",
+      "mediaType": "image/png"
+    },
+    "tiny": {
+      "href": "https://online.moysklad.ru/app/download/bd14f0b6-95ee-11e6-8a84-bae500000000.png",
+      "mediaType": "image/png"
+    }
+  },
+  "minPrice": 0,
+  "salePrices": [
+    {
+      "value": 0,
+      "priceType": "Цена продажи"
+    }
+  ],
+  "buyPrice": {
+    "value": 0
+  },
+  "weight": 0.0,
+  "volume": 0.0,
+  "barcodes": [
+    "2000000000107"
+  ],
+  "modificationsCount": 0,
+  "isSerialTrackable": false,
+  "trackingType": "NOT_TRACKED"
+}

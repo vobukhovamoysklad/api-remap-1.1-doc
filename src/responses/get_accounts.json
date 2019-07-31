@@ -1,0 +1,135 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "context": {
+      "type": "object",
+      "properties": {
+        "employee": {
+          "meta": {
+            "type": "object",
+            "properties": {
+              "type": "object",
+              "properties": {
+                "href": {
+                  "type": "string",
+                  "description": "Ссылка на сущность"
+                },
+                "type": {
+                  "type": "string",
+                  "description": "Тип сущности"
+                },
+                "mediaType": {
+                  "type": "string",
+                  "description": "Тип данных"
+                }
+              }
+            }
+          },
+          "required": [
+            "href",
+            "mediaType"
+          ],
+          "description": "Сотрудник, от имени которого обрабатывается запрос"
+        }
+      },
+      "required": [
+        "employee"
+      ]
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "href": {
+          "type": "string",
+          "description": "Ссылка на сущность"
+        },
+        "type": {
+          "type": "string",
+          "description": "Тип сущности"
+        },
+        "mediaType": {
+          "type": "string",
+          "description": "Тип данных"
+        },
+        "size": {
+          "type": "number",
+          "description": "Количество сущностей"
+        },
+        "limit": {
+          "type": "number",
+          "description": "Лимит сущностей"
+        },
+        "offset": {
+          "type": "number",
+          "description": "Отступ в списке сущностей"
+        }
+      },
+      "required": [
+        "href",
+        "mediaType"
+      ]
+    },
+    "rows": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "description": "ID"
+            },
+            "accountId": {
+              "type": "string",
+              "description": "ID учетной записи"
+            },
+            "version": {
+              "type": "string",
+              "description": "Версия сущности"
+            },
+            "updated": {
+              "type": "string",
+              "description": "Момент последнего обновления сущности"
+            },
+            "isDefault": {
+              "type": "boolean",
+              "description": "Является ли счет счетом по умолчанию"
+            },
+            "accountNumber": {
+              "type": "string",
+              "description": "Номер счёта"
+            },
+            "bankname": {
+              "type": "string",
+              "description": "Наименование банка"
+            },
+            "bankLocation": {
+              "type": "string",
+              "description": "Адрес банка"
+            },
+            "correspondentAccount": {
+              "type": "string",
+              "description": "корр счет"
+            },
+            "bic": {
+              "type": "string",
+              "description": "БИК"
+            }
+          },
+          "required": [
+            "accountNumber",
+            "agent"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Массив Счетов Контрагента"
+    }
+  },
+  "required": [
+    "context",
+    "Meta",
+    "rows"
+  ]
+}

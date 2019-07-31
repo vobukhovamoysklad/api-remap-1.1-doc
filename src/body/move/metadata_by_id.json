@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/move/metadata/attributes/954d6ab9-4f67-11e6-8a84-bae5000000bc",
+    "type": "attributemetadata",
+    "mediaType": "application/json"
+  },
+  "id": "954d6ab9-4f67-11e6-8a84-bae5000000bc",
+  "name": "Кол-во машин",
+  "type": "long",
+  "required": false
+}

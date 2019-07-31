@@ -1,0 +1,156 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "ID в формате UUID"
+    },
+    "name": {
+      "type": "string",
+      "description": "Имя Услуги"
+    },
+    "description": {
+      "type": "string",
+      "description": "Описание Услуги"
+    },
+    "code": {
+      "type": "string",
+      "description": "Код"
+    },
+    "externalCode": {
+      "type": "string",
+    },
+    "archived": {
+      "type": "boolean",
+      "description": "Добавлен ли Услуга в архив"
+    },
+    "pathName": {
+      "type": "string",
+      "description": "Наименование группы, в которую входит Услуга"
+    },
+    "vat": {
+      "type": "string",
+      "description": "НДС %"
+    },
+    "effectiveVat": {
+      "type": "string",
+      "description": "Реальный НДС %"
+    },
+    "productFolder": {
+      "type": "object",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "href": {
+              "type": "string",
+              "description": "Ссылка на сущность"
+            },
+            "metadataHref": {
+              "type": "string",
+              "description": "Ссылка на метаданные сущности"
+            },
+            "type": {
+              "type": "string",
+              "description": "Тип сущности"
+            },
+            "mediaType": {
+              "type": "string",
+              "description": "Тип данных"
+            }
+          }
+        }
+      },
+      "required": [
+        "href",
+        "mediaType"
+      ],
+      "additionalProperties": false,
+      "description": "Групппа Услуги"
+    },
+    "uom": {
+      "type": "string",
+      "description": "Единицы измерения"
+    },
+    "minPrice": {
+      "type": "number",
+      "description": "Минимальная цена"
+    },
+    "salePrices": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number",
+              "description": "Значение цены"
+            },
+            "priceType": {
+              "type": "string",
+              "description": "Тип цены"
+            },
+            "currency" : {
+              "type": "object",
+              "properties": {
+                "meta": {
+                  "type": "object",
+                  "properties": {
+                    "href": {
+                      "type": "string",
+                      "description": "Ссылка на сущность"
+                    },
+                    "type": {
+                      "type": "string",
+                      "description": "Тип сущности"
+                    },
+                    "mediaType": {
+                      "type": "string",
+                      "description": "Тип данных"
+                    }
+                  },
+                  "required": [
+                    "href",
+                    "mediaType"
+                  ]
+                }
+              },
+              "description" : "Ссылка на валюту"
+            }
+          },
+          "additionalProperties": false
+        }
+      ],
+      "description": "Цены продажи"
+    },
+    "attributes": {
+      "type": "array",
+      "items": [
+        {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "description" : "ID доп. поля"
+            },
+            "value": {
+              "type": "string",
+              "description" : "Значение доп. поля (должно соответствовать типу доп. поля)"
+            }
+          },
+          "required": [
+            "id",
+            "value"
+          ]
+        }
+      ],
+      "description": "Доп. поля"
+    }
+  },
+  "required": [
+    "id"
+  ],
+  "additionalProperties": false
+}

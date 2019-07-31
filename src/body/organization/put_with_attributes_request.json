@@ -1,0 +1,26 @@
+{
+  "name": "ОАО СветПром",
+  "description": "юрлицо, делающее маленькую прибыль",
+  "code": "666",
+  "externalCode": "666АААА666",
+  "archived": false,
+  "trackingContractNumber": "12345678",
+  "trackingContractDate": "2007-02-07 00:00:00",
+  "legalTitle": "ООО Великое Свет Пром",
+  "inn": "87654321",
+  "kpp": "15312532",
+  "ogrn": "12345",
+  "okpo": "12345",
+  "email": "svetprom@mail.svet",
+  "phone": "22222222",
+  "fax": "bello123",
+  "attributes": [
+    {
+      "id": "7f4a6b38-12bb-11e6-9464-e4de00000076",
+      "value": "Такая Строка"
+    }
+  ],
+  "payerVat": false,
+  "director": "Вздрыжженов Иван Валерьевич",
+  "chiefAccountant": "Кулумбекова Василиса Иисмаиловна"
+}

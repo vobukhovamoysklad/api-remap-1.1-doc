@@ -1,0 +1,78 @@
+{
+  "context": {
+    "employee": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/context/employee",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+        "type": "employee",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/67e5a691-3c9c-11e7-8af5-581e00000056/notes",
+    "type": "note",
+    "mediaType": "application/json",
+    "size": 2,
+    "limit": 25,
+    "offset": 0
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/67e5a691-3c9c-11e7-8af5-581e00000056/notes/7e391b16-3efd-11e7-8af5-581e0000009d",
+        "type": "note",
+        "mediaType": "application/json"
+      },
+      "id": "7e391b16-3efd-11e7-8af5-581e0000009d",
+      "accountId": "b127966a-3efa-11e7-8af5-581e00000001",
+      "version": 0,
+      "created": "2017-05-22 17:46:52",
+      "description": "второе событие",
+      "agent": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/67e5a691-3c9c-11e7-8af5-581e00000056",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+          "type": "counterparty",
+          "mediaType": "application/json"
+        }
+      },
+      "author": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/b1876a85-3efa-11e7-8af5-581e0000002a",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+          "type": "employee",
+          "mediaType": "application/json"
+        }
+      }
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/67e5a691-3c9c-11e7-8af5-581e00000056/notes/7b919056-3efd-11e7-8af5-581e0000009a",
+        "type": "note",
+        "mediaType": "application/json"
+      },
+      "id": "7b919056-3efd-11e7-8af5-581e0000009a",
+      "accountId": "b127966a-3efa-11e7-8af5-581e00000001",
+      "version": 0,
+      "created": "2017-05-22 17:46:47",
+      "description": "первое событие",
+      "agent": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/67e5a691-3c9c-11e7-8af5-581e00000056",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+          "type": "counterparty",
+          "mediaType": "application/json"
+        }
+      },
+      "author": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/b1876a85-3efa-11e7-8af5-581e0000002a",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+          "type": "employee",
+          "mediaType": "application/json"
+        }
+      }
+    }
+  ]
+}

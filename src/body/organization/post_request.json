@@ -1,0 +1,73 @@
+{
+  "name": "ОАО СветПром",
+  "description": "юрлицо, делающее маленькую прибыль",
+  "code": "666",
+  "externalCode": "666АААА666",
+  "archived": false,
+  "trackingContractNumber": "12345678",
+  "trackingContractDate": "2007-02-07 00:00:00",
+  "legalTitle": "ООО Великое Свет Пром",
+  "legalAddressFull": {
+    "postalCode": "125009",
+    "country": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/country/9df7c2c3-7782-4c5c-a8ed-1102af611608",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/country/metadata",
+        "type": "country",
+        "mediaType": "application/json"
+      }
+    },
+    "region": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/region/00000000-0000-0000-0000-000000000077",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/region/metadata",
+        "type": "region",
+        "mediaType": "application/json"
+      }
+    },
+    "city": "Москва",
+    "street": "ул Тверская",
+    "house": "1",
+    "apartment": "123",
+    "addInfo": "addinfo",
+    "comment": "some words about address"
+  },
+  "actualAddressFull": {
+    "postalCode": "125009",
+    "country": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/country/9df7c2c3-7782-4c5c-a8ed-1102af611608",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/country/metadata",
+        "type": "country",
+        "mediaType": "application/json"
+      }
+    },
+    "region": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/region/00000000-0000-0000-0000-000000000077",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/region/metadata",
+        "type": "region",
+        "mediaType": "application/json"
+      }
+    },
+    "city": "Москва",
+    "street": "ул Тверская",
+    "house": "1",
+    "apartment": "111",
+    "addInfo": "addinfo",
+    "comment": "some words about address"
+  },
+  "inn": "87654321",
+  "kpp": "15312532",
+  "ogrn": "12345",
+  "okpo": "12345",
+  "email": "svetprom@mail.svet",
+  "phone": "22222222",
+  "fax": "bello123",
+  "isEgaisEnable": true,
+  "fsrarId": "1963703",
+  "payerVat": true,
+  "utmUrl": "10.250.110.81",
+  "director": "Кипелова Александра",
+  "chiefAccountant": "Подкупников Иван"
+}

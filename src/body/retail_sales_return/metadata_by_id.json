@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/retailsalesreturn/metadata/attributes/9b0c8d28-558c-11e6-8a84-bae50000008a",
+    "type": "attributemetadata",
+    "mediaType": "application/json"
+  },
+  "id": "9b0c8d28-558c-11e6-8a84-bae50000008a",
+  "name": "Дата возвращённого документа",
+  "type": "time",
+  "required": false
+}

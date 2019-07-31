@@ -1,0 +1,13 @@
+{
+  "operations": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/commissionreportin/392fb7a9-ab02-11e6-8a84-bae500000073",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/commissionreportin/metadata",
+        "type": "commissionreportin",
+        "mediaType": "application/json"
+      }
+    }
+
+  ]
+}

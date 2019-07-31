@@ -1,0 +1,37 @@
+{
+  "characteristics": [
+    {
+      "id": "07e9aa56-137b-11e6-9464-e4de000000e7",
+      "value": "Средний"
+    },
+    {
+      "id": "07e9b661-137b-11e6-9464-e4de000000e8",
+      "value": "Оранжевый"
+    },
+    {
+      "id": "60907bc8-137b-11e6-9464-e4de00000155",
+      "value": "Свежий"
+    }
+  ],
+  "code": "orangeCode",
+  "externalCode": "orange303",
+  "buyPrice": {
+    "value": 700
+  },
+  "salePrices": [
+    {
+      "value": 1100,
+      "priceType": "Цена продажи"
+    },
+    {
+      "value": 702,
+      "priceType": "Цена для друзей"
+    },
+    {
+      "value": 1230,
+      "priceType": "Цена для конкурентов"
+    }
+  ],
+  "minPrice" : 101
+
+}

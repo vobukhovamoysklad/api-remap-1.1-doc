@@ -1,0 +1,169 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "context": {
+      "type": "object",
+      "properties": {
+        "employee": {
+          "meta": {
+            "type": "object",
+            "properties": {
+              "type": "object",
+              "properties": {
+                "href": {
+                  "type": "string",
+                  "description": "Ссылка на сущность"
+                },
+                "type": {
+                  "type": "string",
+                  "description": "Тип сущности"
+                },
+                "mediaType": {
+                  "type": "string",
+                  "description": "Тип данных"
+                }
+              }
+            }
+          },
+          "required": [
+            "href",
+            "mediaType"
+          ],
+          "description": "Сотрудник, от имени которого обрабатывается запрос"
+        }
+      },
+      "required": [
+        "employee"
+      ]
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "href": {
+          "type": "string",
+          "description": "Ссылка на сущность"
+        },
+        "type": {
+          "type": "string",
+          "description": "Тип сущности"
+        },
+        "mediaType": {
+          "type": "string",
+          "description": "Тип данных"
+        },
+        "size": {
+          "type": "number",
+          "description": "Количество сущностей"
+        },
+        "limit": {
+          "type": "number",
+          "description": "Лимит сущностей"
+        },
+        "offset": {
+          "type": "number",
+          "description": "Отступ в списке сущностей"
+        }
+      },
+      "required": [
+        "href",
+        "mediaType"
+      ]
+    },
+    "rows": {
+      "type": "array",
+      "items": [
+        {
+          "type" : "object",
+          "properties":{
+            "meta": {
+              "type": "object",
+              "properties": {
+                "href": {
+                  "type": "string",
+                  "description": "Ссылка на сущность"
+                },
+                "metadataHref": {
+                  "type": "string",
+                  "description": "Ссылка на метаданные сущности"
+                },
+                "type": {
+                  "type": "string",
+                  "description": "Тип сущности"
+                },
+                "mediaType": {
+                  "type": "string",
+                  "description": "Тип данных"
+                }
+              },
+              "required": [
+                "href",
+                "mediaType"
+              ],
+              "additionalProperties": false,
+              "description": "Ссылка на операцию"
+            },
+            "positions": {
+              "type" : "array",
+              "description" : "stock by operation's positions",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "meta": {
+                      "type": "object",
+                      "properties": {
+                        "href": {
+                          "type": "string",
+                          "description": "Ссылка на сущность"
+                        },
+                        "metadataHref": {
+                          "type": "string",
+                          "description": "Ссылка на метаданные сущности"
+                        },
+                        "type": {
+                          "type": "string",
+                          "description": "Тип сущности"
+                        },
+                        "mediaType": {
+                          "type": "string",
+                          "description": "Тип данных"
+                        }
+                      },
+                      "required": [
+                        "href",
+                        "mediaType"
+                      ],
+                      "additionalProperties": false,
+                      "description": "Ссылка на продукт/серию/модификацию"
+                    },
+                    "name": {
+                      "type": "string",
+                      "description": "Наименование склада"
+                    },
+                    "stock": {
+                      "type": "number",
+                      "description": "Остаток"
+                    },
+                    "cost":{
+                      "type": "number",
+                      "description": "Себестоимость"
+                    },
+                    "inTransit": {
+                      "type": "number",
+                      "description": "Ожидание"
+                    },
+                    "reserve": {
+                      "type": "number",
+                      "description": "Резерв"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

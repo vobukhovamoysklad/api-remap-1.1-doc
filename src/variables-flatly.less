@@ -1,0 +1,212 @@
+/* Basic page-wide colors */
+@background-color: white;
+@text-color: black;
+@font-size: 14px;
+@nav-width: 220px;
+@nav-triple-width: 16.5%;
+@right-panel-width: 48.5%;
+@right-panel-background-width: 48.6%;
+
+@base-font: 400 14px ~"/" 1.42 "Helvetica Neue", Arial, sans-serif;
+@title-font: 200 36px "Helvetica Neue", Arial, sans-serif;
+@link-color: #18bc9c;
+@right-link-color: @link-color;
+
+pre {
+    background-color: @code-block-background-color;
+    padding: @padding;
+    border: 1px solid @code-block-border-color;
+    border-radius: @border-radius;
+    overflow: auto;
+
+    code {
+        color: @code-block-text-color;
+        background-color: transparent;
+        padding: 0;
+        border: none;
+    }
+}
+
+pre.code {
+    background-color: @code-block-background-color;
+    padding: 0px;
+    border: 0px solid @code-block-border-color;
+    border-radius: @border-radius;
+    overflow: auto;
+    transition: max-height 0.3s ease-in-out;
+    max-height: 0px;
+    code {
+        color: @code-block-text-color;
+        background-color: transparent;
+        padding: 0;
+        border: none;
+
+    }
+}
+
+.right .example-names {
+  background-color: @tabs-background-color;
+  padding: @padding;
+  border-radius: @border-radius;
+  line-height: 3 * @padding;
+
+  .tab-button {
+    cursor: pointer;
+    color: @text-color;
+    border: 1px solid @tabs-border-color;
+    padding: @padding / 2;
+    margin-left: @padding;
+
+    &.active {
+      background-color: @tabs-active-background-color;
+    }
+  }
+}
+
+.collapse-code-button {
+    float: right;
+
+    .open {
+        color: @link-color;
+        cursor: pointer;
+    }
+
+    .close {
+        display: none;
+        color: @link-color;
+        cursor: pointer;
+    }
+
+    &.show {
+        .open {
+            display: none;
+        }
+
+        .close {
+            display: inline;
+        }
+    }
+}
+
+.scrlable {
+    max-height: 450px;
+    display: block;
+    overflow: auto;
+}
+
+
+.collapse-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s ease-in-out;
+}
+
+.right {
+    box-sizing: border-box;
+    float: right;
+    width: @right-panel-width;
+    padding-left: @padding;
+
+    a {
+        color: @right-link-color;
+    }
+
+    h1, h2, h3, h4, h5, p, div {
+        color: @right-text-color;
+    }
+
+    pre {
+        background-color: @right-code-block-background-color;
+        border: 1px solid @right-code-block-border-color;
+
+        code {
+            color: @right-code-block-text-color;
+        }
+    }
+
+    codepre {
+        background-color: @right-code-block-background-color;
+        border: 1px solid @right-code-block-border-color;
+
+        code {
+            color: @right-code-block-text-color;
+        }
+    }
+    .description {
+        margin-top: @padding;
+    }
+}
+
+/* Notes and warnings */
+@note-text-color: @text-color;
+@note-title-text-color: #3498db;
+@note-background-color: mix(@note-title-text-color, @background-color, 8%);
+@note-border-color: @note-title-text-color;
+
+@warning-text-color: @text-color;
+@warning-title-text-color: darken(#e74c3c, 10%);
+@warning-background-color: mix(@warning-title-text-color, @background-color, 7%);
+@warning-border-color: @warning-title-text-color;
+
+/* HTTP method-specific colors */
+@group-background-color: @background-color;
+@group-title-background-color: contrast(@background-color,
+                                        darken(@background-color, 7%),
+                                        lighten(@background-color, 7%));
+@group-border-color: contrast(@background-color,
+                              darken(@background-color, 7%),
+                              lighten(@background-color, 7%));
+@group-text-color: contrast(@group-background-color);
+
+/* HTTP GET */
+@get-color: white;
+@get-background-color: #3498db;
+@get-text-color: contrast(@get-background-color);
+@get-badge-text-color: white;
+@get-border-color: @get-background-color;
+
+/* HTTP HEAD */
+@head-color: @get-color;
+@head-background-color: @get-background-color;
+@head-text-color: @get-text-color;
+@head-badge-text-color: @get-badge-text-color;
+@head-border-color: @get-border-color;
+
+/* HTTP OPTIONS */
+@options-color: @get-color;
+@options-background-color: @get-background-color;
+@options-text-color: @get-text-color;
+@options-badge-text-color: @get-badge-text-color;
+@options-border-color: @get-border-color;
+
+/* HTTP PUT */
+@put-color: white;
+@put-background-color: #f39c12;
+@put-text-color: contrast(@put-background-color);
+@put-badge-text-color: white;
+@put-border-color: @put-background-color;
+
+/* HTTP PATCH */
+@patch-color: @put-color;
+@patch-background-color: @put-background-color;
+@patch-text-color: @put-text-color;
+@patch-badge-text-color: @put-badge-text-color;
+@patch-border-color: @put-border-color;
+
+/* HTTP POST */
+@post-color: white;
+@post-background-color: #18bc9c;
+@post-text-color: contrast(@post-background-color);
+@post-badge-text-color: white;
+@post-border-color: @post-background-color;
+
+/* HTTP DELETE */
+@delete-color: white;
+@delete-background-color: #e74c3c;
+@delete-text-color: contrast(@delete-background-color);
+@delete-badge-text-color: white;
+@delete-border-color: @delete-background-color;
+
+/* Code colors */
+@title-code-background-color: rgba(255, 255, 255, 0.7);
+@title-code-border-color: transparent;

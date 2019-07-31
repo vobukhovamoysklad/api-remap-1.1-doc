@@ -1,0 +1,94 @@
+{
+  "name": "ООО Овощ Экспресс",
+  "description" : "Сеть доставки овощей",
+  "code" : "ovoshexpressCode",
+  "externalCode" : "extVagetable",
+  "email" : "ovosh@delivery.ru",
+  "phone" : "+7 495 662 12 23",
+  "fax" : "1052034",
+  "legalTitle": "Общество с ограниченой ответственностью \"Овощ Экспресс\"",
+  "legalAddressFull": {
+    "postalCode": "125009",
+    "country": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/country/9df7c2c3-7782-4c5c-a8ed-1102af611608",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/country/metadata",
+        "type": "country",
+        "mediaType": "application/json"
+      }
+    },
+    "region": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/region/00000000-0000-0000-0000-000000000077",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/region/metadata",
+        "type": "region",
+        "mediaType": "application/json"
+      }
+    },
+    "city": "Москва",
+    "street": "ул Тверская",
+    "house": "1",
+    "apartment": "123",
+    "addInfo": "addinfo",
+    "comment": "some words about address"
+  },
+  "actualAddressFull": {
+    "postalCode": "125009",
+    "country": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/country/9df7c2c3-7782-4c5c-a8ed-1102af611608",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/country/metadata",
+        "type": "country",
+        "mediaType": "application/json"
+      }
+    },
+    "region": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/region/00000000-0000-0000-0000-000000000077",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/region/metadata",
+        "type": "region",
+        "mediaType": "application/json"
+      }
+    },
+    "city": "Москва",
+    "street": "ул Тверская",
+    "house": "1",
+    "apartment": "111",
+    "addInfo": "addinfo",
+    "comment": "some words about address"
+  },
+  "inn" : "1251521244152",
+  "kpp" : "121555212",
+  "ogrn" : "1251552",
+  "okpo" : "201323",
+  "tags" : [
+    "Овощи", "Еда", "Доставка"
+  ],
+  "attributes" : [
+    {
+      "id": "0d129ff5-2c8c-11e6-8a84-bae5000000f3" ,
+      "name" :  "Коэффициент скидки",
+      "type" : "double",
+      "value" : 0.75
+    },
+    {
+      "id": "0d12a9a5-2c8c-11e6-8a84-bae5000000f4",
+      "name" : "Последний заключённый договор",
+      "type" : "time",
+      "value": "2016-06-07 12:52:33"
+    },
+    {
+      "id": "0d12b1e7-2c8c-11e6-8a84-bae5000000f5",
+      "name" : "Партнёрское юрлицо",
+      "type": "boolean",
+      "value" : false
+    }
+  ],
+  "state": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata/states/fb56c504-2e58-11e6-8a84-bae500000069",
+      "type": "state",
+      "mediaType": "application/json"
+    }
+  }
+}

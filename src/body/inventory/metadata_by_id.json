@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "href": "http://online.moysklad.ru/api/remap/1.1/entity/inventory/metadata/attributes/1f7dbb1b-ad6e-11e6-8a84-bc52000000eb",
+    "type": "attributemetadata",
+    "mediaType": "application/json"
+  },
+  "id": "1f7dbb1b-ad6e-11e6-8a84-bc52000000eb",
+  "name": "доп.поле1",
+  "type": "string",
+  "required": false
+}

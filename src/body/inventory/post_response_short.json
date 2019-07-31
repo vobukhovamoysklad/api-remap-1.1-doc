@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "href": "http://online.moysklad.ru/api/remap/1.1/entity/inventory/8a2a5d07-ad6d-11e6-8a84-bc520000000a",
+    "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/inventory/metadata",
+    "type": "inventory",
+    "mediaType": "application/json"
+  },
+  "id": "8a2a5d07-ad6d-11e6-8a84-bc520000000a",
+  "accountId": "c3cc7e30-99bb-11e6-8a84-bc5200000001",
+  "owner": {
+    "meta": {
+      "href": "http://online.moysklad.ru/api/remap/1.1/entity/employee/c4b17cf2-99bb-11e6-8a84-bc520000002a",
+      "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "shared": false,
+  "group": {
+    "meta": {
+      "href": "http://online.moysklad.ru/api/remap/1.1/entity/group/c3cff163-99bb-11e6-8a84-bc5200000002",
+      "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+      "type": "group",
+      "mediaType": "application/json"
+    }
+  },
+  "version": 0,
+  "updated": "2016-11-18 12:01:06",
+  "name": "00005",
+  "externalCode": "n0vO68WUgOh9OcHApWSVc2",
+  "moment": "2016-11-18 12:01:06",
+  "sum": 0,
+  "store": {
+    "meta": {
+      "href": "http://online.moysklad.ru/api/remap/1.1/entity/store/c4eddfc8-99bb-11e6-8a84-bc5200000053",
+      "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+      "type": "store",
+      "mediaType": "application/json"
+    }
+  },
+  "organization": {
+    "meta": {
+      "href": "http://online.moysklad.ru/api/remap/1.1/entity/organization/c4dee133-99bb-11e6-8a84-bc5200000051",
+      "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  },
+  "documents": {
+    "meta": {
+      "href": "http://online.moysklad.ru/api/remap/1.1/entity/inventory/8a2a5d07-ad6d-11e6-8a84-bc520000000a/documents",
+      "mediaType": "application/json",
+      "size": 0,
+      "limit": 100,
+      "offset": 0
+    }
+  },
+  "created": "2007-02-07 17:16:41",
+  "positions": {
+    "meta": {
+      "href": "http://online.moysklad.ru/api/remap/1.1/entity/inventory/8a2a5d07-ad6d-11e6-8a84-bc520000000a/positions",
+      "type": "inventoryposition",
+      "mediaType": "application/json",
+      "size": 0,
+      "limit": 100,
+      "offset": 0
+    }
+  }
+}

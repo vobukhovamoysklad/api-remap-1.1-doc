@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/supply/metadata",
+    "mediaType": "application/json"
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/supply/metadata/attributes/a31685ae-3f62-11e6-8a84-bae50000007b",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "a31685ae-3f62-11e6-8a84-bae50000007b",
+      "name": "Доп. дата",
+      "type": "time",
+      "required": false
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/supply/metadata/attributes/c16fd9aa-3f62-11e6-8a84-bae50000007e",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "c16fd9aa-3f62-11e6-8a84-bae50000007e",
+      "name": "Повторить",
+      "type": "long",
+      "required": false
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/supply/metadata/attributes/c16fe013-3f62-11e6-8a84-bae50000007f",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "c16fe013-3f62-11e6-8a84-bae50000007f",
+      "name": "Комментарий начальства",
+      "type": "text",
+      "required": false
+    }
+  ],
+  "createShared": false
+}

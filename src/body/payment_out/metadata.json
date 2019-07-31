@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/paymentout/metadata",
+    "mediaType": "application/json"
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/paymentout/metadata/attributes/ebc68f7a-3f91-11e6-8a84-bae500000102",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "ebc68f7a-3f91-11e6-8a84-bae500000102",
+      "name": "Доля",
+      "type": "double",
+      "required": false
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/paymentout/metadata/attributes/ebc69606-3f91-11e6-8a84-bae500000103",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "ebc69606-3f91-11e6-8a84-bae500000103",
+      "name": "Попытки",
+      "type": "long",
+      "required": false
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/paymentout/metadata/attributes/ebc69be9-3f91-11e6-8a84-bae500000104",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "ebc69be9-3f91-11e6-8a84-bae500000104",
+      "name": "Поступил",
+      "type": "boolean",
+      "required": false
+    }
+  ],
+  "createShared": false
+}

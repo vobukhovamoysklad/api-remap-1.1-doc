@@ -1,0 +1,5 @@
+{
+  "url" : "http://www.example.com",
+  "action": "CREATE",
+  "entityType": "supply"
+}

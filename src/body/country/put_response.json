@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/country/810b5344-24ca-11e6-8a84-bae500000018",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/country/metadata",
+    "type": "country",
+    "mediaType": "application/json",
+    "uuidHref": "https://online.moysklad.ru/app/#country/edit?id=810b5344-24ca-11e6-8a84-bae500000018"
+  },
+  "id": "810b5344-24ca-11e6-8a84-bae500000018",
+  "accountId": "45489428-24a5-11e6-8a84-bae500000001",
+  "owner": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/9bc5de98-79f2-11e8-1a0d-4e0d0000002b",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json",
+      "uuidHref": "https://online.moysklad.ru/app/#employee/edit?id=9bc5de98-79f2-11e8-1a0d-4e0d0000002b"
+    }
+  },
+  "shared": true,
+  "group": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/9504054f-79f2-11e8-1a0d-4e0d00000002",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+      "type": "group",
+      "mediaType": "application/json"
+    }
+  },
+  "version": 1,
+  "updated": "2016-05-30 09:20:10",
+  "name": "Другая Россия",
+  "description": "Каждый может изменить Россию, но только если он её создал сам",
+  "code": "no1russia",
+  "externalCode": "gogorussia"
+}

@@ -1,0 +1,14 @@
+{
+  "incomingNumber": "356124365",
+  "incomingDate": "2017-04-06 00:00:00",
+  "supplies": [
+       {
+         "meta": {
+           "href": "https://online.moysklad.ru/api/remap/1.1/entity/supply/22e8d1ea-29bc-11e7-1542-821d00000002",
+           "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/supply/metadata",
+           "type": "supply",
+           "mediaType": "application/json"
+         }
+       }
+  ]
+}

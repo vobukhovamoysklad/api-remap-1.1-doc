@@ -1,0 +1,18 @@
+{
+  "store": {
+    "meta": {
+      "href": "http://online.moysklad.ru/api/remap/1.1/entity/store/c4eddfc8-99bb-11e6-8a84-bc5200000053",
+      "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+      "type": "store",
+      "mediaType": "application/json"
+    }
+  },
+  "organization": {
+    "meta": {
+      "href": "http://online.moysklad.ru/api/remap/1.1/entity/organization/c4dee133-99bb-11e6-8a84-bc5200000051",
+      "metadataHref": "http://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/enter/7cfff21a-533b-11e6-8a84-bae50000001f",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/enter/metadata",
+    "type": "enter",
+    "mediaType": "application/json"
+  },
+  "id": "7cfff21a-533b-11e6-8a84-bae50000001f",
+  "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+  "owner": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/faba7f37-2e58-11e6-8a84-bae500000028",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "shared": false,
+  "group": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/f97aa1fb-2e58-11e6-8a84-bae500000002",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+      "type": "group",
+      "mediaType": "application/json"
+    }
+  },
+  "version": 0,
+  "updated": "2016-07-26 17:16:04",
+  "name": "enter100",
+  "externalCode": "34981sawfa42kek",
+  "moment": "2016-06-21 16:56:52",
+  "applicable": true,
+  "rate": {
+    "currency": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/baac25f0-50ac-11e5-300d-c79b00000055",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+        "type": "currency",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "sum": 1026732,
+  "organization": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/fae3561a-2e58-11e6-8a84-bae50000004e",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  },
+  "store": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/store/e94a6e65-4f64-11e6-8a84-bae500000066",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+      "type": "store",
+      "mediaType": "application/json"
+    }
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/enter/metadata/attributes/6a9150cd-5338-11e6-8a84-bae50000009b",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "6a9150cd-5338-11e6-8a84-bae50000009b",
+      "name": "Строковое поле",
+      "type": "string",
+      "value": "Вот такое значение поля у оприходования"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/enter/metadata/attributes/6a9158b2-5338-11e6-8a84-bae50000009c",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "6a9158b2-5338-11e6-8a84-bae50000009c",
+      "name": "Числовое поле",
+      "type": "long",
+      "value": 404
+    }
+  ],
+  "documents": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/enter/06406b97-9138-11e6-8a84-bae500000000/documents",
+      "mediaType": "application/json",
+      "size": 0,
+      "limit": 100,
+      "offset": 0
+    }
+  },
+  "created": "2007-02-07 17:16:41",
+  "positions": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/enter/7cfff21a-533b-11e6-8a84-bae50000001f/positions",
+      "type": "enterposition",
+      "mediaType": "application/json",
+      "size": 3,
+      "limit": 100,
+      "offset": 0
+    }
+  },
+  "overhead": {
+    "sum": 40400,
+    "distribution": "weight"
+  }
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/commissionreportout/cc5beac8-acdb-11e6-8a84-bae500000000/positions/a7a61c8b-acdd-11e6-8a84-bae500000000",
+      "type": "commissionreportoutposition",
+      "mediaType": "application/json"
+    },
+    "id": "a7a61c8b-acdd-11e6-8a84-bae500000000",
+    "accountId": "b8b74698-9128-11e6-8a84-bae500000001",
+    "quantity": 15,
+    "price": 1300,
+    "vat": 0,
+    "assortment": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/36edadbe-912b-11e6-8a84-bae500000128",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+        "type": "variant",
+        "mediaType": "application/json"
+      }
+    },
+    "reward": 2925
+  },
+  {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/commissionreportout/cc5beac8-acdb-11e6-8a84-bae500000000/positions/a7a6c749-acdd-11e6-8a84-bae500000001",
+      "type": "commissionreportoutposition",
+      "mediaType": "application/json"
+    },
+    "id": "a7a6c749-acdd-11e6-8a84-bae500000001",
+    "accountId": "b8b74698-9128-11e6-8a84-bae500000001",
+    "quantity": 15,
+    "price": 1020,
+    "vat": 0,
+    "assortment": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/36edadbe-912b-11e6-8a84-bae500000128",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+        "type": "variant",
+        "mediaType": "application/json"
+      }
+    },
+    "reward": 2295
+  },
+  {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/commissionreportout/cc5beac8-acdb-11e6-8a84-bae500000000/positions/a7a6d9cc-acdd-11e6-8a84-bae500000002",
+      "type": "commissionreportoutposition",
+      "mediaType": "application/json"
+    },
+    "id": "a7a6d9cc-acdd-11e6-8a84-bae500000002",
+    "accountId": "b8b74698-9128-11e6-8a84-bae500000001",
+    "quantity": 15,
+    "price": 101,
+    "vat": 0,
+    "assortment": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/variant/36edadbe-912b-11e6-8a84-bae500000128",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/variant/metadata",
+        "type": "variant",
+        "mediaType": "application/json"
+      }
+    },
+    "reward": 227
+  }
+]

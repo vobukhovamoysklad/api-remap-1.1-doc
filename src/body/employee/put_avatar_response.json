@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/84f88b2f-f504-11e5-8a84-bae500000138",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+    "type": "employee",
+    "mediaType": "application/json"
+  },
+  "id": "84f88b2f-f504-11e5-8a84-bae500000138",
+  "accountId": "84e60e93-f504-11e5-8a84-bae500000008",
+  "version": 1,
+  "updated": "2016-03-28 19:45:46",
+  "name": "Администратор",
+  "externalCode": "4A039QXHgbZdAHdXbcUI71",
+  "archived": false,
+  "uid": "admin@reqwy1",
+  "email": "asdad@sfasf.erq",
+  "lastName": "Администратор",
+  "fullName": "Администратор",
+  "shortFio": "Администратор",
+  "cashier": {
+    "id": "851fa2f7-f504-11e5-8a84-bae50000016d",
+    "accountId": "84e60e93-f504-11e5-8a84-bae500000008",
+    "employee": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/84f88b2f-f504-11e5-8a84-bae500000138",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+        "type": "employee",
+        "mediaType": "application/json"
+      }
+    },
+    "retailStore": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/retailstore/851f8576-f504-11e5-8a84-bae50000016c",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/retailstore/metadata",
+        "type": "retailstore",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata/attributes/0cd74e1e-2e59-11e6-8a84-bae50000008a",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "d49d59bd-12dc-11e6-9464-e4de0000006b",
+      "name": "ЗП",
+      "type": "long",
+      "value": 200
+    }
+  ],
+  "image": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/download/52b568b2-66ff-4a4d-8992-4f70a501e1cc",
+      "mediaType": "application/octet-stream"
+    },
+    "title": "photo",
+    "filename": "photo.jpeg",
+    "size": 75259,
+    "updated": "2016-03-28 19:45:46",
+    "miniature": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/download/52b568b2-66ff-4a4d-8992-4f70a501e1cc?miniature=true",
+      "mediaType": "image/png"
+    },
+    "tiny": {
+      "href": "https://online.moysklad.ru/static/tinyimage/b44a8029-e965-11e8-ac14-000c00000000/tinyimage/8667c7ee-6316-4710-ba58-57b58457c74d/t.png",
+      "mediaType": "image/png"
+    }
+  },
+  "inn": "222490425273",
+  "position": "Директор"
+}

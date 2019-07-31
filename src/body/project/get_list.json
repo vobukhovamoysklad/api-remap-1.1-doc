@@ -1,0 +1,117 @@
+{
+  "context": {
+    "employee": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/context/employee",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+        "type": "employee",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/project",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/project/metadata",
+    "type": "project",
+    "mediaType": "application/json",
+    "size": 2,
+    "limit": 25,
+    "offset": 0
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/project/51f263f9-0307-11e6-9464-e4de0000007c",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/project/metadata",
+        "type": "project",
+        "mediaType": "application/json"
+      },
+      "id": "51f263f9-0307-11e6-9464-e4de0000007c",
+      "accountId": "84e60e93-f504-11e5-8a84-bae500000008",
+      "owner": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/faba7f37-2e58-11e6-8a84-bae500000028",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+          "type": "employee",
+          "mediaType": "application/json"
+        }
+      },
+      "shared": false,
+      "group": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/f97aa1fb-2e58-11e6-8a84-bae500000002",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+          "type": "group",
+          "mediaType": "application/json"
+        }
+      },
+      "version": 0,
+      "updated": "2016-04-15 15:41:05",
+      "name": "Аггрегатор томатной пасты",
+      "description": "Проект по сбору и переработке томатной пасты от всех поставщиков",
+      "code": "1248y12hrd",
+      "externalCode": "HZV7dGc8iAnf0aNjrvQvN0",
+      "archived": false,
+      "attributes": [
+        {
+          "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata/attributes/0cd74e1e-2e59-11e6-8a84-bae50000008a",
+            "type": "attributemetadata",
+            "mediaType": "application/json"
+          },
+          "id": "ddff1ee8-12c1-11e6-9464-e4de0000007a",
+          "name": "Приоритет проекта",
+          "type": "string",
+          "value": "Высокий"
+        }
+      ]
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/project/8477d916-0aef-11e6-9464-e4de00000103",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/project/metadata",
+        "type": "project",
+        "mediaType": "application/json"
+      },
+      "id": "8477d916-0aef-11e6-9464-e4de00000103",
+      "accountId": "84e60e93-f504-11e5-8a84-bae500000008",
+      "owner": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/faba7f37-2e58-11e6-8a84-bae500000028",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+          "type": "employee",
+          "mediaType": "application/json"
+        }
+      },
+      "shared": false,
+      "group": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/f97aa1fb-2e58-11e6-8a84-bae500000002",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+          "type": "group",
+          "mediaType": "application/json"
+        }
+      },
+      "version": 0,
+      "updated": "2016-04-25 17:10:51",
+      "name": "План",
+      "description": "Проект отслеживающий выполнение плана продаж",
+      "code": "124721fsavy",
+      "externalCode": "lv7MmPK4jvaqq-nA3g3NL2",
+      "archived": false,
+      "attributes": [
+        {
+          "meta": {
+            "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata/attributes/0cd74e1e-2e59-11e6-8a84-bae50000008a",
+            "type": "attributemetadata",
+            "mediaType": "application/json"
+          },
+          "id": "ddff1ee8-12c1-11e6-9464-e4de0000007a",
+          "name": "Приоритет проекта",
+          "type": "string",
+          "value": "Низкий"
+        }
+      ]
+    }
+  ]
+}

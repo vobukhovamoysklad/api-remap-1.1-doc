@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/commissionreportin/metadata/attributes/4930a123-acda-11e6-8a84-bae50000006d",
+    "type": "attributemetadata",
+    "mediaType": "application/json"
+  },
+  "id": "4930a123-acda-11e6-8a84-bae50000006d",
+  "name": "Поле1",
+  "type": "string",
+  "required": false
+}

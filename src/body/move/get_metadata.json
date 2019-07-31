@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/move/metadata",
+    "mediaType": "application/json"
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/move/metadata/attributes/954d62cc-4f67-11e6-8a84-bae5000000bb",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "954d62cc-4f67-11e6-8a84-bae5000000bb",
+      "name": "Запрос от",
+      "type": "time",
+      "required": false
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/move/metadata/attributes/954d6ab9-4f67-11e6-8a84-bae5000000bc",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "954d6ab9-4f67-11e6-8a84-bae5000000bc",
+      "name": "Кол-во машин",
+      "type": "long",
+      "required": false
+    }
+  ],
+  "states": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/move/metadata/states/64c4689e-4f67-11e6-8a84-bae5000000b5",
+        "type": "state",
+        "mediaType": "application/json"
+      },
+      "id": "64c4689e-4f67-11e6-8a84-bae5000000b5",
+      "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+      "name": "Kek",
+      "color": 10066329,
+      "stateType": "Regular",
+      "entityType": "move"
+    }
+  ],
+  "createShared": false
+}

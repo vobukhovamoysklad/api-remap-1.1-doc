@@ -1,0 +1,81 @@
+{
+  "name": "Тыква",
+  "code": "pumpkin1",
+  "externalCode": "456pumpkin",
+  "description": "Тыква, Германия",
+  "vat": 3,
+  "effectiveVat": 3,
+  "uom": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/uom/metadata",
+      "type": "uom",
+      "mediaType": "application/json"
+    }
+  },
+  "supplier":{
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/6313f1eb-2c7f-11e6-8a84-bae500000053",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+      "type": "counterparty",
+      "mediaType": "application/json"
+    }
+  },
+  "minPrice": 53,
+  "buyPrice": {
+    "value": 54,
+    "currency": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/6314188d-2c7f-11e6-8a84-bae500000055",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+        "type": "currency",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "salePrices": [
+    {
+      "value": 3753,
+      "currency": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/6314188d-2c7f-11e6-8a84-bae500000055",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+          "type": "currency",
+          "mediaType": "application/json"
+        }
+      },
+      "priceType": "Цена продажи"
+    },
+    {
+      "value": 3653,
+      "currency": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/6314188d-2c7f-11e6-8a84-bae500000055",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+          "type": "currency",
+          "mediaType": "application/json"
+        }
+      },
+      "priceType": "Цена для друзей"
+    }
+  ],
+  "article":"Ar23",
+  "weight": 100,
+  "volume": 400,
+  "attributes" : [
+    {
+
+      "id": "0c2e54cd-2c80-11e6-8a84-bae50000009c",
+      "name": "Экспорт",
+      "value": false
+    },
+    {
+
+      "id": "0c2e5dc5-2c80-11e6-8a84-bae50000009d",
+      "name": "Изготовитель",
+      "value" : "Колхоз \"Иваново\" "
+    }
+
+  ]
+
+}

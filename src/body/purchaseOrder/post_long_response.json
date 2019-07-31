@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchaseorder/22b4caaa-3f74-11e6-8a84-bae500000069",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/purchaseorder/metadata",
+    "type": "purchaseorder",
+    "mediaType": "application/json"
+  },
+  "id": "22b4caaa-3f74-11e6-8a84-bae500000069",
+  "accountId": "f976ed28-2e58-11e6-8a84-bae500000001",
+  "owner": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/faba7f37-2e58-11e6-8a84-bae500000028",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json"
+    }
+  },
+  "shared": false,
+  "group": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/f97aa1fb-2e58-11e6-8a84-bae500000002",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+      "type": "group",
+      "mediaType": "application/json"
+    }
+  },
+  "version": 0,
+  "updated": "2016-07-01 13:11:11",
+  "name": "103034",
+  "description": "Типичный заказ поставщику",
+  "code": "404",
+  "externalCode": "s30P0zlwg-1qxSZnRVONF0",
+  "moment": "2016-12-05 15:30:14",
+  "applicable": true,
+  "rate": {
+    "currency": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/cdbc62de-3f68-11e6-8a84-bae500000050",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+        "type": "currency",
+        "mediaType": "application/json"
+      }
+    },
+    "value": 63
+  },
+  "sum": 0,
+  "organization": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/fae3561a-2e58-11e6-8a84-bae50000004e",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+      "type": "organization",
+      "mediaType": "application/json"
+    }
+  },
+  "store": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/store/faf3ff5b-2e58-11e6-8a84-bae500000050",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+      "type": "store",
+      "mediaType": "application/json"
+    }
+  },
+  "contract": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/contract/e105a2e7-3f6f-11e6-8a84-bae500000087",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/contract/metadata",
+      "type": "contract",
+      "mediaType": "application/json"
+    }
+  },
+  "agent": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/1483952f-32ca-11e6-8a84-bae500000007",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+      "type": "counterparty",
+      "mediaType": "application/json"
+    }
+  },
+  "state": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchaseorder/metadata/states/11f5becd-3f70-11e6-8a84-bae50000008b",
+      "type": "state",
+      "mediaType": "application/json"
+    }
+  },
+  "organizationAccount": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/fae3561a-2e58-11e6-8a84-bae50000004e/accounts/fae39d66-2e58-11e6-8a84-bae50000004f",
+      "type": "account",
+      "mediaType": "application/json"
+    }
+  },
+  "agentAccount": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/1483952f-32ca-11e6-8a84-bae500000007/accounts/1483a4fa-32ca-11e6-8a84-bae500000008",
+      "type": "account",
+      "mediaType": "application/json"
+    }
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchaseorder/metadata/attributes/6a885b1b-3f70-11e6-8a84-bae50000009d",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "6a885b1b-3f70-11e6-8a84-bae50000009d",
+      "name": "Причина",
+      "type": "string",
+      "value": "Черный"
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchaseorder/metadata/attributes/6a88619c-3f70-11e6-8a84-bae50000009e",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "6a88619c-3f70-11e6-8a84-bae50000009e",
+      "name": "Коэффициент",
+      "type": "double",
+      "value": 0.4
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchaseorder/metadata/attributes/6a886744-3f70-11e6-8a84-bae50000009f",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "6a886744-3f70-11e6-8a84-bae50000009f",
+      "name": "Кек?",
+      "type": "boolean",
+      "value": true
+    }
+  ],
+  "documents": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchaseorder/06406b97-9138-11e6-8a84-bae500000000/documents",
+      "mediaType": "application/json",
+      "size": 0,
+      "limit": 100,
+      "offset": 0
+    }
+  },
+  "vatEnabled": true,
+  "vatIncluded": true,
+  "created": "2007-02-07 17:16:41",
+  "positions": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/purchaseorder/22b4caaa-3f74-11e6-8a84-bae500000069/positions",
+      "type": "purchaseorderposition",
+      "mediaType": "application/json",
+      "size": 0,
+      "limit": 100,
+      "offset": 0
+    }
+  },
+  "deliveryPlannedMoment": "2015-02-15 14:12:19",
+  "payedSum": 0,
+  "shippedSum": 0,
+  "invoicedSum": 0,
+  "waitSum": 0
+}

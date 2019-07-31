@@ -1,0 +1,24 @@
+{
+    "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/dc5f76ae-2c89-11e6-8a84-bae50000003f",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+        "type": "currency",
+        "mediaType": "application/json"
+    },
+    "system": false,
+    "name": "доллар",
+    "rate": 63.0,
+    "multiplicity": 1,
+    "indirect": false,
+    "rateUpdateType": "manual",
+    "code": "840",
+    "isoCode": "USD",
+    "majorUnit": {
+        "gender": "masculine"
+    },
+    "minorUnit": {
+        "gender": "masculine"
+    },
+    "archived": false,
+    "default": false
+}

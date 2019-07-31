@@ -1,0 +1,13 @@
+{
+  "demands": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/demand/94e39314-cba5-11e7-6a80-332a00000035",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/demand/metadata",
+        "type": "demand",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#demand/edit?id=94e39314-cba5-11e7-6a80-332a00000035"
+      }
+    }
+  ]
+}

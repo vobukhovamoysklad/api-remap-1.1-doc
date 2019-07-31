@@ -1,0 +1,37 @@
+{
+  "name": "change name again",
+  "code" : "change_code_again",
+  "externalCode" : "666777666",
+  "moment": "2016-04-19 13:50:24",
+  "applicable": false,
+  "description" : "Now with 1 position",
+  "store": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/store/850ee995-f504-11e5-8a84-bae500000160",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/store/metadata",
+      "type": "store",
+      "mediaType": "application/json"
+    }
+  },
+  "attributes": [
+    {
+      "id": "51d191f4-0887-11e6-9464-e4de00000079",
+      "value": "new_val_again"
+    }
+  ],
+  "positions": [
+    {
+      "quantity": 20,
+      "price": 200,
+      "discount": 0,
+      "vat": 21,
+      "assortment": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/be903062-f504-11e5-8a84-bae50000019a",
+          "type": "product",
+          "mediaType": "application/json"
+        }
+      }
+    }
+  ]
+}

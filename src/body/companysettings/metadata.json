@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/companysettings",
+    "mediaType": "application/json"
+  },
+  "customEntities": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/companysettings/metadata/customEntities/eaacabaf-2655-11e6-8a84-bae500000045",
+        "type": "customentitymetadata",
+        "mediaType": "application/json"
+      },
+      "name": "Партнёры",
+      "createShared": true
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/companysettings/metadata/customEntities/f3aff189-2655-11e6-8a84-bae500000046",
+        "type": "customentitymetadata",
+        "mediaType": "application/json"
+      },
+      "name": "Рекламные агенства",
+      "createShared": true
+    }
+  ]
+}

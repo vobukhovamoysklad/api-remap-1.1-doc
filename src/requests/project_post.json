@@ -1,0 +1,45 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Наименование Проекта"
+    },
+    "description": {
+      "type": "string",
+      "description": "Описание Проекта"
+    },
+    "code": {
+      "type": "string",
+      "description": "Код Проекта"
+    },
+    "externalCode": {
+      "type": "string",
+      "description": "Внешний код Проекта"
+    },
+    "attributes": {
+      "type": "array",
+      "items": [
+        {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "description" : "ID доп. поля"
+            },
+            "value": {
+              "type": "string",
+              "description" : "Значение доп. поля (должно соответствовать типу доп. поля)"
+            }
+          },
+          "required": [
+            "id",
+            "value"
+          ]
+        }
+      ],
+      "description": "Доп. поля"
+    }
+  }
+}

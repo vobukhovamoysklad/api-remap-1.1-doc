@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/paymentout/metadata/attributes/ed00a639-558a-11e6-8a84-bae500000072",
+    "type": "attributemetadata",
+    "mediaType": "application/json"
+  },
+  "customEntityMeta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/companysettings/metadata/customEntities/a27aa372-5311-11e6-8a84-bae500000001",
+    "type": "customentitymetadata",
+    "mediaType": "application/json"
+  },
+  "id": "ed00a639-558a-11e6-8a84-bae500000072",
+  "name": "Сущности",
+  "type": "customentity",
+  "required": false
+}

@@ -1,0 +1,33 @@
+{
+  "shared": true,
+  "name": "0722",
+  "description": "Расходный ордер созданный и обновлённый через API",
+  "code": "12412470912",
+  "externalCode": "unreal777slknf",
+  "moment": "2016-06-27 16:52:24",
+  "applicable": true,
+  "sum": 25190,
+  "paymentPurpose": "Оплата нового заказа поставщику",
+  "expenseItem": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/expenseitem/1be23a18-0479-11e5-a260-448a5b426e7e",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/expenseitem/metadata",
+      "type": "expenseitem",
+      "mediaType": "application/json"
+    }
+  },
+  "attributes": [
+    {
+      "id": "c88569fc-3f8e-11e6-8a84-bae5000000fd",
+      "value": 0.49
+    },
+    {
+      "id": "c88570d2-3f8e-11e6-8a84-bae5000000fe",
+      "value": 7501
+    },
+    {
+      "id": "c8857703-3f8e-11e6-8a84-bae5000000ff",
+      "value": true
+    }
+  ]
+}

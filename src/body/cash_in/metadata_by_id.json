@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/cashin/metadata/attributes/c7f589f9-558a-11e6-8a84-bae50000006f",
+    "type": "attributemetadata",
+    "mediaType": "application/json"
+  },
+  "id": "c7f589f9-558a-11e6-8a84-bae50000006f",
+  "name": "Карма",
+  "type": "long",
+  "required": false
+}

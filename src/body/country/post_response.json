@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/country/04331e4f-24c8-11e6-8a84-bae500000016",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/country/metadata",
+    "type": "country",
+    "mediaType": "application/json",
+    "uuidHref": "https://online.moysklad.ru/app/#country/edit?id=04331e4f-24c8-11e6-8a84-bae500000016"
+  },
+  "id": "04331e4f-24c8-11e6-8a84-bae500000016",
+  "accountId": "45489428-24a5-11e6-8a84-bae500000001",
+  "owner": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/9bc5de98-79f2-11e8-1a0d-4e0d0000002b",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json",
+      "uuidHref": "https://online.moysklad.ru/app/#employee/edit?id=9bc5de98-79f2-11e8-1a0d-4e0d0000002b"
+    }
+  },
+  "shared": true,
+  "group": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/9504054f-79f2-11e8-1a0d-4e0d00000002",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+      "type": "group",
+      "mediaType": "application/json"
+    }
+  },
+  "version": 0,
+  "updated": "2016-05-30 09:02:21",
+  "name": "Панама 2",
+  "description": "Мы создали Панаму",
+  "code": "PanamaCode",
+  "externalCode": "panamaExtCode"
+}

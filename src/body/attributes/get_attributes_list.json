@@ -1,0 +1,107 @@
+{
+  "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/demand/metadata",
+      "mediaType": "application/json"
+  },
+  "rows": [
+    {
+      "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/demand/metadata/attributes/9862d46e-6500-11e8-9464-e4de00000045",
+          "type": "attributemetadata",
+          "mediaType": "application/json"
+      },
+      "id": "9862d46e-6500-11e8-9464-e4de00000045",
+      "name": "Строковое",
+      "type": "string",
+      "required": false
+    },
+    {
+      "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/demand/metadata/attributes/98630aee-6500-11e8-9464-e4de00000046",
+          "type": "attributemetadata",
+          "mediaType": "application/json"
+      },
+      "id": "98630aee-6500-11e8-9464-e4de00000046",
+      "name": "Целочисленное",
+      "type": "long",
+      "required": true
+    },
+    {
+      "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/demand/metadata/attributes/98630f62-6500-11e8-9464-e4de00000047",
+          "type": "attributemetadata",
+          "mediaType": "application/json"
+      },
+      "id": "98630f62-6500-11e8-9464-e4de00000047",
+      "name": "Поле-дата",
+      "type": "time",
+      "required": false
+    },
+    {
+      "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/demand/metadata/attributes/986314b4-6500-11e8-9464-e4de00000048",
+          "type": "attributemetadata",
+          "mediaType": "application/json"
+      },
+      "id": "986314b4-6500-11e8-9464-e4de00000048",
+      "name": "Справочник-товар",
+      "type": "productfolder",
+      "required": true
+    },
+    {
+      "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/demand/metadata/attributes/986318cd-6500-11e8-9464-e4de00000049",
+          "type": "attributemetadata",
+          "mediaType": "application/json"
+      },
+      "id": "986318cd-6500-11e8-9464-e4de00000049",
+      "name": "Файловое",
+      "type": "file",
+      "required": false
+    },
+    {
+      "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/demand/metadata/attributes/98631cbf-6500-11e8-9464-e4de0000004a",
+          "type": "attributemetadata",
+          "mediaType": "application/json"
+      },
+      "id": "98631cbf-6500-11e8-9464-e4de0000004a",
+      "name": "Дробное число",
+      "type": "double",
+      "required": true
+    },
+    {
+      "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/demand/metadata/attributes/986320d6-6500-11e8-9464-e4de0000004b",
+          "type": "attributemetadata",
+          "mediaType": "application/json"
+      },
+      "id": "986320d6-6500-11e8-9464-e4de0000004b",
+      "name": "Булиновое",
+      "type": "boolean",
+      "required": false
+    },
+    {
+      "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/demand/metadata/attributes/98632583-6500-11e8-9464-e4de0000004c",
+          "type": "attributemetadata",
+          "mediaType": "application/json"
+      },
+      "id": "98632583-6500-11e8-9464-e4de0000004c",
+      "name": "Текстовое",
+      "type": "text",
+      "required": true
+    },
+    {
+      "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/demand/metadata/attributes/98632a03-6500-11e8-9464-e4de0000004d",
+          "type": "attributemetadata",
+          "mediaType": "application/json"
+      },
+      "id": "98632a03-6500-11e8-9464-e4de0000004d",
+      "name": "Ссылочное",
+      "type": "link",
+      "required": false
+    }
+  ]
+}

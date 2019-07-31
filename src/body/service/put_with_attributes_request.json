@@ -1,0 +1,72 @@
+{
+  "name": "Облицовка груза",
+  "description": "Облицовка доставляемого груза",
+  "code": "additionalprotection",
+  "externalCode": "addProtection",
+  "productFolder": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/productfolder/238e806f-2c89-11e6-8a84-bae5000000a8",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/productfolder/metadata",
+      "type": "productfolder",
+      "mediaType": "application/json"
+    }
+  },
+  "vat": 6,
+  "effectiveVat": 6,
+  "minPrice": 777,
+  "salePrices": [
+    {
+      "value": 778,
+      "currency": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/6314188d-2c7f-11e6-8a84-bae500000055",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+          "type": "currency",
+          "mediaType": "application/json"
+        }
+      },
+      "priceType": "Цена продажи"
+    },
+    {
+      "value": 777,
+      "currency": {
+        "meta": {
+          "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/6314188d-2c7f-11e6-8a84-bae500000055",
+          "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+          "type": "currency",
+          "mediaType": "application/json"
+        }
+      },
+      "priceType": "Цена для друзей"
+    }
+  ],
+  "buyPrice": {
+    "value": 700,
+    "currency": {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/currency/10772c12-36e7-11e7-8a7f-40d000000097",
+        "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata",
+        "type": "currency",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "attributes" : [
+    {
+
+      "id": "0c2e54cd-2c80-11e6-8a84-bae50000009c",
+      "name": "Экспорт",
+      "value": true
+    },
+    {
+
+      "id": "0c2e5dc5-2c80-11e6-8a84-bae50000009d",
+      "name": "Изготовитель",
+      "value" : "ООО Компания отдел доставки"
+    }
+  ],
+  "barcodes": [
+    "2000000000039",
+    "2000000000046"
+  ]
+}

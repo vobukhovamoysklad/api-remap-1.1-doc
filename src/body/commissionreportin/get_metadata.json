@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/commissionreportin/metadata",
+    "mediaType": "application/json"
+  },
+  "attributes": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/commissionreportin/metadata/attributes/4930a123-acda-11e6-8a84-bae50000006d",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "4930a123-acda-11e6-8a84-bae50000006d",
+      "name": "Поле1",
+      "type": "string",
+      "required": false
+    },
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/commissionreportin/metadata/attributes/4930a9c5-acda-11e6-8a84-bae50000006e",
+        "type": "attributemetadata",
+        "mediaType": "application/json"
+      },
+      "id": "4930a9c5-acda-11e6-8a84-bae50000006e",
+      "name": "Поле2",
+      "type": "string",
+      "required": false
+    }
+  ],
+  "states": [
+    {
+      "meta": {
+        "href": "https://online.moysklad.ru/api/remap/1.1/entity/commissionreportin/metadata/states/40ca02eb-acda-11e6-8a84-bae500000069",
+        "type": "state",
+        "mediaType": "application/json"
+      },
+      "id": "40ca02eb-acda-11e6-8a84-bae500000069",
+      "accountId": "b8b74698-9128-11e6-8a84-bae500000001",
+      "name": "Статус",
+      "color": 10066329,
+      "stateType": "Regular",
+      "entityType": "commissionreportin"
+    }
+  ],
+  "createShared": false
+}
