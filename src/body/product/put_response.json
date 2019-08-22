@@ -159,5 +159,6 @@
     "volume": 1.5
   },
   "isSerialTrackable": false,
-  "trackingType": "NOT_TRACKED"
+  "trackingType": "NOT_TRACKED",
+  "taxSystem": "GENERAL_TAX_SYSTEM"
 }

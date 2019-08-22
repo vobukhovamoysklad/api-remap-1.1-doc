@@ -1,3 +1,4 @@
 {
-  "name": "Новое наименование"
+  "name": "Новое наименование",
+  "taxSystem": "GENERAL_TAX_SYSTEM"
 }

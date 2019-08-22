@@ -69,5 +69,6 @@
       "limit": 100,
       "offset": 0
     }
-  }
+  },
+  "taxSystem": "GENERAL_TAX_SYSTEM"
 }

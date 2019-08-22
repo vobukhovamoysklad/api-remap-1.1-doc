@@ -99,5 +99,6 @@
   "barcodes": [
     "2000000000039",
     "2000000000046"
-  ]
+  ],
+  "taxSystem": "GENERAL_TAX_SYSTEM"
 }

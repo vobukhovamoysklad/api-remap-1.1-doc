@@ -106,5 +106,6 @@
   "reservedSum": 0,
   "payedSum": 0,
   "shippedSum": 0,
-  "invoicedSum": 0
+  "invoicedSum": 0,
+  "taxSystem": "GENERAL_TAX_SYSTEM"
 }

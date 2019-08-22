@@ -126,5 +126,6 @@
     "deliveryPlannedMoment": "2016-04-15 12:58:00",
     "payedSum": 365939611804,
     "shippedSum": 408739611676,
-    "invoicedSum": 408739611676
+    "invoicedSum": 408739611676,
+  "taxSystem": "GENERAL_TAX_SYSTEM"
 }
