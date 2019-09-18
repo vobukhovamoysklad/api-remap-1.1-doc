@@ -107,5 +107,6 @@
         "quantity": 1
       }
     ]
-  }
+  },
+  "taxSystem": "GENERAL_TAX_SYSTEM"
 }

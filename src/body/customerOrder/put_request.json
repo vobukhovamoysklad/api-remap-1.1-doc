@@ -35,4 +35,5 @@
       "mediaType": "application/json"
     }
   },
+  "taxSystem": "GENERAL_TAX_SYSTEM"
 }

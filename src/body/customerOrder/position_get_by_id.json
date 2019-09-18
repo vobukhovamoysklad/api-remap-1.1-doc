@@ -19,5 +19,6 @@
             "mediaType": "application/json"
         }
     },
-    "reserve": 1
+    "reserve": 1,
+    "taxSystem": "GENERAL_TAX_SYSTEM"
 }

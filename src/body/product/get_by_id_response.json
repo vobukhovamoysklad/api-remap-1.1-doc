@@ -136,5 +136,6 @@
     "F564X056",
     "F564X057"
   ],
-  "trackingType": "NOT_TRACKED"
+  "trackingType": "NOT_TRACKED",
+  "taxSystem": "GENERAL_TAX_SYSTEM"
 }

@@ -103,5 +103,6 @@
   },
   "barcodes": [
     "code128barcode"
-  ]
+  ],
+  "taxSystem": "GENERAL_TAX_SYSTEM"
 }

@@ -45,6 +45,26 @@
 + **customerOrderStates** - Ссылка на статусы, в которых выгружаются заказы в точку продаж (если указано), в формате [Метаданных](#header-метаданные) `Только для чтения`
 + **environment** - информация об окружении
 + **state** - информация о статусе точки продаж
++ **defaultTaxSystem** - Код системы налогообложения по умолчанию
+
+| Система налогообложения    | Значение поля taxSystem                |
+| ---------------------------|:---------------------------------------|
+| ОСН                        | GENERAL_TAX_SYSTEM                     |
+| УСН. Доход                 | SIMPLIFIED_TAX_SYSTEM_INCOME           |
+| УСН. Доход-Расход          | SIMPLIFIED_TAX_SYSTEM_INCOME_OUTCOME   |
+| ЕСХН                       | UNIFIED_AGRICULTURAL_TAX               |
+| ЕНВД                       | PRESUMPTIVE_TAX_SYSTEM                 |
+| Патент                     | PATENT_BASED                           |
++ **orderTaxSystem** - Код системы налогообложения для заказов
+
+| Система налогообложения    | Значение поля taxSystem                |
+| ---------------------------|:---------------------------------------|
+| ОСН                        | GENERAL_TAX_SYSTEM                     |
+| УСН. Доход                 | SIMPLIFIED_TAX_SYSTEM_INCOME           |
+| УСН. Доход-Расход          | SIMPLIFIED_TAX_SYSTEM_INCOME_OUTCOME   |
+| ЕСХН                       | UNIFIED_AGRICULTURAL_TAX               |
+| ЕНВД                       | PRESUMPTIVE_TAX_SYSTEM                 |
+| Патент                     | PATENT_BASED                           |
 
 #### Аттрибуты сущности Окружение
 + **device** - информация об устройстве

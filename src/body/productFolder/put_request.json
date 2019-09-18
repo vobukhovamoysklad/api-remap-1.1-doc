@@ -3,5 +3,6 @@
   "code" : "vegetableFolderCode",
   "externalCode" : "extVegCode",
   "vat" : 5,
-  "effectiveVat":5
+  "effectiveVat":5,
+  "taxSystem": "GENERAL_TAX_SYSTEM"
 }

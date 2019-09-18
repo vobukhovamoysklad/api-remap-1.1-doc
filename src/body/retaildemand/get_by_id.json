@@ -115,5 +115,6 @@
   "cashSum": 0,
   "noCashSum": 1800,
   "prepaymentCashSum": 0,
-  "prepaymentNoCashSum": 0
+  "prepaymentNoCashSum": 0,
+  "taxSystem": "GENERAL_TAX_SYSTEM"
 }

@@ -25,6 +25,16 @@
 + **vat** - НДС %
 + **effectiveVat** - Реальный НДС % `Только для чтения`
 + **productFolder** - Ссылка на Группу товаров данной Группы товаров в формате [Метаданных](#header-метаданные)
++ **taxSystem** - Код системы налогообложения.
+
+| Система налогообложения    | Значение поля taxSystem                |
+| ---------------------------|:---------------------------------------|
+| ОСН                        | GENERAL_TAX_SYSTEM                     |
+| УСН. Доход                 | SIMPLIFIED_TAX_SYSTEM_INCOME           |
+| УСН. Доход-Расход          | SIMPLIFIED_TAX_SYSTEM_INCOME_OUTCOME   |
+| ЕСХН                       | UNIFIED_AGRICULTURAL_TAX               |
+| ЕНВД                       | PRESUMPTIVE_TAX_SYSTEM                 |
+| Патент                     | PATENT_BASED                           |
 
 ### Атрибуты доступные для фильтрации
 + **id** - ID в формате UUID
