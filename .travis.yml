@@ -1,0 +1,44 @@
+language: minimal
+
+services:
+  - docker
+
+env:
+  - SERVER_IP_ADDRESS=dev.moysklad.ru
+  - APP_PREFIX=api-remap
+  - CACHE_FOLDER=$HOME/docker
+  - CACHE_FILE=${CACHE_FOLDER}/aglio-image.tgz
+
+cache:
+  directories:
+    - ${CACHE_FOLDER}
+
+branches:
+  only:
+    - master
+
+script:
+  - if [[ -f ${CACHE_FILE} ]]; then
+      docker load -i ${CACHE_FILE};
+    else
+      docker build -t aglio ${PWD};
+      docker save aglio | gzip -c > ${CACHE_FILE};
+    fi
+  - docker run -v ${PWD}/src:/src -v ${PWD}/output:/output -t aglio -i src/main.apib ---theme-template src/index.jade --theme-variables src/variables-flatly.less -o output/index.html
+
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: rsync -r --delete-after --quiet output/ app@${SERVER_IP_ADDRESS}:./${APP_PREFIX}
+  on:
+    branch: master
+
+before_install:
+  - openssl aes-256-cbc -K $encrypted_fd0bb6467860_key -iv $encrypted_fd0bb6467860_iv
+    -in deploy_key.enc -out deploy_key -d
+  - eval "$(ssh-agent -s)"
+  - chmod 600 ./deploy_key
+  - echo -e "Host ${SERVER_IP_ADDRESS}\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+  - ssh-add ./deploy_key
+  - ssh -i ./deploy_key app@${SERVER_IP_ADDRESS} pwd
+  - rm deploy_key.enc deploy_key
