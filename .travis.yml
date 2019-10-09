@@ -5,7 +5,7 @@ services:
 
 env:
   - SERVER_IP_ADDRESS=dev.moysklad.ru
-  - APP_PREFIX=api-remap
+  - APP_PREFIX=api-remap-1.1
   - CACHE_FOLDER=$HOME/docker
   - CACHE_FILE=${CACHE_FOLDER}/aglio-image.tgz
 
@@ -24,7 +24,7 @@ script:
       docker build -t aglio ${PWD};
       docker save aglio | gzip -c > ${CACHE_FILE};
     fi
-  - docker run -v ${PWD}/src:/src -v ${PWD}/output:/output -t aglio -i src/main.apib ---theme-template src/index.jade --theme-variables src/variables-flatly.less -o output/index.html
+  - docker run -v ${PWD}/src:/src -v ${PWD}/output:/output -t aglio -i src/main.apib --theme-template src/index.jade --theme-variables src/variables-flatly.less -o output/index.html
 
 deploy:
   provider: script
