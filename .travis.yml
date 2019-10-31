@@ -1,13 +1,14 @@
 language: ruby
-cache: bundler
+services:
+- docker
 env:
 - SERVER_IP_ADDRESS=dev.moysklad.ru APP_PREFIX=api-remap-1-1
 branches:
   only:
   - master
 script:
-- bundle install
-- bundle exec middleman build --build-dir=site
+- docker build . --tag aglio
+- "./build.sh"
 deploy:
   provider: script
   skip_cleanup: true
