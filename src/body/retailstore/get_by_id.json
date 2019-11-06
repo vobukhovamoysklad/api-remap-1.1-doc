@@ -153,5 +153,6 @@
     }
   },
   "defaultTaxSystem": "GENERAL_TAX_SYSTEM",
-  "orderTaxSystem": "GENERAL_TAX_SYSTEM"
+  "orderTaxSystem": "GENERAL_TAX_SYSTEM",
+  "fiscalType": "CLOUD"
 }
