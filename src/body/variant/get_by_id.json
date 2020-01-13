@@ -30,6 +30,7 @@
   "code": "00003",
   "externalCode": "YQ3kNHfDgtHOVhf20Md7Q0",
   "archived": false,
+  "discountProhibited": false,
   "characteristics": [
     {
       "meta": {
