@@ -56,6 +56,7 @@
       "vat": 6,
       "effectiveVat": 6,
       "minPrice": 52,
+      "discountProhibited": false,
       "salePrices": [
         {
           "value": 1052,
@@ -159,6 +160,7 @@
       "vat": 10,
       "effectiveVat": 10,
       "minPrice": 532,
+      "discountProhibited": false,
       "salePrices": [
         {
           "value": 10532,
