@@ -13,7 +13,9 @@
     "loginlogout",
     "emailsend",
     "export",
-    "phone-1.0"
+    "phone-1.0",
+    "exportediclient1c",
+    "importediclient1c"
   ],
   "entitytype": [
     "organization",
