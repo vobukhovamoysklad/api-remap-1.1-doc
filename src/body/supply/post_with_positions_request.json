@@ -1,8 +1,8 @@
 {
   "name": "2000124",
   "description": "Приёмка от 909090",
-  "code" : "776762312",
-  "externalCode" : "77sea2as12",
+  "code": "776762312",
+  "externalCode": "77sea2as12",
   "moment": "2016-02-22 22:22:53",
   "applicable": true,
   "vatEnabled": true,
@@ -94,6 +94,22 @@
           "mediaType": "application/json"
         }
       },
+      "trackingCodes": [
+        {
+          "cis": "012345678912345672",
+          "type": "transportpack",
+          "trackingCodes": [
+            {
+              "cis": "010463003759026521uHpIIf2111114",
+              "type": "trackingcode"
+            },
+            {
+              "cis": "010463003759026521uHpIIf2111111",
+              "type": "trackingcode"
+            }
+          ]
+        }
+      ],
       "overhead": 20
     }
   ]
