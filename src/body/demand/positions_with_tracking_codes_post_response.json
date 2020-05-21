@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/demand/8830a022-8a03-11ea-0a80-01cb00000040/positions/770f45b4-8a04-11ea-0a80-01cb00000060",
+    "type": "demandposition",
+    "mediaType": "application/json"
+  },
+  "id": "770f45b4-8a04-11ea-0a80-01cb00000060",
+  "accountId": "de6b5113-8491-11ea-0a80-134500000014",
+  "quantity": 10.0,
+  "price": 100.0,
+  "discount": 0.0,
+  "vat": 0,
+  "assortment": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/product/b20184da-8493-11ea-0a80-037a00000314",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/product/metadata",
+      "type": "product",
+      "mediaType": "application/json",
+      "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=b20178fb-8493-11ea-0a80-037a00000312"
+    }
+  },
+  "trackingCodes": [
+    {
+      "cis": "010463003759026521uHpIIf-111122",
+      "type": "trackingcode"
+    },
+    {
+      "cis": "012345678912345671",
+      "type": "transportpack"
+    },
+    {
+      "cis": "010463003759026521uHpIIf-nXIH>1",
+      "type": "trackingcode"
+    },
+    {
+      "cis": "012345678912345678",
+      "type": "transportpack",
+      "trackingCodes": [
+        {
+          "cis": "010463003759026521uHpIIf-111114",
+          "type": "trackingcode"
+        },
+        {
+          "cis": "010463003759026521uHpIIf-nXIH>4",
+          "type": "trackingcode"
+        },
+        {
+          "cis": "010463003759026521uHpIIf-nXIH>0",
+          "type": "trackingcode"
+        }
+      ]
+    },
+    {
+      "cis": "010463003759026521uHpIIf-nXIH>2",
+      "type": "trackingcode"
+    }
+  ]
+}
