@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/45fd2f10-b0ae-11ea-0a80-163500000000",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+    "type": "counterparty",
+    "mediaType": "application/json",
+    "uuidHref": "https://online.moysklad.ru/app/#company/edit?id=45fd2f10-b0ae-11ea-0a80-163500000000"
+  },
+  "id": "45fd2f10-b0ae-11ea-0a80-163500000000",
+  "accountId": "02865f48-b0ae-11ea-0a80-203a00000002",
+  "owner": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/02e06bea-b0ae-11ea-0a80-1d9c00000034",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json",
+      "uuidHref": "https://online.moysklad.ru/app/#employee/edit?id=02e06bea-b0ae-11ea-0a80-1d9c00000034"
+    }
+  },
+  "shared": false,
+  "group": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/02877fda-b0ae-11ea-0a80-203a00000003",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+      "type": "group",
+      "mediaType": "application/json"
+    }
+  },
+  "version": 0,
+  "updated": "2020-06-17 18:21:53",
+  "name": "ИП Иванов",
+  "code": "someCode",
+  "externalCode": "extCode",
+  "archived": false,
+  "created": "2020-06-17 18:21:53",
+  "companyType": "entrepreneur",
+  "legalTitle": "Индивидуальный предприниматель Иванов Иван Иванович",
+  "legalAddress": "г.Москва ул Авиастроителей д 93 к 12",
+  "legalAddressFull": {
+    "addInfo": "г.Москва ул Авиастроителей д 93 к 12"
+  },
+  "actualAddress": "г.Москва ул Академика Миля дом 15 к 21",
+  "actualAddressFull": {
+    "addInfo": "г.Москва ул Академика Миля дом 15 к 21"
+  },
+  "inn": "87654321",
+  "okpo": "12345",
+  "ogrnip": "58632598y21jk",
+  "legalLastName": "Иванов",
+  "legalFirstName": "Иван",
+  "legalMiddleName": "Иванович",
+  "accounts": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/45fd2f10-b0ae-11ea-0a80-163500000000/accounts",
+      "type": "account",
+      "mediaType": "application/json",
+      "size": 0,
+      "limit": 100,
+      "offset": 0
+    }
+  },
+  "tags": [],
+  "contactpersons": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/45fd2f10-b0ae-11ea-0a80-163500000000/contactpersons",
+      "type": "contactperson",
+      "mediaType": "application/json",
+      "size": 0,
+      "limit": 100,
+      "offset": 0
+    }
+  },
+  "notes": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/45fd2f10-b0ae-11ea-0a80-163500000000/notes",
+      "type": "note",
+      "mediaType": "application/json",
+      "size": 0,
+      "limit": 100,
+      "offset": 0
+    }
+  },
+  "state": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata/states/03935900-b0ae-11ea-0a80-1d9c0000008c",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata",
+      "type": "state",
+      "mediaType": "application/json"
+    }
+  },
+  "salesAmount": 0.0
+}
