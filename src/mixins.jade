@@ -41,6 +41,7 @@ mixin Nav()
         - var separatedAudit = false
         - var separatedRPC = false
         - var separatedNotification = false
+        - var separatedChangelog = false
         - var separatedSDK = false
         each resourceGroup in self.api.resourceGroups || []
             if (separatedGeneral && !separatedEntities)
@@ -67,6 +68,9 @@ mixin Nav()
             if (!separatedNotification && resourceGroup.name.indexOf('Уведомления') > -1)
                 h4(align="center") Уведомления
                 - separatedNotification = true
+            if (!separatedChangelog && resourceGroup.name.indexOf('Список изменений') > -1)
+                h4(align="center") Список изменений
+                - separatedChangelog = true
             if (!separatedSDK && resourceGroup.name.indexOf('SDK') > -1)
                 h4(align="center") SDK
                 - separatedSDK = true
