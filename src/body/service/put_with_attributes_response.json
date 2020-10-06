@@ -43,6 +43,7 @@
     }
   },
   "minPrice": 777,
+  "discountProhibited": false,
   "salePrices": [
     {
       "value": 778,

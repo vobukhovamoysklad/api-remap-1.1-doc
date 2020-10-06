@@ -13,6 +13,7 @@
   "code": "orangeCode",
   "externalCode": "orange303",
   "archived": false,
+  "discountProhibited": false,
   "characteristics": [
     {
       "meta": {

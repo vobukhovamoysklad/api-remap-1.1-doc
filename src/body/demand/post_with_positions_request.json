@@ -21,12 +21,12 @@
       "mediaType": "application/json"
     }
   },
-  "code" : "1243521",
+  "code": "1243521",
   "moment": "2016-04-19 13:50:24",
   "applicable": false,
   "vatEnabled": true,
   "vatIncluded": true,
-  "positions" : [
+  "positions": [
     {
       "quantity": 10,
       "price": 100,
@@ -39,8 +39,24 @@
           "mediaType": "application/json"
         }
       },
+      "trackingCodes": [
+        {
+          "cis": "012345678912345672",
+          "type": "transportpack",
+          "trackingCodes": [
+            {
+              "cis": "010463003759026521uHpIIf2111114",
+              "type": "trackingcode"
+            },
+            {
+              "cis": "010463003759026521uHpIIf2111111",
+              "type": "trackingcode"
+            }
+          ]
+        }
+      ],
       "reserve": 10,
-      "overhead" : 20
+      "overhead": 20
     },
     {
       "quantity": 20,
@@ -55,7 +71,7 @@
         }
       },
       "reserve": 20,
-      "overhead" : 20
+      "overhead": 20
     },
     {
       "quantity": 30,
@@ -73,7 +89,7 @@
         "id": "1bf22e62-8b47-11e8-56c0-000800000006"
       },
       "reserve": 30,
-      "overhead" : 20
+      "overhead": 20
     }
   ]
 }

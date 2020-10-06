@@ -35,6 +35,7 @@
   "vat": 11,
   "effectiveVat": 11,
   "minPrice": 600,
+  "discountProhibited": false,
   "salePrices": [
     {
       "value": 700,

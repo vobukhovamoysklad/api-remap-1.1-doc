@@ -120,7 +120,8 @@
         }
       ],
       "ofdEnabled":false,
-      "allowCustomPrice":false
+      "allowCustomPrice":false,
+      "fiscalType": "MASTER"
     },
     {
       "meta": {
@@ -231,6 +232,7 @@
       ],
       "ofdEnabled":false,
       "allowCustomPrice":false,
+      "fiscalType": "STANDARD",
       "environment": {
         "device": "Some device name",
         "os": "Linux",

@@ -1,0 +1,16 @@
+{
+  "name": "ИП Иванов",
+  "code" : "someCode",
+  "externalCode" : "extCode",
+  "companyType": "entrepreneur",
+  "legalLastName": "Иванов",
+  "legalFirstName": "Иван",
+  "legalMiddleName": "Иванович",
+  "actualAddress": "г.Москва ул Академика Миля дом 15 к 21",
+  "legalAddress": "г.Москва ул Авиастроителей д 93 к 12",
+  "inn": "87654321",
+  "kpp": "15312532",
+  "ogrn": "12345",
+  "okpo": "12345",
+  "ogrnip": "58632598y21jk"
+}

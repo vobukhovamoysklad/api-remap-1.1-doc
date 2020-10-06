@@ -14,7 +14,9 @@
     "emailsend",
     "export",
     "phone-1.0",
-    "scriptor"
+    "scriptor",
+    "exportediclient1c",
+    "importediclient1c"
   ],
   "entitytype": [
     "organization",

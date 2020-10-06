@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/713e2125-b147-11ea-0a80-163500000006",
+    "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/organization/metadata",
+    "type": "organization",
+    "mediaType": "application/json",
+    "uuidHref": "https://online.moysklad.ru/app/#mycompany/edit?id=713e2125-b147-11ea-0a80-163500000006"
+  },
+  "id": "713e2125-b147-11ea-0a80-163500000006",
+  "accountId": "02865f48-b0ae-11ea-0a80-203a00000002",
+  "owner": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/employee/02e06bea-b0ae-11ea-0a80-1d9c00000034",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata",
+      "type": "employee",
+      "mediaType": "application/json",
+      "uuidHref": "https://online.moysklad.ru/app/#employee/edit?id=02e06bea-b0ae-11ea-0a80-1d9c00000034"
+    }
+  },
+  "shared": true,
+  "group": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/group/02877fda-b0ae-11ea-0a80-203a00000003",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/group/metadata",
+      "type": "group",
+      "mediaType": "application/json"
+    }
+  },
+  "version": 0,
+  "updated": "2020-06-18 12:38:18",
+  "name": "ИП Иванов",
+  "code": "someCode",
+  "externalCode": "extCode",
+  "archived": false,
+  "created": "2020-06-18 12:38:18",
+  "companyType": "entrepreneur",
+  "legalTitle": "Индивидуальный предприниматель Иванов Иван Иванович",
+  "legalAddress": "г.Москва ул Авиастроителей д 93 к 12",
+  "legalAddressFull": {
+    "addInfo": "г.Москва ул Авиастроителей д 93 к 12"
+  },
+  "actualAddress": "г.Москва ул Академика Миля дом 15 к 21",
+  "actualAddressFull": {
+    "addInfo": "г.Москва ул Академика Миля дом 15 к 21"
+  },
+  "inn": "87654321",
+  "okpo": "12345",
+  "ogrnip": "58632598y21jk",
+  "legalLastName": "Иванов",
+  "legalFirstName": "Иван",
+  "legalMiddleName": "Иванович",
+  "accounts": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/organization/713e2125-b147-11ea-0a80-163500000006/accounts",
+      "type": "account",
+      "mediaType": "application/json",
+      "size": 0,
+      "limit": 100,
+      "offset": 0
+    }
+  },
+  "isEgaisEnable": false,
+  "payerVat": true,
+  "trackingContractDate": null
+}
