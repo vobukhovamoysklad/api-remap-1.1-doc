@@ -14,6 +14,7 @@
     "emailsend",
     "export",
     "phone-1.0",
+    "scriptor",
     "exportediclient1c",
     "importediclient1c"
   ],
@@ -96,11 +97,14 @@
     "remarkingorder",
     "emissionorder",
     "crptdemand",
+    "scripttemplate",
     "cashboxadjustment",
     "accountadjustment",
     "counterpartyadjustment",
     "crptcancellation",
     "crptpackagecreation",
+    "crptpackageitemremoval",
+    "crptpackagedisaggregation",
     "evotorsetting",
     "https://online.moysklad.ru/api/remap/1.1/entity/customentity/eaacabaf-2655-11e6-8a84-bae500000045"
   ],
