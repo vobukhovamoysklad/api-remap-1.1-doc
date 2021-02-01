@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "href": "https://online.moysklad.ru/api/remap/1.1/notification/b22dc861-645b-11eb-0a80-1f8500000044",
+    "type": "NotificationScript",
+    "mediaType": "application/json"
+  },
+  "id": "b22dc861-645b-11eb-0a80-1f8500000044",
+  "accountId": "882bbcfa-645b-11eb-0a80-1f8000000016",
+  "created": "2021-02-01 10:04:15.907",
+  "read": false,
+  "title": "тема",
+  "description": "текст уведомления",
+  "eventType": "MODIFY",
+  "entity": {
+    "meta": {
+      "href": "https://online.moysklad.ru/api/remap/1.1/entity/customerorder/afa8525a-645b-11eb-0a80-2b47000003b7",
+      "metadataHref": "https://online.moysklad.ru/api/remap/1.1/entity/customerorder/metadata",
+      "type": "customerorder",
+      "mediaType": "application/json"
+    },
+    "id": "afa8525a-645b-11eb-0a80-2b47000003b7",
+    "name": "00001"
+  }
+}
