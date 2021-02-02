@@ -575,8 +575,16 @@ NotificationScript - уведомление из сценария
   + **CHANGE_STATUS** - изменен статус
 + **entity** - Ссылка на объект сценария `Только для чтения`
   + **meta** - [Метаданные](#header-метаданные)
+      + Допустимые значения **type**:
+          + **customerorder** - заказ покупателя
+          + **invoiceout** - счет покупателю
+          + **demand** - отгрузка
+          + **purchaseorder** - заказ поставщику
+          + **invoicein** - счет поставщика
+          + **supply** - приемка
   + **id** - Идентификатор объекта
   + **name** - Наименование объекта
+
 + Parameters
   + id: `b22dc861-645b-11eb-0a80-1f8500000044` (required, string) - id Уведомления.
 + Response 200 (application/json)
