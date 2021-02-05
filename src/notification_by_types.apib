@@ -75,6 +75,7 @@
   | NotificationSubscribeTermsExpired   | Биллинг               | Истекают условия подписки |
   | NotificationRetailShiftOpened       | Розничная торговля    | Открыта смена |
   | NotificationRetailShiftClosed       | Розничная торговля    | Закрыта смена |
+  | NotificationScript       | Сценарии    | Уведомление из сценария |
 
 ## Подробное описание типов уведомлений [/notification/{id}]
 
@@ -556,3 +557,37 @@ NotificationRetailShiftClosed - смена закрыта
 + Response 200 (application/json)
   + Body
         <!-- include(body/notification/retailshift_closed.json) -->
+
+## Уведомление из сценария [GET]
+<h3> Тип уведомления </h3>
+NotificationScript - уведомление из сценария
+<h3> Атрибуты уведомления </h3>
++ **meta** - [Метаданные](#header-метаданные) объекта `Только для чтения`
++ **id** - ID Уведомления в формате UUID `Только для чтения`
++ **accountId** - ID учетной записи `Только для чтения`
++ **created** - Дата и время формирования Уведомления `Только для чтения`
++ **read** - Признак того, было ли Уведомление прочитано `Только для чтения`
++ **title** - Краткий текст уведомления `Только для чтения`
++ **description** - Описание уведомления `Только для чтения`
++ **eventType** - Тип события сценария `Только для чтения`
+  + **ADD** - создан
+  + **MODIFY** - изменен
+  + **CHANGE_STATUS** - изменен статус
++ **entity** - Ссылка на объект сценария `Только для чтения`
+  + **meta** - [Метаданные](#header-метаданные)
+      + Допустимые значения **type**:
+          + **customerorder** - заказ покупателя
+          + **invoiceout** - счет покупателю
+          + **demand** - отгрузка
+          + **purchaseorder** - заказ поставщику
+          + **invoicein** - счет поставщика
+          + **supply** - приемка
+  + **id** - Идентификатор объекта
+  + **name** - Наименование объекта
+
++ Parameters
+  + id: `b22dc861-645b-11eb-0a80-1f8500000044` (required, string) - id Уведомления.
++ Response 200 (application/json)
+  + Body
+        <!-- include(body/notification/script_notification.json) -->
+
