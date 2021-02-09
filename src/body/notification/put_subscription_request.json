@@ -23,6 +23,10 @@
     "data_exchange" : {
       "enabled" : true,
       "channels" : [ "email", "push" ]
+    },
+    "scripts" : {
+      "enabled" : true,
+      "channels" : [ "email", "push" ]
     }
   }
 }
