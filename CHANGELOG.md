@@ -1,6 +1,15 @@
 # JSON API 1.1 Changelog
 Изменения в JSON API 1.1 будут описаны в данном документе.
 
+## 20-05-2021
+### Добавлено
+- Раскомплектовывание комплектов на составляющие компоненты при создании [шаблона заказа поставщику на основе](https://dev.moysklad.ru/doc/api/remap/1.1/#%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82-%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%89%D0%B8%D0%BA%D1%83-%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD-%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%89%D0%B8%D0%BA%D1%83-put-1)
+
+## 17-05-2021
+### Документация
+- В Позиции Отгрузки добавлен список комплектов
+- Исправлено описание `bundle.components`
+
 ## 05-05-2021
 ### Добавлено
 - Информация о новом типе маркированной продукции (Молочная продукция) в [Товарах](https://dev.moysklad.ru/doc/api/remap/1.1/#%D1%82%D0%BE%D0%B2%D0%B0%D1%80-%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D1%8B)
@@ -11,11 +20,6 @@
 - установите любой RSS reader (например, [RSS Feed Reader](https://chrome.google.com/webstore/detail/rss-feed-reader/pnjaodmkngahhkoihejjehlcdlnohgmp) для chromium или [FeedBro](https://addons.mozilla.org/en-US/firefox/addon/feedbroreader) для Firefox)
 - добавьте https://github.com/moysklad/api-remap-1.1-doc/commits/master.atom
 - при любом изменении документации придёт нотификация и можно посмотреть, что именно изменилось.
-
-## 17-05-2021
-### Документация
-- В Позиции Отгрузки добавлен список комплектов
-- Исправлено описание `bundle.components`
 
 ## 13-04-2021
 ### Добавлено
