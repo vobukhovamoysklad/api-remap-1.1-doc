@@ -1,6 +1,6 @@
 {
   "meta": {
-    "href": "http://localhost/api/remap/1.1/notification/9596251d-da73-11eb-ac12-000c00000015",
+    "href": "https://online.moysklad.ru/api/remap/1.1/notification/9596251d-da73-11eb-ac12-000c00000015",
     "type": "FacebookTokenExpirationNotification",
     "mediaType": "application/json"
   },
