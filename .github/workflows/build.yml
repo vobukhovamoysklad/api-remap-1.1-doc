@@ -39,4 +39,4 @@ jobs:
           echo -e "Host ${SERVER_IP_ADDRESS}\n\tStrictHostKeyChecking no\nPort 22\n" >> ~/.ssh/config
           ssh-add - <<< "$DEPLOY_KEY"
           ssh app@${SERVER_IP_ADDRESS} pwd
-          rsync -r --delete-after --quiet site/ app@${SERVER_IP_ADDRESS}:./${APP_PREFIX}
+          rsync -r --delete-after --quiet output/ app@${SERVER_IP_ADDRESS}:./${APP_PREFIX}
