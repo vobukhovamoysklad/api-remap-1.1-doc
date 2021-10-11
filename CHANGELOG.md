@@ -8,6 +8,10 @@
 - добавьте https://github.com/moysklad/api-remap-1.1-doc/commits/master.atom
 - при любом изменении документации придёт нотификация и можно посмотреть, что именно изменилось.
 
+## 08-10-2021
+### Добавлено
+- Ошибка [2028](https://dev.moysklad.ru/doc/api/remap/1.1/#header-%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0-%D0%BE%D1%88%D0%B8%D0%B1%D0%BE%D0%BA)
+
 ## 07-10-2021
 ### Документация
 - Добавлено описание [Контекста запроса сотрудника](https://dev.moysklad.ru/doc/api/remap/1.1/#header-контекст-запроса-сотрудника)
