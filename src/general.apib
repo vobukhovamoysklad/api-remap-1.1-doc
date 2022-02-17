@@ -274,8 +274,8 @@ ___
 Пример указания значения для доп. поля типа файл есть в секции [создания товара](#товар-товары-post)
 
 ## Работа с позициями документов
-API сервиса МойСклад позволяет оперировать с такими документами как [Отгрузка](#отгрузка), [Заказ покупателя](#заказ-покупателя), [Счёт покупателю](#счёт-покупателю),
-[Розничная продажа](#розничная-продажа). Перечисленные документы содержат позиции, работать с которыми можно как в составе отдельного документа,
+API сервиса МойСклад позволяет оперировать с такими документами как [Отгрузка](#документ-отгрузка), [Заказ покупателя](#документ-заказ-покупателя), [Счёт покупателю](#документ-счёт-покупателю),
+[Розничная продажа](#документ-розничная-продажа). Перечисленные документы содержат позиции, работать с которыми можно как в составе отдельного документа,
 так и с помощью специальных ресурсов для управления позициями документа.
 <h3> Работа с позициями в рамках отдельного документа </h3>
 При работе с позициями в рамках отдельного документа, их можно передавать как поле **positions**, представляющее собой массив позиций документа, в составе объекта, использующегося
@@ -387,10 +387,10 @@ API сервиса МойСклад позволяет оперировать с
 
 Примеры запросов с сортировкой:
 
-+ https://online.moysklad.ru/api/remap/1.1/entity/supply?order=name
-+ https://online.moysklad.ru/api/remap/1.1/entity/product?order=code,desc
-+ https://online.moysklad.ru/api/remap/1.1/entity/product?order=name;code,desc
-+ https://online.moysklad.ru/api/remap/1.1/entity/product?order=name,desc;code,asc
++ `https://online.moysklad.ru/api/remap/1.1/entity/supply?order=name`
++ `https://online.moysklad.ru/api/remap/1.1/entity/product?order=code,desc`
++ `https://online.moysklad.ru/api/remap/1.1/entity/product?order=name;code,desc`
++ `https://online.moysklad.ru/api/remap/1.1/entity/product?order=name,desc;code,asc`
 
 <h3> Сортировка по одному полю (Deprecated) </h3>
 Для сортировки списка объектов по одному полю возможно использование следующих url параметров:
@@ -398,9 +398,9 @@ API сервиса МойСклад позволяет оперировать с
 + **direction** - направление сортировки. Может принимать значения  `asc` и `desc`. Значение по умолчанию - `asc`.
 
 Примеры запросов с сортировкой:
-+ https://online.moysklad.ru/api/remap/1.1/entity/product?order=name&direction=asc
-+ https://online.moysklad.ru/api/remap/1.1/entity/supply?order=moment&direction=desc
-+ https://online.moysklad.ru/api/remap/1.1/entity/demand?order=applicable&direction=asc
++ `https://online.moysklad.ru/api/remap/1.1/entity/product?order=name&direction=asc`
++ `https://online.moysklad.ru/api/remap/1.1/entity/supply?order=moment&direction=desc`
++ `https://online.moysklad.ru/api/remap/1.1/entity/demand?order=applicable&direction=asc`
 
 Для перехода с deprecated-формата сортировки на актуальный вы можете воспользоваться таблицей примеров маппинга url параметров
 
